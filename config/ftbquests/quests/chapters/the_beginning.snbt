@@ -1,0 +1,330 @@
+{
+	id: "121A6E0BAC4BCBC7"
+	group: "442FD72D1627F87A"
+	order_index: 0
+	filename: "the_beginning"
+	title: "The Beginning"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "7D3C5DCE539B0CB9"
+			tasks: [{
+				id: "42FB80C5186EAC71"
+				type: "questsadditions:time"
+				elapsedTime: 1L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			id: "09F2B5FA40391B2F"
+			tasks: [{
+				id: "09644F1429530D95"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			id: "120222ECE1D830E3"
+			tasks: [{
+				id: "4541D4AB20DB9A39"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			id: "09DFC42D6647423B"
+			tasks: [{
+				id: "7BFB40FC57E2F04F"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			id: "621585A1B47F04E8"
+			tasks: [{
+				id: "1E85281B5566C8BE"
+				type: "item"
+				item: "minecraft:copper_ingot"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			id: "681FC73882B0A7FC"
+			tasks: [{
+				id: "192F3BEFD50B822E"
+				type: "item"
+				item: "minecraft:flint"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			id: "5FEC15CFBAE54665"
+			tasks: [{
+				id: "64562665A68AAED6"
+				type: "item"
+				item: "minecraft:coal"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.5d
+			id: "52E3BB9E5DD7BEEE"
+			tasks: [{
+				id: "1BE3B02B3F13CF65"
+				type: "item"
+				item: "minecraft:charcoal"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.5d
+			id: "527F7E55E9752525"
+			tasks: [{
+				id: "6C8035BA557321AC"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			id: "39A7D597927066D6"
+			tasks: [{
+				id: "742EA21E907A7582"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.5d
+			id: "4CF679AD2CD9D8F4"
+			tasks: [{
+				id: "4E669237E8D6D267"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			id: "336251529422401D"
+			tasks: [{
+				id: "30E746DD4BB46215"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			id: "1319590CCDB4D753"
+			tasks: [{
+				id: "31CF47ECDC7AFD31"
+				type: "item"
+				item: "minecraft:amethyst_shard"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			id: "1CC354EE2FB08517"
+			tasks: [{
+				id: "5D96945D2E6BC327"
+				type: "item"
+				item: "minecraft:gold_ingot"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.0d
+			id: "078B724F02396D0B"
+			tasks: [
+				{
+					id: "26A75750A4ED1B3B"
+					type: "item"
+					item: "minecraft:apple"
+				}
+				{
+					id: "57B5D0BABF1F77D8"
+					type: "item"
+					item: "minecraft:bread"
+				}
+				{
+					id: "375AFDB11C0B9137"
+					type: "item"
+					item: "minecraft:cooked_chicken"
+				}
+				{
+					id: "7DAFD9D190750AAF"
+					type: "item"
+					item: "minecraft:cooked_beef"
+				}
+				{
+					id: "117066BACCEBA21D"
+					type: "item"
+					item: "minecraft:pumpkin_pie"
+				}
+				{
+					id: "3DCBF27E8ECEBCD8"
+					type: "item"
+					item: "minecraft:potato"
+				}
+				{
+					id: "64D10940B8390D38"
+					type: "item"
+					item: "minecraft:carrot"
+				}
+				{
+					id: "26BC09E6DE6E9000"
+					type: "item"
+					item: "minecraft:cookie"
+				}
+				{
+					id: "4AF8B10E220CF2D3"
+					type: "item"
+					item: "minecraft:melon_slice"
+				}
+				{
+					id: "5461B2536420A635"
+					type: "item"
+					item: "minecraft:sweet_berries"
+				}
+				{
+					id: "051B3C68FAB2FE08"
+					type: "item"
+					item: "minecraft:beetroot"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			id: "1DEA200EC08A3C8C"
+			tasks: [{
+				id: "0E18D17DAFBFD21C"
+				type: "item"
+				item: "minecraft:clay_ball"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			id: "7C9466B32D83F216"
+			tasks: [{
+				id: "0F3E2F15BFC71A1A"
+				type: "item"
+				item: "minecraft:brick"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			id: "1FDABEC238EB4195"
+			tasks: [{
+				id: "2C0F5D863C139498"
+				type: "item"
+				item: "minecraft:cauldron"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "3CF864785B23D39F"
+			tasks: [
+				{
+					id: "49DD9B9200DC7E8B"
+					type: "item"
+					item: "minecraft:white_dye"
+				}
+				{
+					id: "730BB47E5A4BA2DD"
+					type: "item"
+					item: "minecraft:orange_dye"
+				}
+				{
+					id: "5CBFF68CA5D6B414"
+					type: "item"
+					item: "minecraft:magenta_dye"
+				}
+				{
+					id: "5E417B619A4CF05F"
+					type: "item"
+					item: "minecraft:light_blue_dye"
+				}
+				{
+					id: "48C8459126489BEF"
+					type: "item"
+					item: "minecraft:yellow_dye"
+				}
+				{
+					id: "7DCFD08133AC51B6"
+					type: "item"
+					item: "minecraft:lime_dye"
+				}
+				{
+					id: "6FECAFBD17B3B82D"
+					type: "item"
+					item: "minecraft:pink_dye"
+				}
+				{
+					id: "55802BD232BFDD84"
+					type: "item"
+					item: "minecraft:gray_dye"
+				}
+				{
+					id: "263008BD8AE7A839"
+					type: "item"
+					item: "minecraft:light_gray_dye"
+				}
+				{
+					id: "7A29ACD0A2083ED0"
+					type: "item"
+					item: "minecraft:cyan_dye"
+				}
+				{
+					id: "2C662DA154A38079"
+					type: "item"
+					item: "minecraft:purple_dye"
+				}
+				{
+					id: "0D2BE874A6D1ECEC"
+					type: "item"
+					item: "minecraft:blue_dye"
+				}
+				{
+					id: "1232216411F01121"
+					type: "item"
+					item: "minecraft:brown_dye"
+				}
+				{
+					id: "5B70F84D467CD8D9"
+					type: "item"
+					item: "minecraft:green_dye"
+				}
+				{
+					id: "0783999089503CCC"
+					type: "item"
+					item: "minecraft:red_dye"
+				}
+				{
+					id: "5F93E24AE5AB2BE9"
+					type: "item"
+					item: "minecraft:black_dye"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,12 @@
+
+[chemical_package_filler]
+	#How much FE the Chemical Package Filler should hold.
+	#Range: > 0
+	energy_capacity = 5000
+	#How much total FE the Chemical Package Filler should use per operation.
+	#Range: > 0
+	energy_req = 500
+	#How much FE/t maximum the Chemical Package Filler can use.
+	#Range: > 0
+	energy_usage = 100
+
