@@ -42,3 +42,13 @@ CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.8.5, ve
 [15:29:55] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
 [15:29:55] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\MLefebvre\curseforge\minecraft\Instances\NTC3\journeymap\data\sp\normal\waypoints
 [15:29:55] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\MLefebvre\curseforge\minecraft\Instances\NTC3\journeymap\data\sp\normal\overworld. Memory: 6144MB total, 2478MB free 
+[15:47:09] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\MLefebvre\curseforge\minecraft\Instances\NTC3\journeymap\data\mp\offline\minecraft:overworld
+[15:47:09] [JM-task-5/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@675dd36a
+[15:59:05] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[15:59:05] [Thread-0/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[15:59:05] [Thread-0/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[15:59:42] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[15:59:42] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[15:59:42] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\MLefebvre\curseforge\minecraft\Instances\NTC3\journeymap\data\sp\normal\waypoints
+[15:59:42] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\MLefebvre\curseforge\minecraft\Instances\NTC3\journeymap\data\sp\normal\overworld. Memory: 6144MB total, 2698MB free 
+[16:15:15] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\MLefebvre\curseforge\minecraft\Instances\NTC3\journeymap\data\mp\offline\minecraft:overworld
