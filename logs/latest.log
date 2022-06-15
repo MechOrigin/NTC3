@@ -1,8 +1,0 @@
-[11:14:49] [Render thread/INFO]: Stopping!
-[11:14:56] [Render thread/INFO]: Shutting down map thread
-[11:14:56] [Thread-11/INFO]: Shutdown called, Stopping our threads
-[11:14:56] [Thread-11/ERROR]: Socket error, Attempt stuff and things
-[11:14:56] [Thread-11/INFO]: Stopping Reconnection thread
-[11:14:56] [Thread-11/INFO]: Stopping IRC Socket
-[11:14:56] [Thread-11/ERROR]: Socket is already null
-[11:14:56] [Thread-11/INFO]: Force quitting chat thread
