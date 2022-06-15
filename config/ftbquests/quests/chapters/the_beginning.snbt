@@ -3,7 +3,7 @@
 	group: "442FD72D1627F87A"
 	order_index: 0
 	filename: "the_beginning"
-	title: "The Beginning"
+	title: "{ntc3.thebeginning.chapter.title}"
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false
 	quests: [

@@ -1,8 +1,9 @@
 {
-    "ntc2.packname": "&fNTC2 - &d1.16.5&r",
+    "ntc3.packname": "&fNTC3 - &d1.18.2&r",
 
-    "ntc2.gettingstarted.chapter": "&fGetting Started with NTC2&r",
+    "ntc3.thebeginning.chapter.title": "&fThe Beginning&r",
 
-    "ntc2.colors": "&4F &cF &6F &eF &2F &aF &bF &3F &1F &9F &dF &5F &fF &7F &8F &0F&r &oItalics&r &nUnderline&r &mStrike-through&r &lBold&r &kObfuscated&r",
-    "ntc2.emcable": "&eEMCable&r"
+    "ntc3.colors": "&4F &cF &6F &eF &2F &aF &bF &3F &1F &9F &dF &5F &fF &7F &8F &0F&r &oItalics&r &nUnderline&r &mStrike-through&r &lBold&r &kObfuscated&r",
+    "ntc3.emcable": "&eEMCable&r",
+    "ntc3.chaptergroup.tier0": "&aTier 0&r"
 }
