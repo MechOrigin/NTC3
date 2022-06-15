@@ -118,7 +118,11 @@ key_key.journeymap.zoom_out:key.keyboard.minus
 key_key.journeymap.minimap_type:key.keyboard.left.bracket
 key_key.journeymap.minimap_preset:key.keyboard.backslash
 key_key.journeymap.create_waypoint:key.keyboard.b
+<<<<<<< HEAD
 key_key.journeymap.toggle_waypoints:key.keyboard.z:SHIFT
+=======
+key_key.journeymap.toggle_waypoints:key.keyboard.unknown
+>>>>>>> 37fc8baf095bce5239cbc647cb15f0cea53fb4af
 key_key.journeymap.fullscreen_create_waypoint:key.keyboard.b
 key_key.journeymap.fullscreen_chat_position:key.keyboard.unknown
 key_key.journeymap.map_toggle_alt:key.keyboard.j
@@ -190,10 +194,6 @@ key_key.curios.open.desc:key.keyboard.g
 key_key.toggleLiquids:key.keyboard.unknown
 key_key.toggleVisible:key.keyboard.unknown
 key_key.ae2.wireless_terminal:key.keyboard.unknown
-key_key.ae2.portable_item_cell:key.keyboard.unknown
-key_key.ae2.portable_fluid_cell:key.keyboard.unknown
-key_key.integrateddynamics.logic_programmer_focus_search:key.keyboard.f:ALT
-key_key.integrateddynamics.logic_programmer_open_rename:key.keyboard.r:ALT
 key_key.mekanism.mode:key.keyboard.n
 key_key.mekanism.head_mode:key.keyboard.unknown
 key_key.mekanism.chest_mode:key.keyboard.g
@@ -204,6 +204,10 @@ key_key.mekanism.description:key.keyboard.n:SHIFT
 key_key.mekanism.module_tweaker:key.keyboard.backslash
 key_key.mekanism.key_boost:key.keyboard.left.control
 key_key.mekanism.key_hud:key.keyboard.h
+key_key.ae2.portable_item_cell:key.keyboard.unknown
+key_key.ae2.portable_fluid_cell:key.keyboard.unknown
+key_key.integrateddynamics.logic_programmer_focus_search:key.keyboard.f:ALT
+key_key.integrateddynamics.logic_programmer_open_rename:key.keyboard.r:ALT
 key_key.open_muffler_gui:key.keyboard.unknown
 key_cos.key.opencosarmorinventory:key.keyboard.unknown
 key_key.immersiveengineering.magnetEquip:key.keyboard.s
@@ -225,10 +229,16 @@ key_Copy Container Class:key.keyboard.unknown
 key_Show Slot Index Tooltips:key.keyboard.unknown
 key_fpsreducer.key.openGui:key.keyboard.end
 key_fpsreducer.key.forceIdle:key.keyboard.pause
+<<<<<<< HEAD
 key_key.mekanismadditions.voice:key.keyboard.u
 key_key.observable.profile:key.keyboard.r
 key_key.ftbultimine:key.keyboard.grave.accent
 key_key.ftbquests.quests:key.keyboard.z
+=======
+key_key.ftbultimine:key.keyboard.grave.accent
+key_key.ftbquests.quests:key.keyboard.z
+key_key.observable.profile:key.keyboard.r
+>>>>>>> 37fc8baf095bce5239cbc647cb15f0cea53fb4af
 key_mininggadgets.text.open_gui:key.keyboard.unknown
 key_key.worldstripper.strip_world:key.keyboard.delete
 key_key.worldstripper.dress_world:key.keyboard.insert
@@ -241,8 +251,14 @@ key_key.worldstripper.big_decrease_range:key.keyboard.page.down:ALT
 key_key.tconstruct.helmet_interact:key.keyboard.z:SHIFT
 key_key.tconstruct.leggings_interact:key.keyboard.i
 key_quark.keybind.back:key.mouse.4
+<<<<<<< HEAD
 key_quark.keybind.change_hotbar:key.keyboard.unknown
 key_quark.keybind.autorun:key.keyboard.unknown
+=======
+key_quark.keybind.transfer_insert:key.keyboard.unknown
+key_quark.keybind.transfer_extract:key.keyboard.unknown
+key_quark.keybind.shift_lock:key.keyboard.unknown
+>>>>>>> 37fc8baf095bce5239cbc647cb15f0cea53fb4af
 key_quark.keybind.sort_player:key.keyboard.unknown
 key_quark.keybind.sort_container:key.keyboard.unknown
 key_quark.emote.no:key.keyboard.unknown
@@ -263,11 +279,18 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
+<<<<<<< HEAD
 key_quark.keybind.lock_rotation:key.keyboard.k
 key_quark.keybind.transfer_insert:key.keyboard.unknown
 key_quark.keybind.transfer_extract:key.keyboard.unknown
 key_quark.keybind.shift_lock:key.keyboard.unknown
 key_quark.keybind.camera_mode:key.keyboard.f12
+=======
+key_quark.keybind.autorun:key.keyboard.unknown
+key_quark.keybind.camera_mode:key.keyboard.f12
+key_quark.keybind.lock_rotation:key.keyboard.k
+key_quark.keybind.change_hotbar:key.keyboard.z:SHIFT
+>>>>>>> 37fc8baf095bce5239cbc647cb15f0cea53fb4af
 key_tombstone.message.knowledge_of_death:key.keyboard.unknown
 key_key.projecte.helmet_toggle:key.keyboard.x:SHIFT
 key_key.projecte.boots_toggle:key.keyboard.x
@@ -275,17 +298,25 @@ key_key.projecte.charge:key.keyboard.v
 key_key.projecte.extra_function:key.keyboard.unknown
 key_key.projecte.fire_projectile:key.keyboard.r
 key_key.projecte.mode:key.keyboard.g
-key_key.cofh.mode_change_increment:key.keyboard.unknown
-key_key.cofh.mode_change_decrement:key.keyboard.b
 key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.sort:key.mouse.middle
+<<<<<<< HEAD
 key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
 key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
+=======
+key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
+key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
+key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
+key_key.cofh.mode_change_increment:key.keyboard.unknown
+key_key.cofh.mode_change_decrement:key.keyboard.b
+>>>>>>> 37fc8baf095bce5239cbc647cb15f0cea53fb4af
 key_keybind.sophisticatedstorage.sort:key.mouse.middle
 key_key.configured.open_mod_list:key.keyboard.unknown
 soundCategory_master:1.0
