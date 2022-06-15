@@ -1,0 +1,186 @@
+{
+	id: "688BB50D951104C6"
+	group: "442FD72D1627F87A"
+	order_index: 1
+	filename: "integrated_dynamics"
+	title: "Integrated Dynamics"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: true
+	quests: [
+		{
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["67D34813D72D2150"]
+			id: "12CFE726508566E0"
+			tasks: [{
+				id: "5B7C9321EB3C7E3D"
+				type: "item"
+				item: "integrateddynamics:menril_log"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["67D34813D72D2150"]
+			id: "4745E7B0DF831342"
+			tasks: [{
+				id: "5A1BCEC002EDE470"
+				type: "item"
+				item: "integrateddynamics:drying_basin"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["67D34813D72D2150"]
+			id: "1FFEBE077E352E13"
+			tasks: [{
+				id: "0FE65CE81FBF4834"
+				type: "item"
+				item: "integrateddynamics:squeezer"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["67D34813D72D2150"]
+			id: "4601105E599E4C8A"
+			tasks: [{
+				id: "6C9885D2F4E1CEE6"
+				type: "item"
+				item: "integrateddynamics:coal_generator"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["0D85C8AD81845270"]
+			id: "67D34813D72D2150"
+			tasks: [{
+				id: "6244702B753628BC"
+				type: "questsadditions:time"
+				elapsedTime: 1L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			id: "71986ECF43F6E01E"
+			tasks: [{
+				id: "36B0ADF559801F9D"
+				type: "item"
+				item: "integrateddynamics:crystalized_menril_block"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			id: "74C29C6C370A22E7"
+			tasks: [{
+				id: "2CF29AC334231CD3"
+				type: "item"
+				item: "integrateddynamics:crystalized_menril_chunk"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			id: "7015ED00F9578DAC"
+			tasks: [{
+				id: "6A91CBC1683072B0"
+				type: "item"
+				item: "integrateddynamics:mechanical_drying_basin"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			id: "1B207B661800510C"
+			tasks: [{
+				id: "2AF67B0C9F196730"
+				type: "item"
+				item: "integrateddynamics:mechanical_squeezer"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "02690FA7905EE0BE"
+			tasks: [
+				{
+					id: "77BDB25EAE4B59A2"
+					type: "item"
+					item: "integratedtunnels:part_interface_item"
+				}
+				{
+					id: "3075C488CFA5DA94"
+					type: "item"
+					item: "integratedtunnels:part_interface_fluid"
+				}
+				{
+					id: "312B53D3751A7FA5"
+					type: "item"
+					item: "integratedtunnels:part_interface_energy"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			id: "6F1C282C2DBF75D6"
+			tasks: [
+				{
+					id: "5797B2F2A6E8067C"
+					type: "item"
+					item: "integratedterminals:part_terminal_storage"
+				}
+				{
+					id: "0A9429D826AAD7BE"
+					type: "item"
+					item: "integratedterminals:part_terminal_crafting_job"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			id: "6A2AD2AF95533DFB"
+			tasks: [{
+				id: "3A5A6004C40A44D7"
+				type: "item"
+				item: "integratedcrafting:part_interface_crafting"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			id: "13AD7CB8AE1DE9B1"
+			tasks: [{
+				id: "25E6558E6E03A074"
+				type: "item"
+				item: "integrateddynamics:logic_programmer"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			id: "7F1A2D58B75BE84C"
+			tasks: [{
+				id: "6C968AF9673B0CDC"
+				type: "item"
+				item: "integrateddynamics:cable"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			id: "675E3E18DD80B7F8"
+			tasks: [{
+				id: "39381E3A1BEAEC71"
+				type: "item"
+				item: "integrateddynamics:variable"
+			}]
+		}
+	]
+}

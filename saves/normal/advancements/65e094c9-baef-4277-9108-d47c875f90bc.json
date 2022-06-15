@@ -36,15 +36,15 @@
     },
     "done": true
   },
-  "lootr:root": {
-    "criteria": {
-      "always_true": "2022-06-14 14:32:20 -0700"
-    },
-    "done": true
-  },
   "tombstone:adventure/root": {
     "criteria": {
       "auto": "2022-06-14 14:31:42 -0700"
+    },
+    "done": true
+  },
+  "lootr:root": {
+    "criteria": {
+      "always_true": "2022-06-14 14:32:20 -0700"
     },
     "done": true
   },
@@ -60,9 +60,33 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2022-06-14 22:57:54 -0700"
+    },
+    "done": true
+  },
+  "integrateddynamics:meneglin_basics/meneglin_discovery": {
+    "criteria": {
+      "criteria_0": "2022-06-14 21:55:52 -0700"
+    },
+    "done": true
+  },
+  "tconstruct:tools/tinker_station": {
+    "criteria": {
+      "crafted_block": "2022-06-14 22:48:40 -0700"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:savanna": "2022-06-14 14:31:42 -0700"
+    },
+    "done": false
+  },
+  "tombstone:adventure/create_familiar_receptacle": {
+    "criteria": {
+      "has_recipe": "2022-06-14 14:31:42 -0700"
     },
     "done": false
   },
@@ -72,15 +96,15 @@
     },
     "done": true
   },
-  "tombstone:adventure/create_familiar_receptacle": {
-    "criteria": {
-      "has_recipe": "2022-06-14 14:31:42 -0700"
-    },
-    "done": false
-  },
   "regrowth:rgroot/rgroot": {
     "criteria": {
       "has_cobblestone": "2022-06-14 14:33:53 -0700"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass_log": {
+    "criteria": {
+      "has_recipe": "2022-06-14 14:31:42 -0700"
     },
     "done": true
   },
@@ -90,9 +114,15 @@
     },
     "done": true
   },
-  "naturescompass:natures_compass_log": {
+  "minecraft:end/elytra": {
     "criteria": {
-      "has_recipe": "2022-06-14 14:31:42 -0700"
+      "elytra": "2022-06-14 22:57:27 -0700"
+    },
+    "done": true
+  },
+  "integratedtunnels:root": {
+    "criteria": {
+      "criteria_0": "2022-06-14 22:34:41 -0700"
     },
     "done": true
   },
@@ -114,15 +144,51 @@
     },
     "done": true
   },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2022-06-14 21:56:43 -0700"
+    },
+    "done": true
+  },
+  "integratedcrafting:root": {
+    "criteria": {
+      "criteria_0": "2022-06-14 22:34:41 -0700"
+    },
+    "done": true
+  },
   "trashcans:recipes/search/energy_trash_can": {
     "criteria": {
       "redstone": "2022-06-14 14:33:53 -0700"
     },
     "done": true
   },
+  "tconstruct:world/slime_collector": {
+    "criteria": {
+      "magma_cream": "2022-06-14 22:58:15 -0700"
+    },
+    "done": false
+  },
   "regrowth:rgroot/offlimits": {
     "criteria": {
       "inv_changed-minecraft:stone_shovel": "2022-06-14 14:34:12 -0700"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2022-06-14 21:56:25 -0700"
+    },
+    "done": true
+  },
+  "integrateddynamics:meneglin_basics/menril_production": {
+    "criteria": {
+      "criteria_0": "2022-06-14 22:32:06 -0700"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2022-06-14 22:58:47 -0700"
     },
     "done": true
   },
@@ -159,6 +225,12 @@
   "trashcans:recipes/search/ultimate_trash_can": {
     "criteria": {
       "cans": "2022-06-14 14:33:53 -0700"
+    },
+    "done": true
+  },
+  "tconstruct:tools/part_builder": {
+    "criteria": {
+      "crafted_block": "2022-06-14 22:48:46 -0700"
     },
     "done": true
   },

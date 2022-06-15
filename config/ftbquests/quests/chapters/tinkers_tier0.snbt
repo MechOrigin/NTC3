@@ -1,0 +1,65 @@
+{
+	id: "5359A1F469C66352"
+	group: "442FD72D1627F87A"
+	order_index: 2
+	filename: "tinkers_tier0"
+	title: "Tinkers Tier0"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["4F2BB93A626346B3"]
+			id: "41DA7A4A64286067"
+			tasks: [{
+				id: "0EA7603014557DE7"
+				type: "item"
+				item: "tconstruct:crafting_station"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["4DE8BF1FDB13D4E4"]
+			id: "4F2BB93A626346B3"
+			tasks: [{
+				id: "06B839EF0675017F"
+				type: "questsadditions:time"
+				elapsedTime: 1L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			id: "03D32D84452B0A89"
+			tasks: [{
+				id: "6AD7F18DE58BB2FD"
+				type: "item"
+				item: {
+					id: "tconstruct:tinker_station"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "61E8C585589849F5"
+			tasks: [{
+				id: "7FAF29B4D37108EB"
+				type: "item"
+				item: {
+					id: "tconstruct:part_builder"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+			}]
+		}
+	]
+}
