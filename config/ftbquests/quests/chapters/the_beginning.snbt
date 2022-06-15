@@ -3,13 +3,22 @@
 	group: "442FD72D1627F87A"
 	order_index: 0
 	filename: "the_beginning"
-	title: "{ntc3.thebeginning.chapter.title}"
+	title: "{ntc3.chapter.thebeginning.title}"
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "{ntc3.thebeginning.title}"
 			x: 0.0d
 			y: 0.0d
+			subtitle: "{ntc3.thebeginning.subtitle}"
+			description: [
+				"{ntc3.thebeginning.desc0}"
+				""
+				"{ntc3.thebeginning.desc1}"
+				""
+				"{ntc3.thebeginning.desc2}"
+			]
 			id: "7D3C5DCE539B0CB9"
 			tasks: [{
 				id: "42FB80C5186EAC71"

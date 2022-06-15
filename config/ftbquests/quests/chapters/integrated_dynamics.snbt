@@ -3,7 +3,7 @@
 	group: "442FD72D1627F87A"
 	order_index: 1
 	filename: "integrated_dynamics"
-	title: "Integrated Dynamics"
+	title: "{ntc3.chapter.integrateddyn.title}"
 	default_quest_shape: "square"
 	default_hide_dependency_lines: true
 	quests: [
@@ -52,6 +52,7 @@
 			}]
 		}
 		{
+			title: "test"
 			x: 0.0d
 			y: 0.0d
 			shape: "circle"

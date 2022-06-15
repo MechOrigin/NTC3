@@ -1,9 +1,21 @@
 {
     "ntc3.packname": "&fNTC3 - &d1.18.2&r",
 
-    "ntc3.thebeginning.chapter.title": "&fThe Beginning&r",
-
     "ntc3.colors": "&4F &cF &6F &eF &2F &aF &bF &3F &1F &9F &dF &5F &fF &7F &8F &0F&r &oItalics&r &nUnderline&r &mStrike-through&r &lBold&r &kObfuscated&r",
     "ntc3.emcable": "&eEMCable&r",
-    "ntc3.chaptergroup.tier0": "&aTier 0&r"
+
+    "ntc3.chaptergroup.tier0": "&aTier 0&r",
+    "ntc3.chapter.thebeginning.title": "&aThe Beginning&r",
+    "ntc3.chapter.integrateddyn.title": "&aIntegrated Dynamics&r",
+    "ntc3.chaper.tinkerslvl0.title": "&aTinkers Tier 0&r",
+
+    "ntc3.thebeginning.title": "&fWelcome to NTC3&r",
+    "ntc3.thebeginning.subtitle": "&oStay a while and listen&r",
+    "ntc3.thebeginning.desc0": "After &9NTC2&r there was much thought on whether or not to do a &6skyblock&r again and after much deliberation, this time we're going to do it in &breverse!&r",
+    "ntc3.thebeginning.desc1": "Life is tough, I think it's time to rest your weary souls for a while in &fNot Too Complicated 3&r",
+    "ntc3.thebeginning.desc2": "As always, designed with love and care. &o-SecretAsain&r",
+
+    "ntc3.craftingtable.title": "The most &o&bcliche&r start",
+    "ntc3.craftingtable.subtitle": "But with a &6twist&r",
+    "ntc3.craftingtable.desc0": "You know what to do :eyes:"
 }
