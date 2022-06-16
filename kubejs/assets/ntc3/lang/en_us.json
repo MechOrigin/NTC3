@@ -19,7 +19,78 @@
     "ntc3.craftingtable.subtitle": "But with a &6twist&r",
     "ntc3.craftingtable.desc0": "You know what to do :eyes:",
 
-    "ntc3.furnace.title": "The furnace",
+    "ntc3.furnace.title": "&7The Furnace&r",
     "ntc3.furnace.subtitle": "Upgradable",
-    "ntc3.furnace.desc0": "Most &6smelting&r "
+    "ntc3.furnace.desc0": "Most &6smelting&r by the &bfurnace&r only grants &60.35xp&r per process, while the &dBlast Furnace&r grants &60.75xp&r per",
+
+    "ntc3.ironingot.title": "&fIron&r",
+    "ntc3.ironingot.desc0": "There are many sources of &6Iron&r in this pack besides &bRaw Iron&r, some of the most notable are:",
+    "ntc3.ironingot.desc1": "Magnetite, Banded Iron, Brown Limonite, Yellow Limonite, and Pyrite",
+
+    "ntc3.copperingot.title": "&6Copper&r",
+    "ntc3.copperingot.desc0": "Just like &fIron&r, there are many other sources of &6Copper&r in this back besides just &6Raw Copper&r, like:",
+    "ntc3.copperingot.desc1": "Chalcopyrite, Malachite, and Tetrahedrite",
+
+    "ntc3.flint.title": "&8Flint&r",
+    "ntc3.flint.subtitle": "That's a mighty pre-requisite for a &6Crafting Table&r...",
+    "ntc3.flint.desc0": "Besides getting &8Flint&r by chance from breaking &bGravel&r, once unlocking &eIntegrated Dynamics&r it can be more efficiently broken down with the &6Squeezer&r",
+    
+    "ntc3.coal.title": "&0Coal&r",
+    "ntc3.coal.desc0": "&0Coal&r veins aren't the typical &6Coal Ore&r you'd find exploring. You will know once you see it",
+    
+    "ntc3.charcoal.title": "&8Charcoal&r",
+    "ntc3.charcoal.desc0": "Can be acquired from the &7Furnace&r but more efficiently via &eImmersive engineering's&r &6Coke Oven&r as it has a secondary output of &bCreosote Oil&r",
+
+    "ntc3.diamond.title": "Lucy in the sky with &bDiamonds&r",
+    "ntc3.diamond.desc0": "&bDiamonds&r are a particularly rare ore to find. They aren't your typical &bRaw Diamond Ores&r, instead you can find them in veins of:",
+    "ntc3.diamond.desc1": "Mixed Coal/Graphite/Diamond veins",
+    "ntc3.diamond.desc2": "However once you get to different planets pure ore vein variants exist",
+
+    "ntc3.emerald.title": "&2Emerald&r",
+    "ntc3.emerald.desc0": "&2Emeralds&r are a exceptionally rare ore to find. They aren't your typical &2Raw Emerald Ores&r, instead you can find them in veins of:",
+    "ntc3.emerald.desc1": "Mixed Emerald/Thorium/Beryllium veins",
+    "ntc3.emerald.desc2": "Once you get to different planets pure ore vein variants exist",
+
+    "ntc3.lapis.title": "&1Lapis&r",
+    "ntc3.lapis.desc0": "These can be found in mixed ore veins of Calcite/Lazurite/Sodalite/Lapis",
+
+    "ntc3.redstone.title": "&4Redstone&r",
+    "ntc3.redstone.desc0": "These can be found in mixed ore veins of Cinnabar/Ruby/Redstone",
+
+    "ntc3.amethyst.title": "&dAmethyst&r",
+    "ntc3.amethyst.desc0": "WIP",
+
+    "ntc3.goldingot.title": "&eGold&r",
+    "ntc3.goldingot.desc0": "Alchemists long sought to convert things to and from &eGold&r to feed the lust for riches",
+    "ntc3.goldingot.desc1": "&eGold&r cannot be found in a normal vein and you will often find it in a mixed vein of Vanadium-Magnetite/Magnetite/Gold ores",
+
+    "ntc3.foodstuff.title": "An &c&kApple&r a day keeps the doctor away",
+    "ntc3.foodstuff.desc0": "Cook up or find each of these to contribute to the goal of completing &aTier 0 - Vanilla Minecraft&r",
+
+    "ntc3.clay.title": "&7Clay&r",
+    "ntc3.clay.desc0": "This little &o&dbalanced&r pile is a pre-requisite for many things leading to automation, such as &6Smelteries&r and &bCoke Ovens&r",
+
+    "ntc3.brick.title": "I am &6Brick&r",
+    "ntc3.brick.subtitle": "&oAnother brick in the wall...&r",
+
+    "ntc3.cauldron.title": "&fCauldron&r",
+    "ntc3.cauldron.subtitle": "&oDouble, double, toil and trouble...&r",
+    "ntc3.cauldron.desc0": "The &fCauldron&r has an additional use of washing &6Impure Dusts&r",
+
+    "ntc3.dyes.title": "&fR&6e&da&3d&ei&an&cg&8 R&7a&bi&5n&1b&4o&2w&r :rainbow:",
+    "ntc3.dyes.desc0": "Dyes are an integral part of progression. Just kidding, this is a test of skill to see if you can collect them all!",
+
+    "ntc3.unlock.integrateddyn": "&fUnlocked &n&aIntegrated Dynamics &fChapter&r",
+
+    "ntc3.impuredust.title": "&6Impure Dust&r",
+    "ntc3.impuredust.desc0": "Acquired from ore veins, these need to be washed before they can be processed",
+
+    "ntc3.unlock.tinkerslvl0": "&fUnlocked &n&aTinkers Tier 0 &fChapter&r",
+
+    "ntc3.tinkerslvl0.prereq.title": "&6Planks&r and &bSticks&r",
+    "ntc3.tinkerslvl0.prereq.desc0": "Just a quest to point you in the direction of crafting a &6Blank Pattern&r",
+
+    "ntc3.blastfurnace.title": "&7The Vanilla Blast Furnace&r",
+    "ntc3.blastfurnace.desc0": "Most &6smelting&r by the &dBlast Furnace&r grants &60.75xp&r per processing"
+
 }
