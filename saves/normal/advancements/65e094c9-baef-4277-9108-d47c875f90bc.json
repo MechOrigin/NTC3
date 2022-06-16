@@ -54,6 +54,12 @@
     },
     "done": true
   },
+  "tconstruct:tools/materials_and_you": {
+    "criteria": {
+      "crafted_book": "2022-06-16 11:27:54 -0700"
+    },
+    "done": true
+  },
   "dungeons_enhanced:root": {
     "criteria": {
       "entered_hay_storage": "2022-06-14 14:32:58 -0700"
@@ -99,6 +105,12 @@
   "regrowth:rgroot/rgroot": {
     "criteria": {
       "has_cobblestone": "2022-06-14 14:33:53 -0700"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/craft_hammer": {
+    "criteria": {
+      "hammer": "2022-06-16 12:28:13 -0700"
     },
     "done": true
   },
@@ -173,6 +185,12 @@
       "magma_cream": "2022-06-14 22:58:15 -0700"
     },
     "done": false
+  },
+  "tconstruct:smeltery/puny_smelting": {
+    "criteria": {
+      "crafted_book": "2022-06-16 11:28:31 -0700"
+    },
+    "done": true
   },
   "regrowth:rgroot/offlimits": {
     "criteria": {

@@ -31,9 +31,7 @@
 			x: 0.0d
 			y: -3.0d
 			subtitle: "{ntc3.craftingtable.subtitle}"
-			description: [
-				"{ntc3.craftingtable.desc0}"
-			]
+			description: ["{ntc3.craftingtable.desc0}"]
 			dependencies: ["681FC73882B0A7FC"]
 			id: "09F2B5FA40391B2F"
 			tasks: [{
@@ -43,8 +41,11 @@
 			}]
 		}
 		{
+			title: "{ntc3.furnace.title}"
 			x: 0.0d
 			y: -4.5d
+			subtitle: "{ntc3.furnace.subtitle}"
+			description: ["{ntc3.furnace.desc0}"]
 			dependencies: ["09F2B5FA40391B2F"]
 			id: "120222ECE1D830E3"
 			tasks: [{
@@ -54,8 +55,15 @@
 			}]
 		}
 		{
+			title: "{ntc3.ironingot.title}"
 			x: 0.0d
 			y: -6.0d
+			subtitle: "{ntc3.emcable}"
+			description: [
+				"{ntc3.ironingot.desc0}"
+				""
+				"{ntc3.ironingot.desc1}"
+			]
 			dependencies: ["120222ECE1D830E3"]
 			id: "09DFC42D6647423B"
 			tasks: [{
@@ -71,8 +79,15 @@
 			}]
 		}
 		{
+			title: "{ntc3.copperingot.title}"
 			x: 1.5d
 			y: -4.5d
+			subtitle: "{ntc3.emcable}"
+			description: [
+				"{ntc3.copperingot.desc0}"
+				""
+				"{ntc3.copperingot.desc1}"
+			]
 			dependencies: ["120222ECE1D830E3"]
 			id: "621585A1B47F04E8"
 			tasks: [{
@@ -82,8 +97,11 @@
 			}]
 		}
 		{
+			title: "{ntc3.flint.title}"
 			x: 0.0d
 			y: -1.5d
+			subtitle: "{ntc3.flint.subtitle}"
+			description: ["{ntc3.flint.desc0}"]
 			dependencies: ["7D3C5DCE539B0CB9"]
 			id: "681FC73882B0A7FC"
 			tasks: [{
@@ -93,8 +111,11 @@
 			}]
 		}
 		{
+			title: "{ntc3.coal.title}"
 			x: 1.5d
 			y: -3.0d
+			subtitle: "{ntc3.emcable}"
+			description: ["{ntc3.coal.desc0}"]
 			hide_dependency_lines: true
 			dependencies: ["09F2B5FA40391B2F"]
 			id: "5FEC15CFBAE54665"
@@ -105,8 +126,10 @@
 			}]
 		}
 		{
+			title: "{ntc3.charcoal.title}"
 			x: 2.5d
 			y: -3.0d
+			description: ["{ntc3.charcoal.desc0}"]
 			hide_dependency_lines: true
 			dependencies: ["09F2B5FA40391B2F"]
 			id: "52E3BB9E5DD7BEEE"
@@ -117,8 +140,17 @@
 			}]
 		}
 		{
+			title: "{ntc3.diamond.title}"
 			x: 6.0d
 			y: -3.5d
+			subtitle: "{ntc3.emcable}"
+			description: [
+				"{ntc3.diamond.desc0}"
+				""
+				"{ntc3.diamond.desc1}"
+				""
+				"{ntc3.diamond.desc2}"
+			]
 			hide_dependency_lines: true
 			dependencies: ["120222ECE1D830E3"]
 			id: "527F7E55E9752525"
@@ -129,8 +161,17 @@
 			}]
 		}
 		{
+			title: "{ntc3.emerald.title}"
 			x: 7.0d
 			y: -3.5d
+			subtitle: "{ntc3.emcable}"
+			description: [
+				"{ntc3.emerald.desc0}"
+				""
+				"{ntc3.emerald.desc1}"
+				""
+				"{ntc3.emerald.desc2}"
+			]
 			hide_dependency_lines: true
 			dependencies: ["120222ECE1D830E3"]
 			id: "39A7D597927066D6"
@@ -141,8 +182,11 @@
 			}]
 		}
 		{
+			title: "{ntc3.lapis.title}"
 			x: 6.0d
 			y: -2.5d
+			subtitle: "{ntc3.emcable}"
+			description: ["{ntc3.lapis.desc0}"]
 			hide_dependency_lines: true
 			dependencies: ["120222ECE1D830E3"]
 			id: "4CF679AD2CD9D8F4"
@@ -153,8 +197,11 @@
 			}]
 		}
 		{
+			title: "{ntc3.redstone.title}"
 			x: 7.0d
 			y: -2.5d
+			subtitle: "{ntc3.emcable}"
+			description: ["{ntc3.redstone.desc0}"]
 			hide_dependency_lines: true
 			dependencies: ["120222ECE1D830E3"]
 			id: "336251529422401D"
@@ -165,8 +212,11 @@
 			}]
 		}
 		{
+			title: "{ntc3.amethyst.title}"
 			x: 7.0d
 			y: -1.5d
+			subtitle: "{ntc3.emcable}"
+			description: ["{ntc3.amethyst.desc0}"]
 			hide_dependency_lines: true
 			dependencies: ["120222ECE1D830E3"]
 			id: "1319590CCDB4D753"
@@ -177,8 +227,15 @@
 			}]
 		}
 		{
+			title: "{ntc3.goldingot.title}"
 			x: 6.0d
 			y: -1.5d
+			subtitle: "{ntc3.emcable}"
+			description: [
+				"{ntc3.goldingot.desc0}"
+				""
+				"{ntc3.goldingot.desc1}"
+			]
 			hide_dependency_lines: true
 			dependencies: ["120222ECE1D830E3"]
 			id: "1CC354EE2FB08517"
@@ -189,8 +246,11 @@
 			}]
 		}
 		{
+			title: "{ntc3.foodstuff.title}"
 			x: -1.5d
 			y: -6.0d
+			subtitle: "{ntc3.emcable}"
+			description: ["{ntc3.foodstuff.desc0}"]
 			hide_dependency_lines: true
 			dependencies: ["09F2B5FA40391B2F"]
 			id: "078B724F02396D0B"
@@ -253,8 +313,11 @@
 			]
 		}
 		{
+			title: "{ntc3.clay.title}"
 			x: -3.0d
 			y: -4.5d
+			subtitle: "{ntc3.emcable}"
+			description: ["{ntc3.clay.desc0}"]
 			hide_dependency_lines: true
 			dependencies: ["09F2B5FA40391B2F"]
 			id: "1DEA200EC08A3C8C"
@@ -265,8 +328,10 @@
 			}]
 		}
 		{
+			title: "{ntc3.brick.title}"
 			x: -1.5d
 			y: -4.5d
+			description: ["{ntc3.brick.subtitle}"]
 			dependencies: [
 				"1DEA200EC08A3C8C"
 				"120222ECE1D830E3"
@@ -279,8 +344,11 @@
 			}]
 		}
 		{
+			title: "{ntc3.cauldron.title}"
 			x: 1.5d
 			y: -6.0d
+			subtitle: "{ntc3.cauldron.subtitle}"
+			description: ["{ntc3.cauldron.desc0}"]
 			dependencies: ["09DFC42D6647423B"]
 			id: "1FDABEC238EB4195"
 			tasks: [{
@@ -290,8 +358,10 @@
 			}]
 		}
 		{
+			title: "{ntc3.dyes.title}"
 			x: -1.5d
 			y: -1.5d
+			description: ["{ntc3.dyes.desc0}"]
 			hide_dependency_lines: true
 			dependencies: ["09F2B5FA40391B2F"]
 			id: "3CF864785B23D39F"
@@ -379,6 +449,7 @@
 			]
 		}
 		{
+			title: "{ntc3.unlock.integrateddyn}"
 			x: 0.0d
 			y: -7.5d
 			shape: "circle"
@@ -392,8 +463,10 @@
 			}]
 		}
 		{
+			title: "{ntc3.impuredust.title}"
 			x: 3.0d
 			y: -6.0d
+			description: ["{ntc3.impuredust.desc0}"]
 			dependencies: ["1FDABEC238EB4195"]
 			id: "4D9E0E04A0DF00DC"
 			tasks: [{
@@ -410,9 +483,12 @@
 			}]
 		}
 		{
+			title: "{ntc3.unlock.tinkerslvl0}"
 			x: -3.0d
 			y: -3.0d
+			shape: "circle"
 			dependencies: ["0C9E3CDD16DB4122"]
+			size: 1.5d
 			id: "4DE8BF1FDB13D4E4"
 			tasks: [{
 				id: "5C4239BC0C9DF91C"
@@ -421,8 +497,11 @@
 			}]
 		}
 		{
+			title: "{ntc3.tinkerslvl0.prereq.title}"
 			x: -1.5d
 			y: -3.0d
+			subtitle: "{ntc3.emcable}"
+			description: ["{ntc3.tinkerslvl0.prereq.desc0}"]
 			dependencies: ["09F2B5FA40391B2F"]
 			id: "0C9E3CDD16DB4122"
 			tasks: [
@@ -459,8 +538,10 @@
 			}]
 		}
 		{
+			title: "{ntc3.blastfurnace.title}"
 			x: -4.5d
 			y: -4.5d
+			description: ["{ntc3.blastfurnace.desc0}"]
 			dependencies: ["120222ECE1D830E3"]
 			id: "446694102110FBBE"
 			tasks: [{
@@ -470,8 +551,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -5.5d
+			x: 9.0d
+			y: -7.0d
 			id: "07D5DA0EF7164CD4"
 			tasks: [{
 				id: "71EDBE7F8FFC8C08"
@@ -480,8 +561,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: -5.5d
+			x: 10.5d
+			y: -7.0d
 			id: "43026D43202132B6"
 			tasks: [{
 				id: "7375D30BFFA10662"
@@ -490,8 +571,8 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: -5.5d
+			x: -4.0d
+			y: -10.5d
 			id: "3B66520D328CE290"
 			tasks: [{
 				id: "4200FFDECDF0975C"
@@ -500,8 +581,8 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: -5.5d
+			x: 13.5d
+			y: -7.0d
 			id: "75BF3EB0F3A47C71"
 			tasks: [{
 				id: "7EF9EEAAE104DA1D"
@@ -516,8 +597,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -4.0d
+			x: -5.0d
+			y: -10.5d
 			id: "17D4B2616E251D91"
 			tasks: [{
 				id: "0F7117ECF59C7447"
@@ -552,8 +633,8 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: -4.0d
+			x: 6.0d
+			y: -4.5d
 			id: "2C6314FC12F3EBCF"
 			tasks: [{
 				id: "0A273AD63F12CCF3"
@@ -562,8 +643,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -2.5d
+			x: 6.0d
+			y: -7.5d
 			id: "414D9F3E8D30EEDD"
 			tasks: [{
 				id: "2C34C7470E1919A0"
@@ -572,8 +653,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: -2.5d
+			x: 7.0d
+			y: -6.5d
 			id: "34A9E956891E8F4A"
 			tasks: [{
 				id: "1174B7B2191FDD5B"
@@ -582,8 +663,8 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: -2.5d
+			x: 7.0d
+			y: -5.5d
 			id: "395B89BBDE511162"
 			tasks: [{
 				id: "60C45699957473B1"
@@ -592,8 +673,8 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: -2.5d
+			x: 12.0d
+			y: -7.0d
 			id: "216BB6462EB91D81"
 			tasks: [{
 				id: "7A54FCEE03EE5020"
@@ -602,8 +683,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -1.0d
+			x: 0.0d
+			y: -10.0d
 			id: "6D1DC3D0274EDBEA"
 			tasks: [{
 				id: "0FC6E69A0F887B3C"
@@ -612,8 +693,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: -1.0d
+			x: 15.0d
+			y: -7.0d
 			id: "02F3DCE182783F42"
 			tasks: [{
 				id: "1550676890B46D67"
@@ -622,8 +703,8 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: -1.0d
+			x: -3.0d
+			y: -9.0d
 			id: "2FE9444965885654"
 			tasks: [{
 				id: "369FAFBD6FB523BE"
@@ -632,8 +713,8 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: -1.0d
+			x: 7.0d
+			y: -0.5d
 			id: "5AE309E4BB8DB799"
 			tasks: [{
 				id: "4EFFBCFBD24798A0"
@@ -642,8 +723,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 0.5d
+			x: 6.0d
+			y: -0.5d
 			id: "5597AA7369BD20A3"
 			tasks: [{
 				id: "1357C3094801DC88"
@@ -652,8 +733,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 0.5d
+			x: 16.5d
+			y: -7.0d
 			id: "0B2DB6BFA0263C9D"
 			tasks: [{
 				id: "6C463000771011F6"
@@ -662,8 +743,8 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: 0.5d
+			x: 18.0d
+			y: -7.0d
 			id: "33B8E5A427ED45E4"
 			tasks: [{
 				id: "7F720C2EBFE15D3E"
@@ -672,8 +753,8 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: 0.5d
+			x: 0.0d
+			y: -9.0d
 			id: "4B44C0D44291ECFB"
 			tasks: [{
 				id: "230212C67B02102D"
@@ -682,8 +763,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 2.0d
+			x: 7.0d
+			y: -4.5d
 			id: "16854C8AA2F41157"
 			tasks: [{
 				id: "237744C408328B51"
@@ -692,8 +773,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 2.0d
+			x: 6.0d
+			y: -5.5d
 			id: "0CF8056507AAB376"
 			tasks: [{
 				id: "3019E4E2652ADAA0"
@@ -702,8 +783,8 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: 2.0d
+			x: 6.0d
+			y: -8.5d
 			id: "427C588CA60F7435"
 			tasks: [{
 				id: "408AAED9BBA1F366"
@@ -712,8 +793,8 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: 2.0d
+			x: 7.0d
+			y: -7.5d
 			id: "1EC705E5874DCA9D"
 			tasks: [{
 				id: "633815D2D76B0543"
@@ -722,8 +803,8 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 2.0d
+			x: 7.0d
+			y: -8.5d
 			id: "4DEA424A3CF25070"
 			tasks: [{
 				id: "1EE67828E7511EDA"
@@ -732,8 +813,8 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 0.5d
+			x: -3.0d
+			y: -6.0d
 			id: "23982A7FDF70EED5"
 			tasks: [
 				{
@@ -767,6 +848,28 @@
 					item: "minecraft:cactus"
 				}
 			]
+		}
+		{
+			x: -4.5d
+			y: -9.0d
+			shape: "circle"
+			size: 1.5d
+			id: "3171BA03635A71CB"
+			tasks: [{
+				id: "22C20ADB76B8A68A"
+				type: "gamestage"
+				stage: "tier0_immersive_engineering"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -9.0d
+			id: "3E6656C0639E904E"
+			tasks: [{
+				id: "7202805B9E9948D3"
+				type: "item"
+				item: "minecraft:netherrack"
+			}]
 		}
 	]
 }

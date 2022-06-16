@@ -183,5 +183,21 @@
 				item: "integrateddynamics:variable"
 			}]
 		}
+		{
+			x: -1.5d
+			y: -3.0d
+			id: "4D7B993ACA37071C"
+			tasks: [{
+				id: "190C25C9F1233FEF"
+				type: "item"
+				item: {
+					id: "integrateddynamics:energy_battery"
+					Count: 1b
+					tag: {
+						energy: 0
+					}
+				}
+			}]
+		}
 	]
 }

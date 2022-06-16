@@ -10,6 +10,19 @@ onEvent('recipes', (event) => {
         B: '#forge:gems/flint'
       })
 
-    //modifyShapeless(event, 'minecraft:crafting_table', 1, ['minecraft:planks', '#appliedenergistics2:knife'])
+    modifyShaped(event, 'minecraft:end_crystal', 1, ['AAA', 'ABA', 'ACA'], {
+      A: '#forge:glass',
+      B: 'minecraft:beacon',
+      C: 'minecraft:ghast_tear'
+    })
+
+    modifyShapeless(event, 'minecraft:flint_and_steel', 1, ['#forge:ingots/steel', '#forge:gems/flint'])
+
+    modifyShaped(event, 'minecraft:piston', 1, ['AAA', 'BCB', 'BDB'], {
+    A: '#minecraft:planks',
+    B: 'quark:sturdy_stone',
+    C: '#forge:rods/iron',
+    D: "#forge:ingots/red_alloy"
+    })
 
 });

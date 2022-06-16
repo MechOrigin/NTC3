@@ -1,0 +1,19 @@
+{
+	id: "1DC46E8F8753C9C1"
+	group: "442FD72D1627F87A"
+	order_index: 3
+	filename: "immersive_engineering"
+	title: "Immersive Engineering"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "0D28075357CB6FB7"
+		tasks: [{
+			id: "4400DE1887EC408D"
+			type: "questsadditions:time"
+			elapsedTime: 60L
+		}]
+	}]
+}

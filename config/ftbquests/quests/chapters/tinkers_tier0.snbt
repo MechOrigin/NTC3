@@ -61,5 +61,60 @@
 				}
 			}]
 		}
+		{
+			x: 1.5d
+			y: -1.5d
+			id: "11CAC5C2702EC8DD"
+			tasks: [{
+				id: "765ACF0CACD6A63F"
+				type: "item"
+				item: "tconstruct:seared_brick"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			id: "096B60AC28412423"
+			tasks: [{
+				id: "532F45D6B8011E77"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:seared_fuel_gauge"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:seared_ingot_gauge"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			id: "1A1B39B9E55170FE"
+			tasks: [{
+				id: "7F6485B0C58B1882"
+				type: "item"
+				item: "tconstruct:seared_heater"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			id: "4EAC36B71BF4BD50"
+			tasks: [{
+				id: "2011AB95ED4E6E7A"
+				type: "item"
+				item: "tconstruct:seared_melter"
+			}]
+		}
 	]
 }
