@@ -27,8 +27,13 @@
 			}]
 		}
 		{
+			title: "{ntc3.craftingtable.title}"
 			x: 0.0d
 			y: -3.0d
+			subtitle: "{ntc3.craftingtable.subtitle}"
+			description: [
+				"{ntc3.craftingtable.desc0}"
+			]
 			dependencies: ["681FC73882B0A7FC"]
 			id: "09F2B5FA40391B2F"
 			tasks: [{
