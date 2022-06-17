@@ -161,20 +161,24 @@
     "ntc3.glowstonedust.desc0": "WIP",
 
     "ntc3.netherquartz.title": "Nether Quartz",
-    "ntc3.netherquartz.desc0": "WIP",
+    "ntc3.netherquartz.desc0": "Useful for Silicon production and alloys",
 
     "ntc3.paper.title": "Paper",
-    "ntc3.paper.desc0": "WIP",
+    "ntc3.paper.desc0": "Paper is an item crafted from sugar cane, its useful later on with circuit components",
 
-    "ntc3.leather.title": "Unr3al Leathers",
-    "ntc3.leather.desc0": "WIP",
+    "ntc3.leather.title": "&9Unr34l_L34th3rs&r",
+    "ntc3.leather.subtitle": "Cover me in L34th3rs'n ;o",
+    "ntc3.leather.desc0": "Upon death, &bcows, mooshrooms, horses, donkeys, mules, and llamas&r drop &d0–2&r &6leather&r, while &bhoglins&r drop &d0–1&r &6leather&r. The maximum amount is increased by &d1&r per level of &bLooting&r, for a maximum of &d5&r &6leather&r &c(4 leather from hoglins)&r with &bLooting III&r",
+    "ntc3.leather.desc1": "Or by drying Rotten Flesh with &eIntegrated Dynamics&r &6Drying Basin&r",
 
-    "ntc3.book.title": "Book",
-    "ntc3.book.desc0": "WIP",
+    "ntc3.book.title": "The &bGood&r Book ✝",
+    "ntc3.book.subtitle": "&oWell, not actually a &eBible&r &obut it's still good to have...&r",
+    "ntc3.book.desc0": "Useful for crafting the &eAkashic Tome&r among other things",
 
     "ntc3.growingstuff.title": "Dear &aWeed&r Man",
     "ntc3.growingstuff.subtitle": "🍉🍎🌵🥕🌿",
-    "ntc3.growingstuff.desc0": "WIP but pumpkins are good emc",
+    "ntc3.growingstuff.desc0": "Prove that you're good at &6finding&r and &bgrowing&r stuff!",
+    "ntc3.growingstuff.desc1": "Gather &d64&r of each",
 
     "ntc3.unlock.immersiveeng": "&fUnlocked &n&aImmersive Engineering&r &fChapter&r",
 
