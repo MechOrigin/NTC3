@@ -172,11 +172,12 @@
     "ntc3.book.title": "Book",
     "ntc3.book.desc0": "WIP",
 
-    "ntc3.growingstuff.title": "Dear Weed Man",
+    "ntc3.growingstuff.title": "Dear &aWeed&r Man",
+    "ntc3.growingstuff.subtitle": "🍉🍎🌵🥕🌿",
     "ntc3.growingstuff.desc0": "WIP but pumpkins are good emc",
 
     "ntc3.unlock.immersiveeng": "&fUnlocked &n&aImmersive Engineering&r &fChapter&r",
 
-    "ntc3.netherrack.title": "Netherrack",
-    "ntc3.netherack.desc0": "WIP"
+    "ntc3.netherrack.title": "&4Netherrack&r",
+    "ntc3.netherack.desc0": "&4Netherrack&r can be found in the &2nether&r, obviously. However it can be made as well from drying out &cMagma Blocks&r with &eIntegrated Dynamics&r"
 }
