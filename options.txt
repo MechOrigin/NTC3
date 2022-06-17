@@ -23,7 +23,7 @@ mouseSensitivity:0.6161971830985915
 fov:1.0
 screenEffectScale:1.0
 fovEffectScale:1.0
-gamma:0.0
+gamma:1.0
 renderDistance:8
 simulationDistance:5
 entityDistanceScaling:1.0
@@ -224,11 +224,9 @@ key_Open the Crash Utilities Screen:key.keyboard.u:CONTROL
 key_Copy Container Class:key.keyboard.unknown
 key_Show Slot Index Tooltips:key.keyboard.unknown
 key_key.mekanismadditions.voice:key.keyboard.u
-key_fpsreducer.key.openGui:key.keyboard.end
-key_fpsreducer.key.forceIdle:key.keyboard.pause
 key_key.ftbultimine:key.keyboard.grave.accent
-key_key.ftbquests.quests:key.keyboard.z
 key_key.observable.profile:key.keyboard.r
+key_key.ftbquests.quests:key.keyboard.z
 key_mininggadgets.text.open_gui:key.keyboard.unknown
 key_key.worldstripper.strip_world:key.keyboard.delete
 key_key.worldstripper.dress_world:key.keyboard.insert
@@ -238,18 +236,13 @@ key_key.worldstripper.increase_range:key.keyboard.page.up:SHIFT
 key_key.worldstripper.decrease_range:key.keyboard.page.down:SHIFT
 key_key.worldstripper.big_increase_range:key.keyboard.page.up:ALT
 key_key.worldstripper.big_decrease_range:key.keyboard.page.down:ALT
+key_quark.keybind.transfer_insert:key.keyboard.unknown
 key_key.tconstruct.helmet_interact:key.keyboard.z:SHIFT
 key_key.tconstruct.leggings_interact:key.keyboard.i
-key_quark.keybind.change_hotbar:key.keyboard.z:SHIFT
-key_quark.keybind.lock_rotation:key.keyboard.k
-key_quark.keybind.sort_player:key.keyboard.unknown
-key_quark.keybind.sort_container:key.keyboard.unknown
-key_quark.keybind.camera_mode:key.keyboard.f12
-key_quark.keybind.transfer_insert:key.keyboard.unknown
 key_quark.keybind.transfer_extract:key.keyboard.unknown
 key_quark.keybind.shift_lock:key.keyboard.unknown
-key_quark.keybind.autorun:key.keyboard.unknown
-key_quark.keybind.back:key.mouse.4
+key_quark.keybind.sort_player:key.keyboard.unknown
+key_quark.keybind.sort_container:key.keyboard.unknown
 key_quark.emote.no:key.keyboard.unknown
 key_quark.emote.yes:key.keyboard.unknown
 key_quark.emote.wave:key.keyboard.unknown
@@ -268,6 +261,11 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
+key_quark.keybind.back:key.mouse.4
+key_quark.keybind.camera_mode:key.keyboard.f12
+key_quark.keybind.change_hotbar:key.keyboard.z:SHIFT
+key_quark.keybind.lock_rotation:key.keyboard.k
+key_quark.keybind.autorun:key.keyboard.unknown
 key_info.structure_gel.building_tool.undo:key.keyboard.z:CONTROL
 key_info.structure_gel.building_tool.redo:key.keyboard.y:CONTROL
 key_tombstone.message.knowledge_of_death:key.keyboard.unknown
@@ -281,11 +279,11 @@ key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.sort:key.mouse.middle
-key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
-key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
+key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
 key_key.cofh.mode_change_increment:key.keyboard.unknown
 key_key.cofh.mode_change_decrement:key.keyboard.unknown
 key_keybind.sophisticatedstorage.sort:key.mouse.middle

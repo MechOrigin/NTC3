@@ -1,10 +1,10 @@
-[10:53:24] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[10:53:24] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[10:53:24] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.8-SNAPSHOT
-[10:53:24] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[10:53:24] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[10:53:24] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
-[10:53:24] [Render thread/INFO] [?] Version: JourneyMap 1.18.2-5.8.5, built with forge 1.18.2-40.1.0
+[21:11:00] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[21:11:00] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[21:11:00] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.8-SNAPSHOT
+[21:11:00] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[21:11:00] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[21:11:00] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[21:11:00] [Render thread/INFO] [?] Version: JourneyMap 1.18.2-5.8.5, built with forge 1.18.2-40.1.0
 forge: 40.1.51
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 Features: 
@@ -22,24 +22,20 @@ FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.8
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.8.5, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, shaderBeacon=false, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.8.5, port=8080, enabled=false}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.8.5, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=null, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
-[10:53:24] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 729.83ms
-[10:55:02] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
-[10:55:03] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
-[10:55:03] [Render thread/INFO] [JourneymapClient] OptiFine detected.
-[10:55:03] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 1402.66ms
-[10:59:53] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[11:00:58] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[11:00:58] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
-[11:00:58] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
-[11:00:59] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\MLefebvre\curseforge\minecraft\Instances\NTC3\journeymap\data\sp\normal\waypoints
-[11:00:59] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\MLefebvre\curseforge\minecraft\Instances\NTC3\journeymap\data\sp\normal\overworld. Memory: 5408MB total, 2163MB free 
-[11:01:23] [Render thread/INFO] [ChatLog] 
-[12:20:54] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\MLefebvre\curseforge\minecraft\Instances\NTC3\journeymap\data\mp\offline\minecraft:overworld
-[12:25:23] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[12:25:23] [Thread-0/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[12:25:23] [Thread-0/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[12:26:29] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[12:26:29] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
-[12:26:30] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\MLefebvre\curseforge\minecraft\Instances\NTC3\journeymap\data\sp\normal\waypoints
-[12:26:30] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\MLefebvre\curseforge\minecraft\Instances\NTC3\journeymap\data\sp\normal\overworld. Memory: 6144MB total, 2019MB free 
-[13:09:53] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\MLefebvre\curseforge\minecraft\Instances\NTC3\journeymap\data\mp\offline\minecraft:overworld
+[21:11:01] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 410.16ms
+[21:11:51] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[21:11:51] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[21:11:51] [Render thread/INFO] [JourneymapClient] OptiFine detected.
+[21:11:51] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 694.9ms
+[21:48:26] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[21:48:26] [Thread-0/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[21:48:26] [Thread-0/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[21:49:50] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[21:49:50] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[21:49:51] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
+[21:49:51] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\MLefebvre\curseforge\minecraft\Instances\NTC3\journeymap\data\sp\normal\waypoints
+[21:49:51] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\MLefebvre\curseforge\minecraft\Instances\NTC3\journeymap\data\sp\normal\overworld. Memory: 5460MB total, 1975MB free 
+[21:50:20] [Render thread/INFO] [ChatLog] 
+[22:52:16] [Render thread/WARN] [StatTimer] TileDrawStep.updateRegionTexture was slow: 53.2025 (Warning limit reached)
+[22:52:17] [Render thread/WARN] [StatTimer] TileDrawStep.updateRegionTexture: Avg:     0.01ms, Min:        0ms, Max:      88.43ms, Total:          6 sec, Count:   879131, Canceled:        0, Slow:       10
+[23:07:09] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\MLefebvre\curseforge\minecraft\Instances\NTC3\journeymap\data\mp\offline\minecraft:overworld

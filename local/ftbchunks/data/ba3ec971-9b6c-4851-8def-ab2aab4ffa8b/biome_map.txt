@@ -1,9 +1,15 @@
 #05B minecraft:bamboo_jungle
 #556 minecraft:beach
 #34D minecraft:deep_lukewarm_ocean
+#008 minecraft:desert
+#7F0 biomesoplenty:dryland
+#266 biomesoplenty:floodplain
 #010 minecraft:forest
+#0AF biomesoplenty:glowing_grotto
 #4B0 minecraft:jungle
 #79A minecraft:lukewarm_ocean
+#6C1 biomesoplenty:lush_savanna
+#47F biomesoplenty:mediterranean_forest
 #552 biomesoplenty:old_growth_woodland
 #3DC minecraft:plains
 #68B biomesoplenty:rainforest
@@ -11,5 +17,8 @@
 #5F6 biomesoplenty:rocky_rainforest
 #67B minecraft:savanna
 #3AF minecraft:sparse_jungle
+#30B biomesoplenty:volcanic_plains
 #2B7 minecraft:warm_ocean
+#579 minecraft:windswept_savanna
+#56C biomesoplenty:wooded_wasteland
 #7F2 biomesoplenty:woodland
