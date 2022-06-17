@@ -551,8 +551,10 @@
 			}]
 		}
 		{
+			title: "{ntc3.beacon.title}"
 			x: 9.0d
 			y: -7.0d
+			description: ["{ntc3.beacon.desc0}"]
 			id: "07D5DA0EF7164CD4"
 			tasks: [{
 				id: "71EDBE7F8FFC8C08"
@@ -561,8 +563,14 @@
 			}]
 		}
 		{
+			title: "{ntc3.endcrystal.title}"
 			x: 10.5d
 			y: -7.0d
+			description: [
+				"{ntc3.endcrystal.desc0}"
+				""
+				"{ntc3.endcrystal.desc1}"
+			]
 			id: "43026D43202132B6"
 			tasks: [{
 				id: "7375D30BFFA10662"
@@ -571,8 +579,14 @@
 			}]
 		}
 		{
+			title: "{ntc3.piston.title}"
 			x: -4.0d
 			y: -10.5d
+			description: [
+				"{ntc3.piston.desc0}"
+				""
+				"{ntc3.piston.desc1}"
+			]
 			id: "3B66520D328CE290"
 			tasks: [{
 				id: "4200FFDECDF0975C"
@@ -581,8 +595,11 @@
 			}]
 		}
 		{
+			title: "{ntc3.elytra.title}"
 			x: 13.5d
 			y: -7.0d
+			subtitle: "{ntc3.elytra.subtitle}"
+			description: ["{ntc3.elytra.desc0}"]
 			id: "75BF3EB0F3A47C71"
 			tasks: [{
 				id: "7EF9EEAAE104DA1D"
@@ -597,8 +614,10 @@
 			}]
 		}
 		{
+			title: "{ntc3.flintandsteel.title}"
 			x: -5.0d
 			y: -10.5d
+			description: ["{ntc3.flintandsteel.desc0}"]
 			id: "17D4B2616E251D91"
 			tasks: [{
 				id: "0F7117ECF59C7447"
@@ -613,8 +632,10 @@
 			}]
 		}
 		{
+			title: "{ntc3.netheritescrap.title}"
 			x: 11.0d
 			y: -4.0d
+			description: ["{ntc3.netheritescrap.desc0}"]
 			id: "282BBBF0EC9F71D6"
 			tasks: [{
 				id: "41662109D4B37B73"
@@ -623,8 +644,10 @@
 			}]
 		}
 		{
+			title: "{ntc3.netheriteingot.title}"
 			x: 12.5d
 			y: -4.0d
+			description: ["{ntc3.netheriteingot.desc0}"]
 			id: "659DC30C7929A90E"
 			tasks: [{
 				id: "233C45E201329EDE"
@@ -633,8 +656,16 @@
 			}]
 		}
 		{
+			title: "{ntc3.enderpearl.title}"
 			x: 6.0d
 			y: -4.5d
+			description: [
+				"{ntc3.enderpearl.desc0}"
+				""
+				"{ntc3.enderpearl.desc1}"
+				""
+				"{ntc3.enderpearl.desc2}"
+			]
 			id: "2C6314FC12F3EBCF"
 			tasks: [{
 				id: "0A273AD63F12CCF3"
@@ -643,8 +674,10 @@
 			}]
 		}
 		{
+			title: "{ntc3.blazerod.title}"
 			x: 6.0d
 			y: -7.5d
+			description: ["{ntc3.blazerod.desc0}"]
 			id: "414D9F3E8D30EEDD"
 			tasks: [{
 				id: "2C34C7470E1919A0"
@@ -673,8 +706,14 @@
 			}]
 		}
 		{
+			title: "{ntc3.netherstar.title}"
 			x: 12.0d
 			y: -7.0d
+			description: [
+				"{ntc3.netherstar.desc0}"
+				""
+				"{ntc3.netherstar.desc1}"
+			]
 			id: "216BB6462EB91D81"
 			tasks: [{
 				id: "7A54FCEE03EE5020"
@@ -850,6 +889,7 @@
 			]
 		}
 		{
+			title: "{ntc3.unlock.immersiveeng}"
 			x: -4.5d
 			y: -9.0d
 			shape: "circle"

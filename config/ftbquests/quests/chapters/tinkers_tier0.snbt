@@ -3,7 +3,7 @@
 	group: "442FD72D1627F87A"
 	order_index: 2
 	filename: "tinkers_tier0"
-	title: "Tinkers Tier0"
+	title: "{ntc3.chaper.tinkerslvl0.title}"
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false
 	quests: [

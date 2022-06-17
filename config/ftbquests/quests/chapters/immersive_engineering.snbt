@@ -3,7 +3,7 @@
 	group: "442FD72D1627F87A"
 	order_index: 3
 	filename: "immersive_engineering"
-	title: "Immersive Engineering"
+	title: "{ntc3.chaper.immersiveengineering.title}"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [{
