@@ -130,5 +130,52 @@
 
     "ntc3.netherstar.title": "&bKill a Wither Get a Star&r",
     "ntc3.netherstar.desc0": "The &fNether Star&r can be obtained only by defeating the &8Wither&r, which is a boss mob. One &fNether Star&r is dropped each time; the drop chance or amount is not affected by the &bLooting&r enchantment",
-    "ntc3.netherstar.desc1": "This is the final tier in &fVanilla&r Minecraft or &aTier 0&r. Once this is passive you can move on to &3Tier 1&r"
+    "ntc3.netherstar.desc1": "This is the final tier in &fVanilla&r Minecraft or &aTier 0&r. Once this is passive you can move on to &3Tier 1&r",
+
+    "ntc3.magmacream.title": "Magma Cream",
+    "ntc3.magmacream.desc0": "WIP",
+
+    "ntc3.shulkershell.title": "Shulker Shell",
+    "ntc3.shulkershell.desc0": "WIP",
+
+    "ntc3.netherbrick.title": "Nether Brick",
+    "ntc3.netherbrick.desc0": "WIP",
+
+    "ntc3.prismarineshard.title": "Prismarine Shard",
+    "ntc3.prismarineshard.desc0": "WIP",
+
+    "ntc3.prismarinecrystal.title": "Prismarine Crystal",
+    "ntc3.prismarinecrystal.desc0": "WIP",
+
+    "ntc3.chorusfruit.title": "Chorus Fruit",
+    "ntc3.chorusfruit.desc0": "WIP",
+
+    "ntc3.dragonbreath.title": "Dragon Breath",
+    "ntc3.dragonbreath.desc0": "WIP",
+
+    "ntc3.magmablock.title": "Magma Block",
+    "ntc3.magmablock.desc0": "WIP",
+
+    "ntc3.glowstonedust.title": "Glowstone",
+    "ntc3.glowstonedust.desc0": "WIP",
+
+    "ntc3.netherquartz.title": "Nether Quartz",
+    "ntc3.netherquartz.desc0": "WIP",
+
+    "ntc3.paper.title": "Paper",
+    "ntc3.paper.desc0": "WIP",
+
+    "ntc3.leather.title": "Unr3al Leathers",
+    "ntc3.leather.desc0": "WIP",
+
+    "ntc3.book.title": "Book",
+    "ntc3.book.desc0": "WIP",
+
+    "ntc3.growingstuff.title": "Dear Weed Man",
+    "ntc3.growingstuff.desc0": "WIP but pumpkins are good emc",
+
+    "ntc3.unlock.immersiveeng": "&fUnlocked &n&aImmersive Engineering&r &fChapter&r",
+
+    "ntc3.netherrack.title": "Netherrack",
+    "ntc3.netherack.desc0": "WIP"
 }

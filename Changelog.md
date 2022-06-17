@@ -37,6 +37,7 @@
     - multiservo press
     - need to work on centrifuge ex: stibnite -> antimony, sulfur
     - need to add oil sand to centrifuge
-    test
-    remove test
+
+    Color of the year 2022:
+    #6667AB
     
