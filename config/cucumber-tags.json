@@ -28,7 +28,7 @@
   "forge:ingots/brass": "antimatter_shared:ingot_brass",
   "forge:ingots/enderium": "thermal:enderium_ingot",
   "forge:ingots/titanium": "chemlib:ingot_titanium",
-  "forge:rubber": "null",
+  "forge:rubber": "rankine:vulcanized_rubber",
   "forge:dusts/sulfur": "antimatter_shared:dust_sulfur",
   "forge:ingots/nickel": "chemlib:ingot_nickel"
 }

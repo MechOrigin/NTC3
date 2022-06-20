@@ -1,1 +1,28 @@
-{"bookGuiScale":0,"clickedVisualize":false,"bookData":{}}
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "rankine:rankine_journal": {
+      "viewedEntries": [
+        "rankine:sediments/sands",
+        "rankine:mechanics/alloying",
+        "rankine:tools/building_tool",
+        "rankine:mechanics/fuel"
+      ],
+      "bookmarks": [],
+      "history": [
+        "rankine:mechanics/alloying",
+        "rankine:mechanics/fuel",
+        "rankine:sediments/sands",
+        "rankine:tools/building_tool"
+      ],
+      "completedManualQuests": []
+    },
+    "lexicon:lexicon": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "history": [],
+      "completedManualQuests": []
+    }
+  }
+}

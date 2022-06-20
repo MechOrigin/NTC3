@@ -20,4 +20,6 @@
 	"Refined Storage" = true
 	#If TRUE, mod integration support for Tinker's Construct is enabled, if the mod is loaded.
 	"Tinker's Construct" = true
+	#If TRUE, mod integration support for Biomes O' Plenty is enabled, if the mod is loaded.
+	"Biomes O' Plenty" = true
 

@@ -1,33 +1,40 @@
-[12:10:57] [INFO ] Loaded script server_scripts:NTC3/base/tags/blocks/forge/ores.js in 0.005 s
-[12:10:57] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/dusts.js in 0.007 s
-[12:10:57] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/ores.js in 0.004 s
-[12:10:57] [INFO ] EBF Recipe Scripet
-[12:10:57] [INFO ] EBF RecipeMap Found
-[12:10:57] [INFO ] Loaded script server_scripts:ebf_recipe.js in 0.033 s
-[12:10:57] [INFO ] Loaded script server_scripts:functions.js in 0.007 s
-[12:10:57] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/lychee/lychee.js in 0.002 s
-[12:10:57] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/vanilla/minecraft.js in 0.001 s
-[12:10:57] [INFO ] Loaded script server_scripts:NTC3/base/tags/tags.js in 0.003 s
-[12:10:57] [INFO ] Loaded script server_scripts:NTC3/base/unify/global_unification.js in 0.021 s
-[12:10:57] [INFO ] Loaded script server_scripts:NTC3/base/unify/unify_materials.js in 0.03 s
-[12:10:57] [INFO ] Loaded script server_scripts:NTC3/base/unify/unify_outputs.js in 0.002 s
-[12:10:57] [INFO ] Loaded script server_scripts:NTC3/constants/general.js in 0.002 s
-[12:10:57] [INFO ] Current packmode is: normal
-[12:10:57] [INFO ] Loaded script server_scripts:packmode.js in 0.032 s
-[12:10:57] [INFO ] log added recipes: false | log removed recipes: false | log skipped recipes: false | log erroring recipes: false
-[12:10:57] [INFO ] Loaded script server_scripts:settings.js in 0.001 s
-[12:10:57] [INFO ] Loaded 14/14 KubeJS server scripts in 0.167 s
-[12:10:57] [INFO ] Scripts loaded
-[12:10:57] [INFO ] Scanning recipes...
-[12:11:25] [INFO ] [blocks] Found 6049 tags, added 34 objects, removed 0 objects
-[12:11:25] [INFO ] [blocks] Found 6049 tags, added 34 objects, removed 0 objects
-[12:11:42] [INFO ] [items] Found 9818 tags, added 38 objects, removed 0 objects
-[12:11:42] [INFO ] [items] Found 9818 tags, added 38 objects, removed 0 objects
-[12:11:44] [INFO ] Found 15604 recipes and 0 failed recipes in 1.307 s
-[12:11:50] [INFO ] server_scripts:NTC3/base/unify/unify_materials.js:1231: Created new forge:dusts/bronze, forge:dusts/copper, forge:dusts/tin
-[12:11:51] [INFO ] Posted recipe events in 7.080 s
-[12:11:51] [WARN ] Error parsing recipe mysticalagriculture:essence/common/bronze_ingot[cucumber:shaped_tag]: {"type":"cucumber:shaped_tag","conditions":[{"type":"mysticalagriculture:crop_enabled","crop":"mysticalagriculture:bronze"}],"pattern":["EEE","E E","EEE"],"key":{"E":{"item":"mysticalagriculture:bronze_essence"}},"result":{"item":"antimatter_shared:ingot_bronze","count":4}}: com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
-[12:11:51] [WARN ] Error parsing recipe mysticalagriculture:essence/common/steel_ingot[cucumber:shaped_tag]: {"type":"cucumber:shaped_tag","conditions":[{"type":"mysticalagriculture:crop_enabled","crop":"mysticalagriculture:steel"}],"pattern":["EEE","E E","EEE"],"key":{"E":{"item":"mysticalagriculture:steel_essence"}},"result":{"item":"antimatter_shared:ingot_steel","count":3}}: com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
-[12:11:51] [INFO ] Modified & removed recipes in 541.9 ms
-[12:11:51] [INFO ] Added recipes in 46.90 ms
-[12:11:51] [INFO ] Added 1112 recipes, removed 786 recipes, modified 8825 recipes, with 2 failed recipes and 0 fall-backed recipes
+[14:13:21] [INFO ] Loaded script server_scripts:NTC3/base/tags/blocks/forge/ores.js in 0.04 s
+[14:13:21] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/dusts.js in 0.024 s
+[14:13:21] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/ores.js in 0.003 s
+[14:13:21] [INFO ] EBF Recipe Scripet
+[14:13:21] [INFO ] EBF RecipeMap Found
+[14:13:21] [INFO ] Loaded script server_scripts:ebf_recipe.js in 0.567 s
+[14:13:21] [INFO ] Loaded script server_scripts:functions.js in 0.006 s
+[14:13:21] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/lychee/lychee.js in 0.002 s
+[14:13:21] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/vanilla/minecraft.js in 0.001 s
+[14:13:21] [INFO ] Loaded script server_scripts:NTC3/base/tags/tags.js in 0.002 s
+[14:13:21] [INFO ] Loaded script server_scripts:NTC3/base/unify/global_unification.js in 0.066 s
+[14:13:21] [INFO ] Loaded script server_scripts:NTC3/base/unify/unify_materials.js in 0.032 s
+[14:13:21] [INFO ] Loaded script server_scripts:NTC3/base/unify/unify_outputs.js in 0.016 s
+[14:13:21] [INFO ] Loaded script server_scripts:NTC3/constants/general.js in 0.002 s
+[14:13:21] [INFO ] Current packmode is: normal
+[14:13:21] [INFO ] Loaded script server_scripts:packmode.js in 0.093 s
+[14:13:21] [INFO ] log added recipes: false | log removed recipes: false | log skipped recipes: false | log erroring recipes: false
+[14:13:21] [INFO ] Loaded script server_scripts:settings.js in 0.004 s
+[14:13:21] [INFO ] Loaded 14/14 KubeJS server scripts in 1.164 s
+[14:13:21] [INFO ] Scripts loaded
+[14:13:22] [INFO ] Scanning recipes...
+[14:13:51] [ERR  ] Error occurred while handling event 'tags.blocks': Wrapped java.lang.IllegalStateException: Missing key in ResourceKey[minecraft:root / minecraft:block]: ResourceKey[minecraft:block / antimatter_shared:granite_red] (server_scripts:NTC3/base/tags/tags.js#49)
+[14:13:51] [INFO ] [blocks] Found 1358 tags, added 7 objects, removed 0 objects
+[14:13:51] [INFO ] [blocks] Found 1358 tags, added 7 objects, removed 0 objects
+[14:13:55] [ERR  ] Error occurred while handling event 'tags.items': Wrapped java.lang.IllegalStateException: Missing key in ResourceKey[minecraft:root / minecraft:item]: ResourceKey[minecraft:item / antimatter_shared:nugget_aluminium] (server_scripts:NTC3/base/tags/tags.js#38)
+[14:13:55] [INFO ] [items] Found 3188 tags, added 32 objects, removed 0 objects
+[14:13:55] [INFO ] [items] Found 3188 tags, added 32 objects, removed 0 objects
+[14:14:12] [INFO ] Found 20618 recipes and 0 failed recipes in 2.888 s
+[14:14:15] [ERR  ] server_scripts:NTC3/base/unify/unify_materials.js:801: Failed to create recipe for type 'thermal:pulverizer': {"item":"antimatter_shared:dust_cinnabar","chance":0.15} is not a valid result!
+[14:14:15] [ERR  ] server_scripts:NTC3/base/unify/unify_materials.js:755: Failed to create recipe for type 'thermal:chiller': {"item":"minecraft:air","count":1} is not a valid result!
+[14:14:15] [ERR  ] server_scripts:NTC3/base/unify/unify_materials.js:755: Failed to create recipe for type 'thermal:chiller': {"item":"minecraft:air","count":1} is not a valid result!
+[14:14:15] [ERR  ] server_scripts:NTC3/base/unify/unify_materials.js:755: Failed to create recipe for type 'thermal:chiller': {"item":"minecraft:air","count":1} is not a valid result!
+[14:14:15] [ERR  ] server_scripts:NTC3/base/unify/unify_materials.js:755: Failed to create recipe for type 'thermal:chiller': {"item":"minecraft:air","count":1} is not a valid result!
+[14:14:15] [ERR  ] server_scripts:NTC3/base/unify/unify_materials.js:755: Failed to create recipe for type 'thermal:chiller': {"item":"minecraft:air","count":1} is not a valid result!
+[14:14:15] [ERR  ] server_scripts:NTC3/base/unify/unify_materials.js:755: Failed to create recipe for type 'thermal:chiller': {"item":"minecraft:air","count":1} is not a valid result!
+[14:14:15] [ERR  ] server_scripts:NTC3/base/unify/unify_materials.js:755: Failed to create recipe for type 'thermal:chiller': {"item":"minecraft:air","count":1} is not a valid result!
+[14:14:16] [INFO ] Posted recipe events in 3.713 s
+[14:14:17] [INFO ] Modified & removed recipes in 772.1 ms
+[14:14:17] [INFO ] Added recipes in 54.95 ms
+[14:14:17] [INFO ] Added 260 recipes, removed 543 recipes, modified 2936 recipes, with 0 failed recipes and 0 fall-backed recipes
