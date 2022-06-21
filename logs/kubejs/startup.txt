@@ -1,2 +1,2 @@
-[22:09:02] [INFO ] Loaded script startup_scripts:Base/worldgen_remove.js in 0.297 s
-[22:09:02] [INFO ] Loaded 1/1 KubeJS startup scripts in 0.963 s
+[16:00:50] [INFO ] Loaded script startup_scripts:Base/worldgen_remove.js in 0.105 s
+[16:00:50] [INFO ] Loaded 1/1 KubeJS startup scripts in 0.394 s
