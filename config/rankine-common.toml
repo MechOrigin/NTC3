@@ -209,7 +209,7 @@
 		#Range: 0 ~ 16
 		oreDetectorRange = 7
 		#Enable the use of the rock drill.
-		rockDrill = true
+		rockDrill = false
 
 	#Vanilla Tools
 	[tools.vanillaTools]
@@ -580,7 +580,7 @@
 #Settings for Hard Mode mechanics (HIGHLY EXPERIMENTAL).
 [hardMode]
 	#If enabled, certain elements will react with water. Generally creates an explosion.
-	elementWaterReactive = false
+	elementWaterReactive = true
 	#If enabled, certain elements will be radioactive which applies a radiation potion effect that causes damage over time.
-	elementRadioactive = false
+	elementRadioactive = true
 

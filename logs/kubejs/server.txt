@@ -1,40 +1,62 @@
-[14:13:21] [INFO ] Loaded script server_scripts:NTC3/base/tags/blocks/forge/ores.js in 0.04 s
-[14:13:21] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/dusts.js in 0.024 s
-[14:13:21] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/ores.js in 0.003 s
-[14:13:21] [INFO ] EBF Recipe Scripet
-[14:13:21] [INFO ] EBF RecipeMap Found
-[14:13:21] [INFO ] Loaded script server_scripts:ebf_recipe.js in 0.567 s
-[14:13:21] [INFO ] Loaded script server_scripts:functions.js in 0.006 s
-[14:13:21] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/lychee/lychee.js in 0.002 s
-[14:13:21] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/vanilla/minecraft.js in 0.001 s
-[14:13:21] [INFO ] Loaded script server_scripts:NTC3/base/tags/tags.js in 0.002 s
-[14:13:21] [INFO ] Loaded script server_scripts:NTC3/base/unify/global_unification.js in 0.066 s
-[14:13:21] [INFO ] Loaded script server_scripts:NTC3/base/unify/unify_materials.js in 0.032 s
-[14:13:21] [INFO ] Loaded script server_scripts:NTC3/base/unify/unify_outputs.js in 0.016 s
-[14:13:21] [INFO ] Loaded script server_scripts:NTC3/constants/general.js in 0.002 s
-[14:13:21] [INFO ] Current packmode is: normal
-[14:13:21] [INFO ] Loaded script server_scripts:packmode.js in 0.093 s
-[14:13:21] [INFO ] log added recipes: false | log removed recipes: false | log skipped recipes: false | log erroring recipes: false
-[14:13:21] [INFO ] Loaded script server_scripts:settings.js in 0.004 s
-[14:13:21] [INFO ] Loaded 14/14 KubeJS server scripts in 1.164 s
-[14:13:21] [INFO ] Scripts loaded
-[14:13:22] [INFO ] Scanning recipes...
-[14:13:51] [ERR  ] Error occurred while handling event 'tags.blocks': Wrapped java.lang.IllegalStateException: Missing key in ResourceKey[minecraft:root / minecraft:block]: ResourceKey[minecraft:block / antimatter_shared:granite_red] (server_scripts:NTC3/base/tags/tags.js#49)
-[14:13:51] [INFO ] [blocks] Found 1358 tags, added 7 objects, removed 0 objects
-[14:13:51] [INFO ] [blocks] Found 1358 tags, added 7 objects, removed 0 objects
-[14:13:55] [ERR  ] Error occurred while handling event 'tags.items': Wrapped java.lang.IllegalStateException: Missing key in ResourceKey[minecraft:root / minecraft:item]: ResourceKey[minecraft:item / antimatter_shared:nugget_aluminium] (server_scripts:NTC3/base/tags/tags.js#38)
-[14:13:55] [INFO ] [items] Found 3188 tags, added 32 objects, removed 0 objects
-[14:13:55] [INFO ] [items] Found 3188 tags, added 32 objects, removed 0 objects
-[14:14:12] [INFO ] Found 20618 recipes and 0 failed recipes in 2.888 s
-[14:14:15] [ERR  ] server_scripts:NTC3/base/unify/unify_materials.js:801: Failed to create recipe for type 'thermal:pulverizer': {"item":"antimatter_shared:dust_cinnabar","chance":0.15} is not a valid result!
-[14:14:15] [ERR  ] server_scripts:NTC3/base/unify/unify_materials.js:755: Failed to create recipe for type 'thermal:chiller': {"item":"minecraft:air","count":1} is not a valid result!
-[14:14:15] [ERR  ] server_scripts:NTC3/base/unify/unify_materials.js:755: Failed to create recipe for type 'thermal:chiller': {"item":"minecraft:air","count":1} is not a valid result!
-[14:14:15] [ERR  ] server_scripts:NTC3/base/unify/unify_materials.js:755: Failed to create recipe for type 'thermal:chiller': {"item":"minecraft:air","count":1} is not a valid result!
-[14:14:15] [ERR  ] server_scripts:NTC3/base/unify/unify_materials.js:755: Failed to create recipe for type 'thermal:chiller': {"item":"minecraft:air","count":1} is not a valid result!
-[14:14:15] [ERR  ] server_scripts:NTC3/base/unify/unify_materials.js:755: Failed to create recipe for type 'thermal:chiller': {"item":"minecraft:air","count":1} is not a valid result!
-[14:14:15] [ERR  ] server_scripts:NTC3/base/unify/unify_materials.js:755: Failed to create recipe for type 'thermal:chiller': {"item":"minecraft:air","count":1} is not a valid result!
-[14:14:15] [ERR  ] server_scripts:NTC3/base/unify/unify_materials.js:755: Failed to create recipe for type 'thermal:chiller': {"item":"minecraft:air","count":1} is not a valid result!
-[14:14:16] [INFO ] Posted recipe events in 3.713 s
-[14:14:17] [INFO ] Modified & removed recipes in 772.1 ms
-[14:14:17] [INFO ] Added recipes in 54.95 ms
-[14:14:17] [INFO ] Added 260 recipes, removed 543 recipes, modified 2936 recipes, with 0 failed recipes and 0 fall-backed recipes
+[22:30:26] [INFO ] Loaded script server_scripts:NTC3/base/tags/blocks/forge/ores.js in 0.056 s
+[22:30:26] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/dusts.js in 0.013 s
+[22:30:26] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/ores.js in 0.002 s
+[22:30:26] [INFO ] server_scripts:ebf_recipe.js:1: EBF Recipe Scripet
+[22:30:26] [INFO ] server_scripts:ebf_recipe.js:14: EBF RecipeMap Found
+[22:30:26] [INFO ] Loaded script server_scripts:ebf_recipe.js in 0.048 s
+[22:30:26] [INFO ] Loaded script server_scripts:functions.js in 0.008 s
+[22:30:26] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/lychee/lychee.js in 0.002 s
+[22:30:26] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/vanilla/minecraft.js in 0.002 s
+[22:30:26] [INFO ] Loaded script server_scripts:NTC3/base/tags/tags.js in 0.002 s
+[22:30:26] [INFO ] Loaded script server_scripts:NTC3/base/unify/global_unification.js in 0.015 s
+[22:30:26] [INFO ] Loaded script server_scripts:NTC3/base/unify/unify_materials.js in 0.019 s
+[22:30:26] [INFO ] Loaded script server_scripts:NTC3/base/unify/unify_outputs.js in 0.002 s
+[22:30:26] [INFO ] Loaded script server_scripts:NTC3/constants/general.js in 0.005 s
+[22:30:26] [INFO ] server_scripts:packmode.js:28: Current packmode is: normal
+[22:30:26] [INFO ] Loaded script server_scripts:packmode.js in 0.022 s
+[22:30:26] [INFO ] server_scripts:settings.js:8: log added recipes: false | log removed recipes: false | log skipped recipes: false | log erroring recipes: false
+[22:30:26] [INFO ] Loaded script server_scripts:settings.js in 0.007 s
+[22:30:26] [INFO ] Loaded 14/14 KubeJS server scripts in 0.396 s
+[22:30:26] [INFO ] Scripts loaded
+[22:30:26] [INFO ] Scanning recipes...
+[22:31:45] [INFO ] [blocks] Found 6465 tags, added 34 objects, removed 0 objects
+[22:31:45] [INFO ] [blocks] Found 6465 tags, added 34 objects, removed 0 objects
+[22:32:18] [INFO ] [items] Found 10422 tags, added 38 objects, removed 0 objects
+[22:32:18] [INFO ] [items] Found 10422 tags, added 38 objects, removed 0 objects
+[22:32:27] [INFO ] Found 22723 recipes and 0 failed recipes in 2.883 s
+[22:32:34] [ERR  ] server_scripts:functions.js:71: [rankine, ftbic] were both unaccounted for in mod unification for '#forge:nuggets/copper'
+[22:32:35] [ERR  ] server_scripts:functions.js:71: [rankine, ftbic] were both unaccounted for in mod unification for '#forge:ingots/iridium'
+[22:32:35] [ERR  ] server_scripts:functions.js:71: [rankine, ftbic] were both unaccounted for in mod unification for '#forge:nuggets/iridium'
+[22:32:35] [ERR  ] server_scripts:functions.js:71: [rankine, ftbic] were both unaccounted for in mod unification for '#forge:ingots/lead'
+[22:32:35] [ERR  ] server_scripts:functions.js:71: [rankine, ftbic] were both unaccounted for in mod unification for '#forge:nuggets/lead'
+[22:32:36] [ERR  ] server_scripts:functions.js:71: [rankine, ftbic] were both unaccounted for in mod unification for '#forge:ingots/tin'
+[22:32:36] [ERR  ] server_scripts:functions.js:71: [rankine, ftbic] were both unaccounted for in mod unification for '#forge:nuggets/tin'
+[22:32:39] [ERR  ] server_scripts:functions.js:71: [rankine, ftbic] were both unaccounted for in mod unification for '#forge:ingots/bronze'
+[22:32:39] [ERR  ] server_scripts:functions.js:71: [rankine, ftbic] were both unaccounted for in mod unification for '#forge:nuggets/bronze'
+[22:32:39] [INFO ] server_scripts:NTC3/base/unify/unify_materials.js:1231: Created new forge:dusts/bronze, forge:dusts/copper, forge:dusts/tin
+[22:32:40] [ERR  ] server_scripts:functions.js:71: [rankine, ftbic] were both unaccounted for in mod unification for '#forge:nuggets/copper'
+[22:32:40] [ERR  ] server_scripts:functions.js:71: [rankine, ftbic] were both unaccounted for in mod unification for '#forge:nuggets/iridium'
+[22:32:40] [ERR  ] server_scripts:functions.js:71: [rankine, ftbic] were both unaccounted for in mod unification for '#forge:ingots/iridium'
+[22:32:40] [ERR  ] server_scripts:functions.js:71: [rankine, ftbic] were both unaccounted for in mod unification for '#forge:nuggets/lead'
+[22:32:40] [ERR  ] server_scripts:functions.js:71: [rankine, ftbic] were both unaccounted for in mod unification for '#forge:ingots/lead'
+[22:32:40] [ERR  ] server_scripts:functions.js:71: [ftbic, rankine] were both unaccounted for in mod unification for '#forge:ores/lead'
+[22:32:40] [ERR  ] server_scripts:functions.js:71: [ftbic, rankine] were both unaccounted for in mod unification for '#forge:ores/lead'
+[22:32:40] [ERR  ] server_scripts:functions.js:71: [ftbic, rankine] were both unaccounted for in mod unification for '#forge:ores/lead'
+[22:32:40] [ERR  ] server_scripts:functions.js:71: [ftbic, rankine] were both unaccounted for in mod unification for '#forge:ores/lead'
+[22:32:40] [ERR  ] server_scripts:functions.js:71: [rankine, ftbic] were both unaccounted for in mod unification for '#forge:nuggets/tin'
+[22:32:40] [ERR  ] server_scripts:functions.js:71: [rankine, ftbic] were both unaccounted for in mod unification for '#forge:ingots/tin'
+[22:32:40] [ERR  ] server_scripts:functions.js:71: [ftbic, rankine] were both unaccounted for in mod unification for '#forge:ores/tin'
+[22:32:40] [ERR  ] server_scripts:functions.js:71: [ftbic, rankine] were both unaccounted for in mod unification for '#forge:ores/tin'
+[22:32:40] [ERR  ] server_scripts:functions.js:71: [ftbic, rankine] were both unaccounted for in mod unification for '#forge:ores/tin'
+[22:32:40] [ERR  ] server_scripts:functions.js:71: [ftbic, rankine] were both unaccounted for in mod unification for '#forge:ores/tin'
+[22:32:41] [ERR  ] server_scripts:functions.js:71: [rankine, ftbic] were both unaccounted for in mod unification for '#forge:nuggets/bronze'
+[22:32:41] [INFO ] Posted recipe events in 13.23 s
+[22:32:41] [WARN ] Error parsing recipe mysticalagriculture:essence/common/steel_ingot[cucumber:shaped_tag]: {"type":"cucumber:shaped_tag","conditions":[{"type":"mysticalagriculture:crop_enabled","crop":"mysticalagriculture:steel"}],"pattern":["EEE","E E","EEE"],"key":{"E":{"item":"mysticalagriculture:steel_essence"}},"result":{"item":"antimatter_shared:ingot_steel","count":3}}: com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
+[22:32:41] [WARN ] Error parsing recipe mysticalagriculture:essence/common/invar_ingot[cucumber:shaped_tag]: {"type":"cucumber:shaped_tag","conditions":[{"type":"mysticalagriculture:crop_enabled","crop":"mysticalagriculture:invar"}],"pattern":["EEE","E E","EEE"],"key":{"E":{"item":"mysticalagriculture:invar_essence"}},"result":{"item":"antimatter_shared:ingot_invar","count":4}}: com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
+[22:32:41] [WARN ] Error parsing recipe mysticalagriculture:essence/thermal/enderium_ingot[cucumber:shaped_tag]: {"type":"cucumber:shaped_tag","conditions":[{"type":"mysticalagriculture:crop_enabled","crop":"mysticalagriculture:enderium"}],"pattern":["EEE","E E","EEE"],"key":{"E":{"item":"mysticalagriculture:enderium_essence"}},"result":{"item":"thermal:enderium_ingot","count":2}}: com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
+[22:32:41] [WARN ] Error parsing recipe mysticalagriculture:essence/common/bronze_ingot[cucumber:shaped_tag]: {"type":"cucumber:shaped_tag","conditions":[{"type":"mysticalagriculture:crop_enabled","crop":"mysticalagriculture:bronze"}],"pattern":["EEE","E E","EEE"],"key":{"E":{"item":"mysticalagriculture:bronze_essence"}},"result":{"item":"antimatter_shared:ingot_bronze","count":4}}: com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
+[22:32:41] [WARN ] Error parsing recipe mysticalagriculture:essence/common/electrum_ingot[cucumber:shaped_tag]: {"type":"cucumber:shaped_tag","conditions":[{"type":"mysticalagriculture:crop_enabled","crop":"mysticalagriculture:electrum"}],"pattern":["EEE","E E","EEE"],"key":{"E":{"item":"mysticalagriculture:electrum_essence"}},"result":{"item":"antimatter_shared:ingot_electrum","count":4}}: com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
+[22:32:42] [WARN ] Error parsing recipe mysticalagriculture:essence/common/brass_ingot[cucumber:shaped_tag]: {"type":"cucumber:shaped_tag","conditions":[{"type":"mysticalagriculture:crop_enabled","crop":"mysticalagriculture:brass"}],"pattern":["EEE","E E","EEE"],"key":{"E":{"item":"mysticalagriculture:brass_essence"}},"result":{"item":"antimatter_shared:ingot_brass","count":4}}: com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
+[22:32:42] [INFO ] Modified & removed recipes in 993.3 ms
+[22:32:42] [INFO ] Added recipes in 50.40 ms
+[22:32:42] [INFO ] Added 1128 recipes, removed 667 recipes, modified 12064 recipes, with 6 failed recipes and 0 fall-backed recipes

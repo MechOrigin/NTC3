@@ -1,7 +1,7 @@
 
 [Data]
 	#Generate all the potential Material Items, even if they're unused - Default: false
-	ALL_MATERIAL_ITEMS = false
+	ALL_MATERIAL_ITEMS = true
 
 [World]
 	#Disable Vanilla ore generation (Iron Ore, Diamond Ore etc) - Default: true
