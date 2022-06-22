@@ -25,6 +25,11 @@ const removeRecipeByID = (e, recipes) => {
       e.remove({ id: recipe })
     })
 }
+const removeRecipeByMod = (e, recipes) => {
+    recipes.forEach(recipe => {
+      e.remove({ mod: recipe })
+    })
+}
 const removeRecipeByOutput = (e, recipes) => {
     recipes.forEach(recipe => {
       if (Array.isArray(recipe)) {

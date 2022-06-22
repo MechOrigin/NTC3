@@ -17,7 +17,9 @@ const modPriorities = [
     'mekanism',
     'mysticalagriculture',
     'biomesoplenty',
-    'integrateddynamics'
+    'integrateddynamics',
+    'rankine',
+    'ftbic'
 ];
 
 // Used for recipes/tags that use colors

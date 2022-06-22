@@ -19,9 +19,13 @@
       "completedManualQuests": []
     },
     "lexicon:lexicon": {
-      "viewedEntries": [],
+      "viewedEntries": [
+        "lexicon:redstone/redstone_components"
+      ],
       "bookmarks": [],
-      "history": [],
+      "history": [
+        "lexicon:redstone/redstone_components"
+      ],
       "completedManualQuests": []
     }
   }
