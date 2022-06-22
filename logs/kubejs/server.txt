@@ -1,37 +1,38 @@
-[12:47:34] [INFO ] Loaded script server_scripts:NTC3/base/tags/blocks/forge/ores.js in 0.375 s
-[12:47:34] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/dusts.js in 0.013 s
-[12:47:34] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/ores.js in 0.004 s
-[12:47:34] [INFO ] server_scripts:ebf_recipe.js:1: EBF Recipe Scripet
-[12:47:34] [INFO ] server_scripts:ebf_recipe.js:14: EBF RecipeMap Found
-[12:47:34] [INFO ] Loaded script server_scripts:ebf_recipe.js in 0.065 s
-[12:47:34] [INFO ] Loaded script server_scripts:functions.js in 0.011 s
-[12:47:34] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/lychee/lychee.js in 0.001 s
-[12:47:34] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/vanilla/minecraft.js in 0.001 s
-[12:47:34] [INFO ] Loaded script server_scripts:NTC3/base/tags/tags.js in 0.003 s
-[12:47:34] [INFO ] Loaded script server_scripts:NTC3/base/unify/global_unification.js in 0.024 s
-[12:47:34] [INFO ] Loaded script server_scripts:NTC3/base/unify/unify_materials.js in 0.019 s
-[12:47:34] [INFO ] Loaded script server_scripts:NTC3/base/unify/unify_outputs.js in 0.002 s
-[12:47:34] [INFO ] Loaded script server_scripts:NTC3/constants/general.js in 0.002 s
-[12:47:34] [INFO ] server_scripts:packmode.js:28: Current packmode is: normal
-[12:47:34] [INFO ] Loaded script server_scripts:packmode.js in 0.05 s
-[12:47:34] [INFO ] server_scripts:settings.js:8: log added recipes: false | log removed recipes: false | log skipped recipes: false | log erroring recipes: false
-[12:47:34] [INFO ] Loaded script server_scripts:settings.js in 0.003 s
-[12:47:34] [INFO ] Loaded 14/14 KubeJS server scripts in 1.052 s
-[12:47:34] [INFO ] Scripts loaded
-[12:47:34] [INFO ] Scanning recipes...
-[12:48:23] [INFO ] [blocks] Found 6465 tags, added 34 objects, removed 0 objects
-[12:48:23] [INFO ] [blocks] Found 6465 tags, added 34 objects, removed 0 objects
-[12:48:53] [INFO ] [items] Found 10422 tags, added 38 objects, removed 0 objects
-[12:48:53] [INFO ] [items] Found 10422 tags, added 38 objects, removed 0 objects
-[12:49:00] [INFO ] Found 22723 recipes and 0 failed recipes in 2.048 s
-[12:49:11] [INFO ] server_scripts:NTC3/base/unify/unify_materials.js:1231: Created new forge:dusts/bronze, forge:dusts/copper, forge:dusts/tin
-[12:49:12] [INFO ] Posted recipe events in 12.72 s
-[12:49:12] [WARN ] Error parsing recipe mysticalagriculture:essence/common/steel_ingot[cucumber:shaped_tag]: {"type":"cucumber:shaped_tag","conditions":[{"type":"mysticalagriculture:crop_enabled","crop":"mysticalagriculture:steel"}],"pattern":["EEE","E E","EEE"],"key":{"E":{"item":"mysticalagriculture:steel_essence"}},"result":{"item":"antimatter_shared:ingot_steel","count":3}}: com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
-[12:49:13] [WARN ] Error parsing recipe mysticalagriculture:essence/common/invar_ingot[cucumber:shaped_tag]: {"type":"cucumber:shaped_tag","conditions":[{"type":"mysticalagriculture:crop_enabled","crop":"mysticalagriculture:invar"}],"pattern":["EEE","E E","EEE"],"key":{"E":{"item":"mysticalagriculture:invar_essence"}},"result":{"item":"antimatter_shared:ingot_invar","count":4}}: com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
-[12:49:13] [WARN ] Error parsing recipe mysticalagriculture:essence/thermal/enderium_ingot[cucumber:shaped_tag]: {"type":"cucumber:shaped_tag","conditions":[{"type":"mysticalagriculture:crop_enabled","crop":"mysticalagriculture:enderium"}],"pattern":["EEE","E E","EEE"],"key":{"E":{"item":"mysticalagriculture:enderium_essence"}},"result":{"item":"thermal:enderium_ingot","count":2}}: com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
-[12:49:13] [WARN ] Error parsing recipe mysticalagriculture:essence/common/bronze_ingot[cucumber:shaped_tag]: {"type":"cucumber:shaped_tag","conditions":[{"type":"mysticalagriculture:crop_enabled","crop":"mysticalagriculture:bronze"}],"pattern":["EEE","E E","EEE"],"key":{"E":{"item":"mysticalagriculture:bronze_essence"}},"result":{"item":"antimatter_shared:ingot_bronze","count":4}}: com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
-[12:49:13] [WARN ] Error parsing recipe mysticalagriculture:essence/common/electrum_ingot[cucumber:shaped_tag]: {"type":"cucumber:shaped_tag","conditions":[{"type":"mysticalagriculture:crop_enabled","crop":"mysticalagriculture:electrum"}],"pattern":["EEE","E E","EEE"],"key":{"E":{"item":"mysticalagriculture:electrum_essence"}},"result":{"item":"antimatter_shared:ingot_electrum","count":4}}: com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
-[12:49:13] [WARN ] Error parsing recipe mysticalagriculture:essence/common/brass_ingot[cucumber:shaped_tag]: {"type":"cucumber:shaped_tag","conditions":[{"type":"mysticalagriculture:crop_enabled","crop":"mysticalagriculture:brass"}],"pattern":["EEE","E E","EEE"],"key":{"E":{"item":"mysticalagriculture:brass_essence"}},"result":{"item":"antimatter_shared:ingot_brass","count":4}}: com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
-[12:49:13] [INFO ] Modified & removed recipes in 642.8 ms
-[12:49:13] [INFO ] Added recipes in 39.85 ms
-[12:49:13] [INFO ] Added 1128 recipes, removed 667 recipes, modified 12064 recipes, with 6 failed recipes and 0 fall-backed recipes
+[20:27:36] [INFO ] Loaded script server_scripts:NTC3/base/tags/blocks/forge/ores.js in 0.058 s
+[20:27:36] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/dusts.js in 0.011 s
+[20:27:36] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/ores.js in 0.004 s
+[20:27:36] [INFO ] EBF Recipe Scripet
+[20:27:36] [INFO ] EBF RecipeMap Found
+[20:27:36] [INFO ] Loaded script server_scripts:ebf_recipe.js in 0.248 s
+[20:27:36] [INFO ] Loaded script server_scripts:functions.js in 0.009 s
+[20:27:36] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/antimatter_shared/antimatter.js in 0.001 s
+[20:27:36] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/lychee/lychee.js in 0.001 s
+[20:27:36] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/vanilla/minecraft.js in 0.001 s
+[20:27:36] [INFO ] Loaded script server_scripts:NTC3/base/tags/tags.js in 0.002 s
+[20:27:36] [INFO ] Loaded script server_scripts:NTC3/base/unify/global_unification.js in 0.05 s
+[20:27:36] [INFO ] Loaded script server_scripts:NTC3/base/unify/unify_materials.js in 0.044 s
+[20:27:36] [INFO ] Loaded script server_scripts:NTC3/base/unify/unify_outputs.js in 0.001 s
+[20:27:36] [INFO ] Loaded script server_scripts:NTC3/constants/general.js in 0.003 s
+[20:27:36] [INFO ] Current packmode is: normal
+[20:27:36] [INFO ] Loaded script server_scripts:packmode.js in 0.07 s
+[20:27:36] [INFO ] log added recipes: false | log removed recipes: false | log skipped recipes: false | log erroring recipes: false
+[20:27:36] [INFO ] Loaded script server_scripts:settings.js in 0.001 s
+[20:27:36] [INFO ] Loaded 15/15 KubeJS server scripts in 0.618 s
+[20:27:36] [INFO ] Scripts loaded
+[20:27:36] [INFO ] Scanning recipes...
+[20:30:09] [INFO ] [blocks] Found 6465 tags, added 34 objects, removed 0 objects
+[20:30:09] [INFO ] [blocks] Found 6465 tags, added 34 objects, removed 0 objects
+[20:30:36] [INFO ] [items] Found 10422 tags, added 38 objects, removed 0 objects
+[20:30:36] [INFO ] [items] Found 10422 tags, added 38 objects, removed 0 objects
+[20:30:52] [INFO ] Found 22723 recipes and 0 failed recipes in 6.345 s
+[20:31:23] [INFO ] server_scripts:NTC3/base/unify/unify_materials.js:1231: Created new forge:dusts/bronze, forge:dusts/copper, forge:dusts/tin
+[20:31:28] [INFO ] Posted recipe events in 36.63 s
+[20:31:29] [WARN ] Error parsing recipe mysticalagriculture:essence/common/steel_ingot[cucumber:shaped_tag]: {"type":"cucumber:shaped_tag","conditions":[{"type":"mysticalagriculture:crop_enabled","crop":"mysticalagriculture:steel"}],"pattern":["EEE","E E","EEE"],"key":{"E":{"item":"mysticalagriculture:steel_essence"}},"result":{"item":"antimatter_shared:ingot_steel","count":3}}: com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
+[20:31:29] [WARN ] Error parsing recipe mysticalagriculture:essence/common/invar_ingot[cucumber:shaped_tag]: {"type":"cucumber:shaped_tag","conditions":[{"type":"mysticalagriculture:crop_enabled","crop":"mysticalagriculture:invar"}],"pattern":["EEE","E E","EEE"],"key":{"E":{"item":"mysticalagriculture:invar_essence"}},"result":{"item":"antimatter_shared:ingot_invar","count":4}}: com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
+[20:31:29] [WARN ] Error parsing recipe mysticalagriculture:essence/thermal/enderium_ingot[cucumber:shaped_tag]: {"type":"cucumber:shaped_tag","conditions":[{"type":"mysticalagriculture:crop_enabled","crop":"mysticalagriculture:enderium"}],"pattern":["EEE","E E","EEE"],"key":{"E":{"item":"mysticalagriculture:enderium_essence"}},"result":{"item":"thermal:enderium_ingot","count":2}}: com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
+[20:31:30] [WARN ] Error parsing recipe mysticalagriculture:essence/common/bronze_ingot[cucumber:shaped_tag]: {"type":"cucumber:shaped_tag","conditions":[{"type":"mysticalagriculture:crop_enabled","crop":"mysticalagriculture:bronze"}],"pattern":["EEE","E E","EEE"],"key":{"E":{"item":"mysticalagriculture:bronze_essence"}},"result":{"item":"antimatter_shared:ingot_bronze","count":4}}: com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
+[20:31:30] [WARN ] Error parsing recipe mysticalagriculture:essence/common/electrum_ingot[cucumber:shaped_tag]: {"type":"cucumber:shaped_tag","conditions":[{"type":"mysticalagriculture:crop_enabled","crop":"mysticalagriculture:electrum"}],"pattern":["EEE","E E","EEE"],"key":{"E":{"item":"mysticalagriculture:electrum_essence"}},"result":{"item":"antimatter_shared:ingot_electrum","count":4}}: com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
+[20:31:30] [WARN ] Error parsing recipe mysticalagriculture:essence/common/brass_ingot[cucumber:shaped_tag]: {"type":"cucumber:shaped_tag","conditions":[{"type":"mysticalagriculture:crop_enabled","crop":"mysticalagriculture:brass"}],"pattern":["EEE","E E","EEE"],"key":{"E":{"item":"mysticalagriculture:brass_essence"}},"result":{"item":"antimatter_shared:ingot_brass","count":4}}: com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
+[20:31:30] [INFO ] Modified & removed recipes in 1.713 s
+[20:31:31] [INFO ] Added recipes in 900.2 ms
+[20:31:31] [INFO ] Added 1128 recipes, removed 720 recipes, modified 11859 recipes, with 6 failed recipes and 0 fall-backed recipes
