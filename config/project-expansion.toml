@@ -13,4 +13,5 @@ powerflowerMultiplier = 1
 relayBonusMultiplier = 1
 relayTransferMultiplier = 1
 emcLinkFluidLimitMultiplier = 1
+notifyKnowledgeBookGains = true
 

@@ -181,8 +181,9 @@
 			#Every how many ticks (20 ticks = 1 seconds) the middle head will fire a projectile to the target.
 			#Range: > 0
 			"Attack Interval" = 40
-			#The middle head will attack faster (up to 40% of the attack speed) the nearer the target is to the Wither.
-			"Increase Attack Speed when Near" = true
+			#The middle head will attack faster (up to this bonus percentage) the nearer the target is to the Wither.
+			#Range: 0.0 ~ 1.0
+			"Bonus Attack Speed when Near" = 0.667
 
 [Dragon]
 	#Bonus Health and Bonus regeneration.

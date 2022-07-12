@@ -60,9 +60,6 @@
 		#Chance for a stone block to drop a flint
 		#Range: 0.0 ~ 1.0
 		flintDropChance = 0.15
-		#Chance for a dirt block to drop a vegetable/seed
-		#Range: 0.0 ~ 1.0
-		foragingChance = 0.1
 		#Chance for a grass block to grow something on a random tick
 		#Range: 0.0 ~ 1.0
 		grassGrowChance = 5.0E-4
@@ -152,6 +149,8 @@
 		#Movement speed modifier for walking on Mud.
 		#Range: -1.0 ~ 1.0
 		movementMud = -0.03
+		#When set to true, attempts to disable the FOV changes of walking slower on movement modifier blocks. The FOV effects setting can also be used to disable this (at 0%), and if used this variable should be set to false.
+		movementModifiersFOVReset = false
 
 	#Ore Detection
 	[general.oreDetection]
@@ -178,8 +177,6 @@
 
 	#Rankine Tools
 	[tools.rankineTools]
-		#Disable the use of the wooden mallet (still allows crafting for other recipes). This is enabled by default for progression.
-		disableWoodenMallet = true
 		#Disable status bar message from compass.
 		disableCompass = false
 		#Disable status bar message from clock.
@@ -210,6 +207,10 @@
 		oreDetectorRange = 7
 		#Enable the use of the rock drill.
 		rockDrill = false
+		#Disable the use of the wooden hammer (still allows crafting for other recipes). This is enabled by default for progression.
+		disableWoodenHammer = false
+		#Disable the use of the stone hammer (still allows crafting for other recipes). This is enabled by default for progression.
+		disableStoneHammer = false
 
 	#Vanilla Tools
 	[tools.vanillaTools]
