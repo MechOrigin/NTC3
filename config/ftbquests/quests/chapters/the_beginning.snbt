@@ -506,18 +506,6 @@
 			id: "0C9E3CDD16DB4122"
 			tasks: [
 				{
-					id: "459A3176CC64290A"
-					type: "item"
-					title: "Any #forge:rods/wood"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:rods/wood"
-						}
-					}
-				}
-				{
 					id: "62DD3DFD4A492BA7"
 					type: "item"
 					title: "Any #minecraft:planks"
@@ -526,6 +514,18 @@
 						Count: 1b
 						tag: {
 							value: "minecraft:planks"
+						}
+					}
+				}
+				{
+					id: "4353E398FF463C16"
+					type: "item"
+					title: "Any #forge:rods/wooden"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:rods/wooden"
 						}
 					}
 				}

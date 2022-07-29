@@ -35,12 +35,14 @@ onEvent('tags.items', e => {
     e.add('forge:ingots/manyullyn', 'tconstruct:manyullyn_ingot');
 
     //why?!
+    /* Remove antimatter because NTC3 is adding it's own
     e.add('forge:nuggets/aluminum', 'antimatter_shared:nugget_aluminium');
     e.add('forge:ingots/aluminum', 'antimatter_shared:ingot_aluminium');
     e.add('forge:rods/aluminum', 'antimatter_shared:rod_aluminium');
     e.add('forge:plates/aluminum', 'antimatter_shared:plate_aluminium');
     e.add('forge:gear/aluminum', 'antimatter_shared:gear_aluminium');
     e.add('forge:dust/aluminum', 'antimatter_shared:dust_aluminium');
+    */
 
     //e.remove('forge:storage_blocks/copper', 'minecraft:cut_copper')
   })
@@ -52,7 +54,7 @@ onEvent('tags.items', e => {
                                               'minecraft:granite',
                                               'quark:jasper',
                                               'quark:limestone',
-                                              'quark:shale',
+                                              'quark:shale'/*,
                                               'antimatter_shared:granite_red',
                                               'antimatter_shared:granite_black',
                                               'antimatter_shared:marble',
@@ -62,7 +64,7 @@ onEvent('tags.items', e => {
                                               'antimatter_shared:green_schist',
                                               'antimatter_shared:blue_schist',
                                               'antimatter_shared:kimberlite',
-                                              'antimatter_shared:quartzite'])
+                                              'antimatter_shared:quartzite'*/])
 
       e.add('forge:wg_stone', [               'minecraft:stone',
                                               'minecraft:andesite',
@@ -70,7 +72,7 @@ onEvent('tags.items', e => {
                                               'minecraft:granite',
                                               'quark:jasper',
                                               'quark:limestone',
-                                              'quark:shale',
+                                              'quark:shale'/*,
                                               'antimatter_shared:granite_red',
                                               'antimatter_shared:granite_black',
                                               'antimatter_shared:marble',
@@ -80,7 +82,7 @@ onEvent('tags.items', e => {
                                               'antimatter_shared:green_schist',
                                               'antimatter_shared:blue_schist',
                                               'antimatter_shared:kimberlite',
-                                              'antimatter_shared:quartzite'])
+                                              'antimatter_shared:quartzite'*/])
       
   })
 

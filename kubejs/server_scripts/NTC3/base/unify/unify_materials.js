@@ -669,7 +669,7 @@ onEvent('recipes', event => {
 	}
 
     function thermal_metal_casting(event, material, block, ingot, nugget, gear, rod, plate, wire) {
-		if (ingot == air) {
+		if (ingot == air || block == air) {
             return;
         }
 

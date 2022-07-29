@@ -1,0 +1,12 @@
+
+[mobs]
+	levels_per_distance = 0.01
+	show_level = true
+
+	[mobs.attributes]
+		movement_speed_per_level = 0.001
+		flying_speed_per_level = 0.001
+		attack_damage_per_level = 0.1
+		armor_per_level = 0.1
+		health_per_level = 0.1
+

@@ -10,22 +10,16 @@
         "rankine:mechanics/fuel"
       ],
       "bookmarks": [],
-      "history": [
-        "rankine:mechanics/alloying",
-        "rankine:mechanics/fuel",
-        "rankine:sediments/sands",
-        "rankine:tools/building_tool"
-      ],
       "completedManualQuests": []
     },
     "lexicon:lexicon": {
       "viewedEntries": [
-        "lexicon:redstone/redstone_components"
+        "lexicon:redstone/redstone_components",
+        "lexicon:start/first_steps",
+        "lexicon:start/whats_next",
+        "lexicon:start/first_night"
       ],
       "bookmarks": [],
-      "history": [
-        "lexicon:redstone/redstone_components"
-      ],
       "completedManualQuests": []
     }
   }

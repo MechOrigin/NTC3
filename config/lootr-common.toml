@@ -57,4 +57,8 @@ refresh_dimensions = []
 refresh_structures = []
 #overriding refresh_loot_tables, refresh_modids and refresh_dimensions: all chests will refresh after being opened for the first time
 refresh_all = false
+#when true, comparators on Lootr containers will give an output of 1; when false, they will give an output of 0
+power_comparators = true
+#lootr chests cannot be destroyed by explosions
+blast_resistant = false
 

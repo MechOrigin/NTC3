@@ -4,8 +4,8 @@
 
 	#Miscellaneous
 	[general.misc]
-		#Roughly the time in seconds between chance for blocks to be changed to a path block when stepped on.
-		#Range: 0 ~ 600
+		#The 1 in X chance for grass blocks to convert to path blocks while a player is on them.
+		#Range: > 1
 		pathCreationTime = 10
 		#If enabled, walking on grass blocks, mycelium and podzol has a chance to create a path block underfoot.
 		pathCreation = true
@@ -63,7 +63,7 @@
 		#Chance for a grass block to grow something on a random tick
 		#Range: 0.0 ~ 1.0
 		grassGrowChance = 5.0E-4
-		#Chance for a leaf litters to age. Higher values slow decay.
+		#Chance on random tick for a leaf litters to age. Higher values slow decay.
 		#Range: > 1
 		leafLitterDecay = 1
 		#Chance for a podzol block to grow on grass
@@ -158,7 +158,7 @@
 		#Range: 0.0 ~ 1.0
 		nuggetChance = 0.04
 		#Distance from an ore block in which nuggets have a chance to drop from blocks.
-		#Range: 1 ~ 64
+		#Range: 1 ~ 16
 		nuggetRange = 9
 
 	#Enchantments
@@ -333,12 +333,12 @@
 	#Max speed of the laser quarry in ticks.
 	#Range: 1 ~ 300
 	laserQuarrySpeed = 20
-	#Defines the power requirement for one process in the gyratory crusher (multiplied by the tier of the current crushing head).
-	#Range: 0 ~ 10000
-	gyratoryCrusherPower = 1
 	#Defines the power requirement for one process in the induction furnace.
 	#Range: 0 ~ 10000
 	inductionFurnacePower = 16
+	#Chance for a piston/crushing head to crush a block.
+	#Range: 0.0 ~ 1.0
+	crushingSuccessChance = 0.2
 
 #Settings for alloys and alloy tools
 [alloys]
