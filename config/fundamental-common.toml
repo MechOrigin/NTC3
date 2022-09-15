@@ -4,6 +4,18 @@ use_axe_on_sticky_piston = true
 use_slime_on_piston = true
 #Add a crafting table for each vanilla wood variant
 crafting_tables = true
+#How many layers can be added to a banner. Survival vanilla is 6, command block vanilla is 16.
+#
+#Compatibility Note: Quark implements this too, but forgot to add support to the Banner Duplication recipe.
+#To remain compatible with Quark, we disable this feature if Quark is detected except for the Banner Duplication Recipe.
+#For this reason, we recommend using the same value for both mods.
+#
+#Range: 1 ~ 16
+banner_layer_limit = 16
+#Guardians turn into Elder Guardians when struck by lightning.
+renewable_elder_guardians = true
+#Changes how a bed reachability is determined so the bed is never considered too far if the player can interact with it.
+bed_never_too_far = false
 
 [lodestone]
 	#Adds a lodestone proxy that when used sets your compass to another lodestone.
@@ -55,4 +67,12 @@ crafting_tables = true
 	#A <dirt_block> that is near a <source_grass_block> will turn into <generated_grass_block> when bonemealed.
 	#Empty the list to disable this feature.
 	mapping = ["minecraft:dirt #fundamental:grass_blocks minecraft:grass_block", "minecraft:dirt #fundamental:myceliums minecraft:mycelium", "minecraft:blackstone #fundamental:crimson_nylium byg:overgrown_crimson_blackstone", "minecraft:stone #fundamental:grass_blocks byg:overgrown_stone", "byg:dacite #fundamental:grass_blocks byg:overgrown_dacite", "byg:mewdow_dirt #fundamental:grass_blocks byg:meadow_grass_block", "minecraft:netherrack #fundamental:grass_blocks byg:overgrown_netherrack", "minecraft:netherrack #fundamental:myceliums byg:mycelium_netherrack", "minecraft:netherrack byg:sythian_nylium byg:sythian_nylium", "byg:blue_netherrack byg:embur_nylium byg:embur_nylium", "byg:ether_soil byg:ether_phylium byg:ether_phylium", "minecraft:soul_soil byg:wailing_nylium byg:wailing_nylium", "minecraft:end_stone byg:ivis_phylium byg:ivis_phylium", "minecraft:end_stone byg:shulkren_phylium byg:shulkren_phylium", "minecraft:end_stone byg:nightshade_phylium byg:nightshade_phylium", "minecraft:end_stone byg:bulbis_phycelium byg:bulbis_phycelium", "minecraft:dirt botania:dry_grass botania:dry_grass", "minecraft:dirt botania:golden_grass botania:golden_grass", "minecraft:dirt botania:vivid_grass botania:vivid_grass", "minecraft:dirt botania:scorched_grass botania:scorched_grass", "minecraft:dirt botania:infused_grass botania:infused_grass", "minecraft:dirt botania:mutated_grass botania:mutated_grass", "minecraft:dirt quark:glowcelium quark:glowcelium", "minecraft:dirt #fundamental:tconstruct/sky_x_slime_grasses tconstruct:sky_vanilla_slime_grass", "minecraft:dirt #fundamental:tconstruct/ender_x_slime_grasses tconstruct:ender_vanilla_slime_grass", "minecraft:dirt #fundamental:tconstruct/blood_x_slime_grasses tconstruct:blood_vanilla_slime_grass", "minecraft:dirt #fundamental:tconstruct/earth_x_slime_grasses tconstruct:earth_vanilla_slime_grass", "tconstruct:earth_slime_dirt #fundamental:tconstruct/sky_x_slime_grasses tconstruct:sky_earth_slime_grass", "tconstruct:earth_slime_dirt #fundamental:tconstruct/ender_x_slime_grasses tconstruct:ender_earth_slime_grass", "tconstruct:earth_slime_dirt #fundamental:tconstruct/blood_x_slime_grasses tconstruct:blood_earth_slime_grass", "tconstruct:earth_slime_dirt #fundamental:tconstruct/earth_x_slime_grasses tconstruct:earth_earth_slime_grass", "tconstruct:sky_slime_dirt #fundamental:tconstruct/sky_x_slime_grasses tconstruct:sky_sky_slime_grass", "tconstruct:sky_slime_dirt #fundamental:tconstruct/ender_x_slime_grasses tconstruct:ender_sky_slime_grass", "tconstruct:sky_slime_dirt #fundamental:tconstruct/blood_x_slime_grasses tconstruct:blood_sky_slime_grass", "tconstruct:sky_slime_dirt #fundamental:tconstruct/earth_x_slime_grasses tconstruct:earth_sky_slime_grass", "tconstruct:ender_slime_dirt #fundamental:tconstruct/sky_x_slime_grasses tconstruct:sky_ender_slime_grass", "tconstruct:ender_slime_dirt #fundamental:tconstruct/ender_x_slime_grasses tconstruct:ender_ender_slime_grass", "tconstruct:ender_slime_dirt #fundamental:tconstruct/blood_x_slime_grasses tconstruct:blood_ender_slime_grass", "tconstruct:ender_slime_dirt #fundamental:tconstruct/earth_x_slime_grasses tconstruct:earth_ender_slime_grass", "tconstruct:ichor_slime_dirt #fundamental:tconstruct/sky_x_slime_grasses tconstruct:sky_ichor_slime_grass", "tconstruct:ichor_slime_dirt #fundamental:tconstruct/ender_x_slime_grasses tconstruct:ender_ichor_slime_grass", "tconstruct:ichor_slime_dirt #fundamental:tconstruct/blood_x_slime_grasses tconstruct:blood_ichor_slime_grass", "tconstruct:ichor_slime_dirt #fundamental:tconstruct/earth_x_slime_grasses tconstruct:earth_ichor_slime_grass"]
+
+[bonemeal]
+	#Make sugar canes grow if bone meal is used on it.
+	sugarCane = true
+	#Make cactus grow if bone meal is used on it.
+	cactus = true
+	#Spawn a new lily pads nearby by using bone meal on one.
+	lilyPad = true
 

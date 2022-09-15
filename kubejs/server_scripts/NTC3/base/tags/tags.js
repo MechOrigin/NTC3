@@ -34,6 +34,57 @@ onEvent('tags.items', e => {
     e.add('forge:nuggets/manyullyn', 'tconstruct:manyullyn_nugget');
     e.add('forge:ingots/manyullyn', 'tconstruct:manyullyn_ingot');
 
+    e.add('forge:nuggets/redstone_iron', 'extendedcrafting:redstone_nugget');
+    e.add('forge:ingots/redstone_iron', 'extendedcrafting:redstone_ingot');
+
+
+    elementsToUnify.forEach((material) => {
+
+      if (material == air) {return;}
+
+      let ingotSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_ingot`)).id;
+      let gearSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_gear`)).id;
+      let plateSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_plate`)).id;
+      let densePlateSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_dense_plate`)).id;
+      let rodSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_rod`)).id;
+      let dustSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_dust`)).id;
+      let smallDustSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_small_dust`)).id;
+      let tinyDustSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_tiny_dust`)).id;
+      let crushedSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_crushed`)).id;
+      let impureDustSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_impure_dust`)).id;
+      let pureDustSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_pure_dust`)).id;
+      let nuggetSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_nugget`)).id;
+      let wireSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_wire`)).id;
+
+      secret_tagging(e, material, ingotSecret, gearSecret, plateSecret, densePlateSecret,
+                     rodSecret, dustSecret, smallDustSecret, tinyDustSecret, crushedSecret,
+                     impureDustSecret, pureDustSecret, nuggetSecret, wireSecret);
+
+
+    })
+
+    function secret_tagging(e, material, ingotSecret, gearSecret, plateSecret, densePlateSecret, rodSecret, dustSecret, smallDustSecret, tinyDustSecret, crushedSecret, impureDustSecret, pureDustSecret, nuggetSecret, wireSecret) {
+        if (material == air || ingotSecret == air) {
+            return;
+        }
+
+        e.add(`forge:ingots/${material}`, ingotSecret);
+        e.add(`forge:gears/${material}`, gearSecret);
+        e.add(`forge:plates/${material}`, plateSecret);
+        e.add(`forge:dense_plates/${material}`, densePlateSecret);
+        e.add(`forge:rods/${material}`, rodSecret);
+        e.add(`forge:dusts/${material}`, dustSecret);
+        e.add(`forge:small_dusts/${material}`, smallDustSecret);
+        e.add(`forge:tiny_dusts/${material}`, tinyDustSecret);
+        e.add(`forge:crushed/${material}`, crushedSecret);
+        e.add(`forge:impure_dust/${material}`, impureDustSecret);
+        e.add(`forge:pure_dust/${material}`, pureDustSecret);
+        e.add(`forge:nuggets/${material}`, nuggetSecret);
+        e.add(`forge:wires/${material}`, wireSecret);
+
+    }
+
+
     //why?!
     /* Remove antimatter because NTC3 is adding it's own
     e.add('forge:nuggets/aluminum', 'antimatter_shared:nugget_aluminium');

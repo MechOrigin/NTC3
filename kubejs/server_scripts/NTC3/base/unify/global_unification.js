@@ -15,9 +15,12 @@ global["UNIFY_ORE_GEN"] = true
 
 // Mod priorities
 global["unifypriorities"] = [
-    'antimatter_shared',
-    'antimatter',
-    'gregtech',
+//    'antimatter_shared',
+//    'antimatter',
+//    'gregtech',
+    'secretly_complicated',
+//    'alltheores',
+    'excavated_variants',
     'minecraft',
     'kubejs',
     'quark',

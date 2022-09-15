@@ -33,7 +33,6 @@ onEvent('tags.items', event => {
 
         let rodImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:stick_${material}`)).id;
 
-
         if (material == air) {return;}
 
         itemsToRemove.push(
@@ -116,11 +115,11 @@ onEvent('tags.items', event => {
     itemsToRemove.forEach(disabledItem => {
         if (disabledItem == air) {return;}
 
-        blacklistedMaterials = [
-            'netherite',
-            'enderium',
-            'signalum',
-            'lumium'
+        var blacklistedMaterials = [
+            // 'netherite',
+            // 'enderium',
+            // 'signalum',
+            // 'lumium'
 		];
 
         for (var i = 0; i < blacklistedMaterials.length; i++) {
@@ -134,7 +133,7 @@ onEvent('tags.items', event => {
             // event.remove(('forge:dusts'+'/'+`${disabledItem.replace(':', '').replace('thermal', '').replace('_dust', '')}`), disabledItem);
             
             event.removeAllTagsFrom(disabledItem);
-        }); 
+        });
 
     event.remove([]);
 

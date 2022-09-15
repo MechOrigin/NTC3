@@ -1,20 +1,33 @@
-[21:52:48] [INFO ] Loaded script server_scripts:NTC3/base/tags/blocks/forge/ores.js in 0.005 s
-[21:52:48] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/dusts.js in 0.005 s
-[21:52:48] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/gems.js in 0.001 s
-[21:52:48] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/ores.js in 0.002 s
-[21:52:48] [INFO ] Loaded script server_scripts:functions.js in 0.004 s
-[21:52:48] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/antimatter_shared/antimatter.js in 0.0 s
-[21:52:48] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/lychee/lychee.js in 0.001 s
-[21:52:48] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/vanilla/minecraft.js in 0.001 s
-[21:52:48] [INFO ] Loaded script server_scripts:NTC3/base/tags/tags.js in 0.001 s
-[21:52:48] [INFO ] Loaded script server_scripts:NTC3/base/unify/global_unification.js in 0.006 s
-[21:52:48] [INFO ] Loaded script server_scripts:NTC3/base/unify/unify_materials.js in 0.021 s
-[21:52:48] [INFO ] Loaded script server_scripts:NTC3/base/unify/unify_outputs.js in 0.002 s
-[21:52:48] [INFO ] Loaded script server_scripts:NTC3/constants/general.js in 0.002 s
-[21:52:48] [INFO ] server_scripts:packmode.js:28: Current packmode is: normal
-[21:52:48] [INFO ] Loaded script server_scripts:packmode.js in 0.006 s
-[21:52:48] [INFO ] server_scripts:settings.js:8: log added recipes: false | log removed recipes: false | log skipped recipes: false | log erroring recipes: false
-[21:52:48] [INFO ] Loaded script server_scripts:settings.js in 0.001 s
-[21:52:48] [INFO ] Loaded 15/15 KubeJS server scripts in 0.102 s
-[21:52:48] [INFO ] Scripts loaded
-[21:52:48] [INFO ] Scanning recipes...
+[11:35:21] [INFO ] Loaded script server_scripts:NTC3/base/tags/blocks/forge/ores.js in 0.005 s
+[11:35:21] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/dusts.js in 0.011 s
+[11:35:21] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/gems.js in 0.002 s
+[11:35:21] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/ores.js in 0.005 s
+[11:35:21] [INFO ] Loaded script server_scripts:functions.js in 0.008 s
+[11:35:21] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/alltheores/alltheores.js in 0.001 s
+[11:35:21] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/antimatter_shared/antimatter.js in 0.001 s
+[11:35:21] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/lychee/lychee.js in 0.002 s
+[11:35:21] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/vanilla/minecraft.js in 0.002 s
+[11:35:21] [INFO ] Loaded script server_scripts:NTC3/base/tags/tags.js in 0.008 s
+[11:35:21] [INFO ] Loaded script server_scripts:NTC3/base/unify/global_unification.js in 0.029 s
+[11:35:22] [INFO ] Loaded script server_scripts:NTC3/base/unify/unify_materials.js in 0.085 s
+[11:35:22] [INFO ] Loaded script server_scripts:NTC3/base/unify/unify_outputs.js in 0.005 s
+[11:35:22] [INFO ] Loaded script server_scripts:NTC3/constants/general.js in 0.004 s
+[11:35:22] [INFO ] Current packmode is: normal
+[11:35:22] [INFO ] Loaded script server_scripts:packmode.js in 0.078 s
+[11:35:22] [INFO ] log added recipes: false | log removed recipes: false | log skipped recipes: false | log erroring recipes: false
+[11:35:22] [INFO ] Loaded script server_scripts:settings.js in 0.001 s
+[11:35:22] [INFO ] Loaded 16/16 KubeJS server scripts in 0.274 s
+[11:35:22] [INFO ] Scripts loaded
+[11:35:22] [INFO ] Scanning recipes...
+[11:35:39] [INFO ] [blocks] Found 848 tags, added 14 objects, removed 0 objects
+[11:35:39] [INFO ] [blocks] Found 848 tags, added 14 objects, removed 0 objects
+[11:35:43] [INFO ] [items] Found 3483 tags, added 1348 objects, removed 0 objects
+[11:35:43] [INFO ] [items] Found 3483 tags, added 1348 objects, removed 0 objects
+[11:35:48] [INFO ] Found 16049 recipes and 0 failed recipes in 1.746 s
+[11:35:50] [ERR  ] server_scripts:NTC3/base/unify/unify_materials.js:242: Failed to create recipe for type 'minecraft:smelting': #forge:ingots/aluminum is not a valid result!
+[11:35:51] [INFO ] Posted recipe events in 3.136 s
+[11:35:51] [WARN ] Error parsing recipe arsomega:transmute_iron[arsomega:transmute]: {"type":"arsomega:transmute","input":{"tag":"forge:ingots/iron"},"output":{"item":"minecraft:gold_ingot","count":1},"reversible":true,"minAmp":0}: com.google.gson.JsonSyntaxException: Missing item, expected to find a string
+[11:35:51] [WARN ] Error parsing recipe spirit:soul_engulfing/soul_steel[spirit:soul_engulfing]: {"type":"spirit:soul_engulfing","input":{"tag":"forge:ingots/iron"},"duration":60,"outputItem":"spirit:soul_steel_ingot"}: java.lang.RuntimeException: No key ingredient in MapLike[{"tag":"forge:ingots/iron"}]
+[11:35:51] [INFO ] Modified & removed recipes in 566.0 ms
+[11:35:51] [INFO ] Added recipes in 2.170 ms
+[11:35:51] [INFO ] Added 4 recipes, removed 15 recipes, modified 3616 recipes, with 2 failed recipes and 0 fall-backed recipes

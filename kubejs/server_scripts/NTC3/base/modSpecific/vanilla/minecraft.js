@@ -30,7 +30,7 @@ onEvent('recipes', (event) => {
     A: '#minecraft:planks',
     B: 'quark:sturdy_stone',
     C: '#forge:rods/iron',
-    D: "#forge:ingots/red_alloy"
+    D: "#forge:ingots/redstone_iron"
     })
 
 });

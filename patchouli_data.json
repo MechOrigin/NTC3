@@ -1,7 +1,17 @@
 {
-  "bookGuiScale": 0,
+  "bookGuiScale": 4,
   "clickedVisualize": false,
   "bookData": {
+    "apotheosis:apoth_chronicle": {
+      "viewedEntries": [
+        "apotheosis:enchanting/table/seed",
+        "apotheosis:enchanting/table/stats",
+        "apotheosis:enchanting/utility/cobwebs",
+        "apotheosis:enchanting/utility/tomes"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
     "rankine:rankine_journal": {
       "viewedEntries": [
         "rankine:sediments/sands",
@@ -12,12 +22,40 @@
       "bookmarks": [],
       "completedManualQuests": []
     },
+    "weather_control:weatherpedia": {
+      "viewedEntries": [
+        "weather_control:dreamdisc",
+        "weather_control:raindisc",
+        "weather_control:cdenchant",
+        "weather_control:dreamweaverblock",
+        "weather_control:rainmakermini",
+        "weather_control:rainmakerblock",
+        "weather_control:dreamweavermini",
+        "weather_control:xpenchant"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "enigmaticlegacy:the_acknowledgment": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
     "lexicon:lexicon": {
       "viewedEntries": [
         "lexicon:redstone/redstone_components",
         "lexicon:start/first_steps",
         "lexicon:start/whats_next",
         "lexicon:start/first_night"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "ars_nouveau:worn_notebook": {
+      "viewedEntries": [
+        "ars_elemental:getting_started/elemental_tweaks",
+        "ars_nouveau:getting_started/better_casting",
+        "ars_nouveau:machines/enchanting_apparatus"
       ],
       "bookmarks": [],
       "completedManualQuests": []

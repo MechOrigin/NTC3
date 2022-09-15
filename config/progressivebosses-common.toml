@@ -39,8 +39,8 @@
 
 	#Handles various small features, such as the explosion
 	[Wither.Misc]
-		#How much explosion power (after the invulnerability) will the Wither gain for each difficulty point. Explosion Radius is capped to 13. Base Wither Explosion Power is 7.0. Setting this to 0 will not increase the Wither Explosion Power.
-		#Range: 0.0 ~ 4.0
+		#How much explosion power (after the invulnerability) will the Wither have at max difficulty. Explosion Radius is capped to 13. Base Wither Explosion Power is 7.0. Setting this to 0 will not increase the Wither Explosion Power.
+		#Range: 0.0 ~ 8.0
 		"Explosion Power Bonus" = 1.0
 		#At this difficulty the Wither Explosion will cause fire. Set to -1 to disable.
 		#Range: > -1
@@ -58,44 +58,44 @@
 
 	#Bonus Health and Bonus regeneration. The feature even fixes the Wither health bar not updating on spawn.
 	[Wither.Health]
-		#Increase Wither's Health by this value per difficulty
+		#Increase Wither's Health by this value at max difficulty (scales accordingly at lower difficulties)
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Health Bonus per Difficulty" = 90.0
-		#Maximum bonus regeneration per second given by "Bonus Regeneration per Difficulty".
+		#Maximum bonus regeneration per second given by "Bonus Regeneration".
 		#Set to 0 to disable bonus health regeneration. This doesn't affect the natural regeneration of the Wither (1 Health per Second).
-		#Note that the health regen is disabled when Wither's health is between 49% and 50% to prevent making it impossible to approach when half health.
+		#Note that this bonus health regen is disabled when Wither's health is between 49% and 50% to prevent making it impossible to approach when reaches half health.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Maximum Bonus Regeneration" = 2.0
-		#How many half hearts will the Wither regen per difficulty. This is added to the natural regeneration of the Wither (1 Health per Second).
+		#How many half hearts will the Wither regen at max difficulty. This is added to the natural regeneration of the Wither (1 Health per Second).
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Regeneration per Difficulty" = 0.3
+		"Bonus Regeneration" = 2.4
 
 	#Handles the Damage Resistances and Vulnerabilities
 	[Wither."Resistances & Vulnerabilities"]
-		#Percentage Melee Damage Reduction (per difficulty) while the Wither is above half health.
-		#Range: 0.0 ~ 1.0
-		"Melee Damage reduction per Difficulty above half health" = 0.03
-		#Cap for 'Melee Damage reduction per Difficulty above half health'
-		#Range: 0.0 ~ 1.0
-		"Max Melee Damage reduction per Difficulty before half health" = 0.24
-		#Percentage Melee Damage Reduction (per difficulty) as the Wither drops below half health.
-		#Range: 0.0 ~ 1.0
-		"Melee Damage reduction per Difficulty below half health" = 0.06
-		#Cap for 'Melee Damage Reduction per Difficulty below half health'
-		#Range: 0.0 ~ 1.0
-		"Max Melee Damage reduction per Difficulty below half health" = 0.48
-		#Bonus magic damage based off missing health. 150 means that every 150 missing health the damage will be amplified by 100%. E.g. The difficulty = 0 Wither (with 300 max health) is at half health (so it's missing 150hp), on magic damage he will receive 'magic_damage * (missing_health / magic_damage_bonus + 1)' = 'magic_damage * (150 / 150 + 1)' = 'magic_damage * 2'.
+		#Bonus magic damage based off missing health. 250 means that every 250 missing health the damage will be amplified by 100%. E.g. The first Wither (with 300 max health) is at 50 health (so it's missing 250hp), on magic damage he will receive 'magic_damage * (missing_health / magic_damage_bonus + 1)' = 'magic_damage * (250 / 250 + 1)' = 'magic_damage * 2'.
 		#Range: 0.0 ~ 1024.0
 		"Magic Damage Bonus" = 250.0
+		#Percentage Melee Damage Reduction (at max difficulty) while the Wither is above half health.
+		#Range: 0.0 ~ 1.0
+		"Melee Damage reduction above half health" = 0.24
+		#Cap for 'Melee Damage reduction above half health'
+		#Range: 0.0 ~ 1.0
+		"Max Melee Damage reduction before half health" = 0.24
+		#Percentage Melee Damage Reduction (at max difficulty) as the Wither drops below half health.
+		#Range: 0.0 ~ 1.0
+		"Melee Damage reduction below half health" = 0.48
+		#Cap for 'Melee Damage Reduction below half health'
+		#Range: 0.0 ~ 1.0
+		"Max Melee Damage reduction below half health" = 0.48
 
 	#Bonus Experience and Drops
 	[Wither.Rewards]
-		#How much more experience (percentage) will Wither drop per Difficulty. The percentage is additive (e.g. with this set to 200%, 7 withers spawned = 1400% more experience)
-		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Experience per Difficulty" = 7.5
 		#If true default mod drops are added to the Wither.
 		#Note that replacing the Wither loot table (e.g. via DataPack) will automatically remove the Injected loot.
 		"Injecet Default Loot" = true
+		#How much more experience (percentage, 60 means +6000%) will Wither drop at max Difficulty.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Bonus Experience " = 60.0
 
 	#Wither will spawn deadly Minions
 	[Wither.Minions]
@@ -120,7 +120,7 @@
 		#Min and Max cooldowns are multiplied by this value when the Wither drops below half health. Set to 1 to not change the cooldown when the wither's health drops below half.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Cooldown Multiplier Below Half Health" = 0.5
-		#Percentage bonus speed per difficulty. (0.01 means 1%)
+		#Percentage bonus speed at max difficulty.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Bonus Movement Speed Per Difficulty" = 0.03
 		#Wither Minions will take magic damage multiplied by this value.
@@ -130,50 +130,49 @@
 		"Kill Minions on Wither Death" = true
 
 		[Wither.Minions.Equipment]
-			#Wither Minions will spawn with a Stone Sword
-			"Has Sword" = true
-			#Chance for the Wither Minion to spawn with a bow when Wither's above Half Health
-			#Range: 0.0 ~ 1.0
-			"Bow Chance Over Half Health" = 0.6
-			#Chance for the Wither Minion to spawn with a bow when Wither's below Half Health
+			#Chance for the Wither Minion to spawn with a bow instead of a Stone Sword when Wither's below Half Health
 			#Range: 0.0 ~ 1.0
 			"Bow Chance Below Half Health" = 0.08
-			#Chance (per difficulty) for the Wither Minion Sword / Bow to be enchanted with Sharpness / Power. Note that every 100% chance adds one guaranteed level of the enchantment, while the remaining chance dictates if one more level will be added.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			"Power / Sharpness Chance" = 0.6
-			#Chance (per difficulty) for the Wither Minion Sword / Bow to be enchanted with Knockback / Punch. Note that every 100% chance adds one guaranteed level of the enchantment, while the remaining chance dictates if one more level will be added.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			"Punch / Knockback Chance" = 0.3
+			#Chance for the Wither Minion to spawn with a bow instead of a Stone Sword when Wither's above Half Health
+			#Range: 0.0 ~ 1.0
+			"Bow Chance Above Half Health" = 0.6
+
+			[Wither.Minions.Equipment.Enchantments]
+				#Chance (at max difficulty) for the Wither Minion's Sword to be enchanted with Sharpness. Note that every 100% chance adds one guaranteed level of the enchantment, while the remaining dictates the chance to add on more level.
+				#Range: 0.0 ~ 255.0
+				"Sharpness Chance" = 2.4
+				#Chance (at max difficulty) for the Wither Minion's Sword to be enchanted with Knockback. Note that every 100% chance adds one guaranteed level of the enchantment, while the remaining dictates the chance to add on more level.
+				#Range: 0.0 ~ 255.0
+				"Knockback Chance" = 2.4
+				#Chance (at max difficulty) for the Wither Minion's Bow to be enchanted with Power. Note that every 100% chance adds one guaranteed level of the enchantment, while the remaining dictates the chance to add on more level.
+				#Range: 0.0 ~ 255.0
+				"Power Chance" = 3.2
+				#Chance (at max difficulty) for the Wither Minion's Bow to be enchanted with Punch. Note that every 100% chance adds one guaranteed level of the enchantment, while the remaining dictates the chance to add on more level.
+				#Range: 0.0 ~ 255.0
+				"Punch Chance" = 1.5
 
 	#Makes the Wither smarter (will no longer try to stand on the player's head ...), attack faster and hit harder
 	[Wither.Attack]
-		#If the AI changes should be applied to the first wither spawned too.
-		"Apply to Vanilla Wither" = true
-		#Chance every time the Wither takes damage to start a charge attack. Less health = higher chance and more damage taken = more chance. This value is the chance at 0% health and when taking 10 damage.
-		#Range: 0.0 ~ 1.0
-		"Max Charge Attack Chance" = 0.06
-		#Base damage of the charge attack. Increased by 'Increased Damage'.
-		#Range: 0.0 ~ 50.0
-		"Charge Attack Base Damage" = 16.0
-		#Percentage bonus damage dealt by the Wither per difficulty.
+		#Percentage bonus damage dealt by the Wither at max difficulty.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Increased Damage" = 0.12
 
 		[Wither.Attack."Barrage Attack"]
-			#Chance (per difficulty) every time the Wither takes damage to start a barrage attack. Less health = higher chance and more damage taken = more chance. This value is the chance at 0% health and when taking 10 damage.
-			#Range: 0.0 ~ 1.0
-			"Max Barrage Attack Chance Per Difficulty" = 0.011
 			#Min time (in ticks) for the duration of the barrage attack. Less health = longer barrage.
 			#Range: > 0
 			"Min Barrage Duration" = 20
 			#Max time (in ticks) for the duration of the barrage attack. Less health = longer barrage
 			#Range: > 0
 			"Max Barrage Duration" = 150
+			#Chance (at max difficulty) every time the Wither takes damage to start a barrage attack. More damage taken increases the chance.
+			#This value is the chance when taking 10 damage.
+			#Range: 0.0 ~ 1.0
+			"Barrage Attack Chance" = 0.075
 
 		#Wither Skull Changes
 		[Wither.Attack.Skulls]
-			#Wither Skull Projectiles speed will be multiplied by this value.
-			#Range: 0.0 ~ 1.7976931348623157E308
+			#Wither Skull Projectiles speed will be multiplied by this value. Set to 1 to not change the speed.
+			#Range: 1.0 ~ 1.7976931348623157E308
 			"Skull Velocity Multiplier" = 2.75
 
 		#Attack Speed Changes
@@ -184,6 +183,15 @@
 			#The middle head will attack faster (up to this bonus percentage) the nearer the target is to the Wither.
 			#Range: 0.0 ~ 1.0
 			"Bonus Attack Speed when Near" = 0.667
+
+		[Wither.Attack."Charge Attack"]
+			#Chance every time the Wither takes damage to start a charge attack. Lower health and more damage taken increases the chance.
+			#This value is the chance at 0% health and when taking 10 damage.
+			#Range: 0.0 ~ 1.0
+			"Charge chance" = 0.06
+			#Base damage of the charge attack. Increased by 'Increased Damage' config option.
+			#Range: 0.0 ~ 50.0
+			"Charge Attack Base Damage" = 16.0
 
 [Dragon]
 	#Bonus Health and Bonus regeneration.
@@ -219,25 +227,25 @@
 
 	#Bonus Health and Bonus regeneration.
 	[Dragon.Health]
-		#Increase Ender Dragon's Health by this value per difficulty
-		#Range: 0.0 ~ 1.7976931348623157E308
-		"Health Bonus per Difficulty" = 25.0
-		#Maximum bonus regeneration per second given by "Bonus Regeneration per Difficulty". Set to 0 to disable bonus health regeneration. This doesn't affect the crystal regeneration of the Ender Dragon.
+		#Maximum bonus regeneration per second given by "Bonus Regeneration". Set to 0 to disable bonus health regeneration. Can be lower than "Bonus Regeneration". This doesn't affect the health regen given by crystals.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Maximum Bonus Regeneration" = 1.0
-		#How much health will the Ender Dragon regen per difficulty. This is added to the noaml Crystal regeneration.
-		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Regeneration per Difficulty" = 0.125
-		#How much health (when missing 100% health) will the Ender Dragon regen per difficulty each second whenever she's attached to a Crystal. So if she's missing 30% health, this will be 30% effective. This is added to the normal Crystal regen.
+		#How much health (when missing 100% health) will the Ender Dragon regen at max difficulty each second whenever she's attached to a Crystal. So if she's missing 30% health, this will be 30% effective. This is added to the normal Crystal regen.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Bonus Crystal Regeneration" = 0.0
+		#Ender Dragon health will be increased by this value at max difficulty (scaling accordingly at lower difficulties)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Health Bonus at Max Difficulty" = 200.0
+		#How much health will the Ender Dragon regen at max difficulty (scaling accordingly at lower difficulties). This doesn't affect the health regen given by crystals.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Bonus Regeneration" = 1.0
 
 	#Makes the dragon hit harder in various different ways
 	[Dragon.Attack]
-		#How much more damage per difficulty (percentage) does the Ender Dragon (directly) deal per difficulty?
+		#How much more damage at max difficulty (percentage) does the Ender Dragon deal per difficulty?
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Bonus Direct Damage" = 0.3
-		#How much more damage per difficulty (percentage) does the Ender Dragon's Acid Pool deal per difficulty?
+		#How much more damage at max difficulty (percentage) does the Ender Dragon's Acid fireball and pool deal per difficulty?
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Bonus Acid Pool Damage" = 0.3
 		#Normally the Ender Dragon attacks only when leaving the center platform. With this active she has a chance when she has finished charging / fireballing or before checking if she should land in the center to charge the player.
@@ -259,20 +267,20 @@
 		#Speed multiplier for the Dragon Fireball.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Fireball Velocity Multiplier" = 2.5
-		#The dragon will fire (up to) this more fireballs per difficulty. A decimal number dictates the chance to shot 1 more fireball, e.g. at difficulty 2 this value is 1.4, meaning that the dragon will can shot up to 2 fireballs and has 40% chance to shot up to 3. The bonus fireballs aren't directly aimed at the player but have.
+		#The dragon will fire (up to) this more fireballs at max difficulty. The bonus fireballs have a slight shotting error so aren't all directly aimed at the player.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Bonus Fireballs" = 2.0
 
 	#Bonus Experience and Dragon Egg per player
 	[Dragon.Rewards]
-		#How much more experience (percentage) will Dragon drop per Difficulty. The percentage is additive (e.g. with this set to 100%, 7 dragons killed = 700% more experience)
-		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Experience per Difficulty" = 4.5
 		#If true whenever a player, that has never killed the dragon, kills the dragon a Dragon Egg Ã¬Ã¬ will drop. E.g. If 2 players kill the Dragon for the first time, she will drop 2 Dragon Eggs
 		"Dragon Egg per Player" = true
 		#If true default mod drops are added to the Ender Dragon.
 		#Note that replacing the Ender Dragon loot table (e.g. via DataPack) will automatically remove the Injected loot.
 		"Injecet Default Loot" = true
+		#How much more experience (percentage, 36 means +3600%) will Dragon drop at max Difficulty.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Bonus Experience" = 36.0
 
 	#Shulkers that will make you float around.
 	[Dragon.Minions]
@@ -285,10 +293,10 @@
 		#Maximum ticks (20 ticks = 1 seconds) after Minions can spawn.
 		#Range: > 0
 		"Maximum Cooldown" = 2000
-		#Percentage cooldown reduction per difficulty for the cooldown of Minion spawning.
+		#Percentage cooldown reduction at max difficulty for the cooldown of Minion spawning.
 		#Range: 0.0 ~ 1.0
 		"Cooldown Reduction" = 0.05
-		#Percentage chance per difficulty for a Minion to spawn as a Blinding Minion.
+		#Percentage chance at max difficulty for a Minion to spawn as a Blinding Minion.
 		#Range: 0.0 ~ 1.0
 		"Blinding Chance" = 0.05
 		#Time (in ticks) for the bliding effect when hit by a blinding bullet.
@@ -319,7 +327,7 @@
 
 	#Handles the Damage Resistances and Vulnerabilities
 	[Dragon."Resistances & Vulnerabilities"]
-		#Melee Damage reduction per difficulty while the Ender Dragon is at the center.
+		#Melee Damage reduction at max difficulty while the Ender Dragon is at the center.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Melee Damage reduction while at the center" = 0.08
 		#Damage reduction when hit by explosions (firework rockets excluded).
@@ -331,7 +339,7 @@
 		#At this difficulty cages will start to appear around other crystals too. -1 will disable this feature.
 		#Range: > -1
 		"More Cages at Difficulty" = 1
-		#Max number of bonus cages that can spawn around the crystals.
+		#Max number of bonus cages that can spawn around the crystals. (Vanilla already has 2 cages)
 		#Range: 0 ~ 8
 		"Max Bonus Cages" = 6
 		#At this difficulty one crystal will start to appear inside obsidian towers. -1 will disable this feature.
@@ -345,7 +353,7 @@
 		"More Crystals Max" = 3
 		#Everytime the dragon is hit (when below 50% of health) there's a chance to to trigger a Crystal respawn Phase. The chance is 0% when health >=50% and 100% when health <=30%, the health threshold decreases by 20% every time the dragon respawns crystals.
 		"Enable crystal respawn" = true
-		#Difficulty multiplied by this number will output how many crystals will the dragon respawn.
+		#At max Difficulty how many crystals will the dragon respawn.
 		#Range: 0.0 ~ 10.0
 		"Crystal Respawn Per Difficulty" = 0.375
 		#Crystals can no longer be destroyed by other explosions.

@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/mathe/Twitch/Minecraft/Instances/1.18.2 (1)/saves/flat
+}
+

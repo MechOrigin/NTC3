@@ -52,12 +52,14 @@ onEvent('recipes', event => {
 	alloysToUnify.forEach((material) => {
 		let ingot = getPreferredItemInTag(Ingredient.of(`#forge:ingots/${material}`)).id;
 		let nugget = getPreferredItemInTag(Ingredient.of(`#forge:nuggets/${material}`)).id;
+		let block = getPreferredItemInTag(Ingredient.of(`#forge:blocks/${material}`)).id;
 
 		let dust = getPreferredItemInTag(Ingredient.of(`#forge:dusts/${material}`)).id;
 
 		thermal_metal_induction_smelter(event, material, ingot);
 		thermal_metal_centrifuge(event, material, dust);
 		fix_ingot_from_nugget(event, material, ingot, nugget);
+		fix_block_from_ingot(event, material, ingot, block);
 		minecraft_dust_to_ingot_smelting_alloys(event, material, ingot, dust);
 	});
 
@@ -76,7 +78,7 @@ onEvent('recipes', event => {
             return;
         }
 
-        blacklistedMaterials = ['ender'];
+        var blacklistedMaterials = ['ender'];
 
         for (var i = 0; i < blacklistedMaterials.length; i++) {
             if (blacklistedMaterials[i] == material) {
@@ -96,7 +98,7 @@ onEvent('recipes', event => {
             return;
         }
 
-        blacklistedMaterials = ['amber', 'ender'];
+        var blacklistedMaterials = ['amber', 'ender'];
 
         for (var i = 0; i < blacklistedMaterials.length; i++) {
             if (blacklistedMaterials[i] == material) {
@@ -116,110 +118,8 @@ onEvent('recipes', event => {
             return;
         }
 
-        blacklistedMaterials = [
-			'stone',
-			'iron',
-			'gold',
-			'copper',
-			'coal',
-			'diamond',
-			'emerald',
-			'lapis',
-			//'redstone',
-			'quartz',
-			'netherite_scrap',
-			'aluminium',
-			'beryllium',
-			'bismuth',
-			'cobalt',
-			'iridium',
-			'lead',
-			'manganese',
-			'molybdenum',
-			'neodymium',
-			'nickel',
-			'palladium',
-			'platinum',
-			'silver',
-			'thorium',
-			'titanium',
-			'uranium_238',
-			'graphite',
-			'lithium',
-			'sulfur',
-			'tin',
-			'zinc',
-			'oilsands',
-			'almandine',
-			'andradite',
-			//'banded_iron',
-			//'brown_limonite',
-			'calcite',
-			//'cassiterite',
-			//'chalcopyrite',
-			'cobaltite',
-			'cooperite',
-			//'galena',
-			//'garnierite',
-			'grossular',
-			'ilmenite',
-			'rutile',
-			'magnesite',
-			//'magnetite',
-			'molybdenite',
-			'phosphate',
-			//'pyrite',
-			'pyrolusite',
-			'pyrope',
-			'saltpeter',
-			'scheelite',
-			'spessartine',
-			//'sphalerite',
-			'stibnite',
-			//'tetrahedrite',
-			'tungstate',
-			'uraninite',
-			'uvarovite',
-			'wulfenite',
-			//'yellow_limonite',
-			'vanadium_magnetite',
-			'bastnasite',
-			//'pentlandite',
-			'spodumene',
-			'tantalite',
-			'lepidolite',
-			'glauconite',
-			'bentonite',
-			'pitchblende',
-			//'malachite',
-			'barite',
-			'talc',
-			'soapstone',
-			'blue_topaz',
-			'green_sapphire',
-			'lazurite',
-			'ruby',
-			'blue_sapphire',
-			'sodalite',
-			'tanzanite',
-			'topaz',
-			'olivine',
-			'opal',
-			'amethyst',
-			'phosphorus',
-			'red_garnet',
-			'yellow_garnet',
-			'cinnabar',
-			'wrought_iron',
-			'tungstensteel',
-			'naquadah',
-			'enriched_naquadah',
-			'quartzite',
-			'lignite_coal',
-			'salt',
-			'rock_salt',
-			'bauxite',
-			'oil_shale'
+        var blacklistedMaterials = [
+
 		];
 
         for (var i = 0; i < blacklistedMaterials.length; i++) {
@@ -242,110 +142,11 @@ onEvent('recipes', event => {
         //     return;
         // }
 
-        blacklistedMaterials = [
-			'stone',
-			'iron',
-			'gold',
-			'copper',
-			'coal',
-			'diamond',
-			'emerald',
-			'lapis',
-			'redstone',
-			'quartz',
-			'netherite_scrap',
-			'aluminium',
-			'beryllium',
-			'bismuth',
-			'cobalt',
-			'iridium',
-			'lead',
-			'manganese',
-			'molybdenum',
-			'neodymium',
-			'nickel',
-			'palladium',
-			'platinum',
-			'silver',
-			'thorium',
-			'titanium',
-			'uranium_238',
-			'graphite',
-			'lithium',
-			'sulfur',
-			'tin',
-			'zinc',
-			'oilsands',
-			'almandine',
-			'andradite',
-			//'banded_iron',
-			//'brown_limonite',
-			'calcite',
-			//'cassiterite',
-			//'chalcopyrite',
-			'cobaltite',
-			'cooperite',
-			//'galena',
-			//'garnierite',
-			'grossular',
-			'ilmenite',
-			'rutile',
-			'magnesite',
-			//'magnetite',
-			'molybdenite',
-			'phosphate',
-			//'pyrite',
-			'pyrolusite',
-			'pyrope',
-			'saltpeter',
-			'scheelite',
-			'spessartine',
-			//'sphalerite',
-			'stibnite',
-			//'tetrahedrite',
-			'tungstate',
-			'uraninite',
-			'uvarovite',
-			'wulfenite',
-			//'yellow_limonite',
-			'vanadium_magnetite',
-			'bastnasite',
-			//'pentlandite',
-			'spodumene',
-			'tantalite',
-			'lepidolite',
-			'glauconite',
-			'bentonite',
-			'pitchblende',
-			//'malachite',
-			'barite',
-			'talc',
-			'soapstone',
-			'blue_topaz',
-			'green_sapphire',
-			'lazurite',
-			'ruby',
-			'blue_sapphire',
-			'sodalite',
-			'tanzanite',
-			'topaz',
-			'olivine',
-			'opal',
-			'amethyst',
-			'phosphorus',
-			'red_garnet',
-			'yellow_garnet',
-			'cinnabar',
-			'wrought_iron',
-			'tungstensteel',
-			'naquadah',
-			'enriched_naquadah',
-			'quartzite',
-			'lignite_coal',
-			'salt',
-			'rock_salt',
-			'bauxite',
-			'oil_shale'
+        var blacklistedMaterials = [
+			'rose_gold',
+			'neptunium_ingot',
+			'refined_glowstone',
+			'refined_obsidian',
 		];
 
         for (var i = 0; i < blacklistedMaterials.length; i++) {
@@ -412,10 +213,31 @@ onEvent('recipes', event => {
 		}
 
 		//console.log(`regular: ${material}` + ' ' + output + ' ' + input);
-		event.remove({ id: `mekanism:processing/${material}/ingot/from_dust_smelting` });
-		event.remove({ id: `minecraft:${material}_ingot` });
-		event.remove({ id: `mekanism:processing/${material}/ingot/from_dust_blasting` });
-		event.remove({ id: `antimatter_shared:ingot_${material}` })
+		event.remove({ id: `mekanism:processing/${material}/ingot/from_dust_smelting`});
+		event.remove({ id: `minecraft:${material}_ingot`});
+		event.remove({ id: `mekanism:processing/${material}/ingot/from_dust_blasting`});
+		//event.remove({ id: `antimatter_shared:ingot_${material}` })
+		event.remove({ id: `immersiveengineering:smelting/${material}_ingot_from_dust`})
+		event.remove({ id: `immersiveengineering:smelting/${material}_ingot_from_dust_from_blasting`})
+		event.remove({ id: `thermal:smelting/${material}_ingot_from_dust_smelting`})
+		event.remove({ id: `thermal:smelting/${material}_ingot_from_dust_blasting`})
+		event.remove({ id: `beyond_earth:blasting/${material}_ingot_from_mercury_ore`})
+		event.remove({ id: `beyond_earth:blasting/${material}_ingot_from_mars_ore`})
+		event.remove({ id: `beyond_earth:blasting/${material}_ingot_from_moon_ore`})
+		event.remove({ id: `beyond_earth:blasting/${material}_ingot_from_glacio_ore`})
+		event.remove({ id: `beyond_earth:blasting/${material}_ingot_from_venus_ore`})
+		event.remove({ id: `beyond_earth:${material}_ingot`})
+		event.remove({ id: `beyond_earth:${material}_ingot_2`})
+		event.remove({ id: `beyond_earth:${material}_ingot_3`})
+		event.remove({ id: `beyond_earth:smelting/${material}_ingot_from_mercury_ore`})
+		event.remove({ id: `beyond_earth:smelting/${material}_ingot_from_mars_ore`})
+		event.remove({ id: `beyond_earth:smelting/${material}_ingot_from_moon_ore`})
+		event.remove({ id: `beyond_earth:smelting/${material}_ingot_from_glacio_ore`})
+		event.remove({ id: `beyond_earth:smelting/${material}_ingot_from_venus_ore`})
+		event.remove({ id: `thermal:storage/raw_${material}_block`})
+		event.remove({ id: `mekanism:processing/${material}/ingot/from_raw_smelting`});
+		event.remove({ id: `mekanism:processing/${material}/ingot/from_raw_blasting`});
+		
 
         event.smelting(output, input).xp(0.35);
         event.blasting(output, input).xp(0.7);
@@ -426,7 +248,7 @@ onEvent('recipes', event => {
             return;
         }
 
-        blacklistedMaterials = [
+        var blacklistedMaterials = [
 		];
 
         for (var i = 0; i < blacklistedMaterials.length; i++) {
@@ -455,110 +277,8 @@ onEvent('recipes', event => {
             return;
         }
 
-        blacklistedMaterials = [
-			'stone',
-			//'iron',
-			//'gold',
-			//'copper',
-			'coal',
-			'diamond',
-			'emerald',
-			'lapis',
-			'redstone',
-			'quartz',
-			'netherite_scrap',
-			'aluminium',
-			'beryllium',
-			'bismuth',
-			'cobalt',
-			'iridium',
-			'lead',
-			'manganese',
-			'molybdenum',
-			'neodymium',
-			'nickel',
-			'palladium',
-			'platinum',
-			'silver',
-			'thorium',
-			'titanium',
-			'uranium_238',
-			'graphite',
-			'lithium',
-			'sulfur',
-			'tin',
-			'zinc',
-			'oilsands',
-			'almandine',
-			'andradite',
-			//'banded_iron',
-			//'brown_limonite',
-			'calcite',
-			//'cassiterite',
-			//'chalcopyrite',
-			'cobaltite',
-			'cooperite',
-			//'galena',
-			//'garnierite',
-			'grossular',
-			'ilmenite',
-			'rutile',
-			'magnesite',
-			//'magnetite',
-			'molybdenite',
-			'phosphate',
-			//'pyrite',
-			'pyrolusite',
-			'pyrope',
-			'saltpeter',
-			'scheelite',
-			'spessartine',
-			//'sphalerite',
-			'stibnite',
-			//'tetrahedrite',
-			'tungstate',
-			'uraninite',
-			'uvarovite',
-			'wulfenite',
-			//'yellow_limonite',
-			'vanadium_magnetite',
-			'bastnasite',
-			//'pentlandite',
-			'spodumene',
-			'tantalite',
-			'lepidolite',
-			'glauconite',
-			'bentonite',
-			'pitchblende',
-			//'malachite',
-			'barite',
-			'talc',
-			'soapstone',
-			'blue_topaz',
-			'green_sapphire',
-			'lazurite',
-			'ruby',
-			'blue_sapphire',
-			'sodalite',
-			'tanzanite',
-			'topaz',
-			'olivine',
-			'opal',
-			'amethyst',
-			'phosphorus',
-			'red_garnet',
-			'yellow_garnet',
-			'cinnabar',
-			'wrought_iron',
-			'tungstensteel',
-			'naquadah',
-			'enriched_naquadah',
-			'quartzite',
-			'lignite_coal',
-			'salt',
-			'rock_salt',
-			'bauxite',
-			'oil_shale'
+        var blacklistedMaterials = [
+
 		];
 
         for (var i = 0; i < blacklistedMaterials.length; i++) {
@@ -664,8 +384,25 @@ onEvent('recipes', event => {
 		event.remove({ id: `immersiveengineering:crafting/nugget_${material}_to_${material}_ingot` })
 		event.remove({ id: `thermal:storage/${material}_ingot_from_nuggets` })
 		event.remove({ id: `minecraft:${material}_ingot_from_nuggets` })
+		event.remove({ id: `mekanism:nuggets/${material}` })
 
 		event.shapeless(output, [input]).id(`ntc3:base/${material}_ingot_from_nuggets`);
+	}
+
+	function fix_block_from_ingot(event, material, ingot, block) {
+		if (ingot == air || block == air) {
+            return;
+        }
+		
+        let output = block,
+            input = Item.of(`#forge:ingots/${material}`, 9);
+
+		 event.remove({ id: `mekanism:storage_blocks/${material}` })
+		 event.remove({ id: `immersiveengineering:crafting/ingot_${material}_to_storage_${material}` })
+		 event.remove({ id: `thermal:storage/${material}_block` })
+		// event.remove({ id: `minecraft:${material}_ingot_from_nuggets` })
+
+		event.shapeless(output, [input]).id(`ntc3:base/${material}_ingot_from_blocks`);
 	}
 
     function thermal_metal_casting(event, material, block, ingot, nugget, gear, rod, plate, wire) {
@@ -1256,7 +993,7 @@ onEvent('recipes', event => {
             return;
         }
 
-        blacklistedMaterials = [
+        var blacklistedMaterials = [
 		];
 
         for (var i = 0; i < blacklistedMaterials.length; i++) {
@@ -1273,7 +1010,22 @@ onEvent('recipes', event => {
 		event.remove({ id: `mekanism:processing/${material}/ingot/from_dust_smelting` });
 		event.remove({ id: `minecraft:${material}_ingot` });
 		event.remove({ id: `mekanism:processing/${material}/ingot/from_dust_blasting` });
-		event.remove({ id: `antimatter_shared:ingot_${material}` })
+		//event.remove({ id: `antimatter_shared:ingot_${material}` })
+		event.remove({ id: `immersiveengineering:smelting/${material}_ingot_from_dust`})
+		event.remove({ id: `immersiveengineering:smelting/${material}_ingot_from_dust_from_blasting`})
+		event.remove({ id: `thermal:smelting/${material}_ingot_from_dust_smelting`})
+		event.remove({ id: `thermal:smelting/${material}_ingot_from_dust_blasting`})
+		event.remove({ id: `beyond_earth:blasting/${material}_ingot_from_mercury_ore`})
+		event.remove({ id: `beyond_earth:blasting/${material}_ingot_from_mars_ore`})
+		event.remove({ id: `beyond_earth:blasting/${material}_ingot_from_moon_ore`})
+		event.remove({ id: `beyond_earth:blasting/${material}_ingot_from_glacio_ore`})
+		event.remove({ id: `beyond_earth:${material}_ingot`})
+		event.remove({ id: `beyond_earth:${material}_ingot_2`})
+		event.remove({ id: `beyond_earth:${material}_ingot_3`})
+		event.remove({ id: `beyond_earth:smelting/${material}_ingot_from_mercury_ore`})
+		event.remove({ id: `beyond_earth:smelting/${material}_ingot_from_mars_ore`})
+		event.remove({ id: `beyond_earth:smelting/${material}_ingot_from_moon_ore`})
+		event.remove({ id: `beyond_earth:smelting/${material}_ingot_from_glacio_ore`})
 		//console.log(`mekanism:processing/${material}/ingot/from_dust_smelting`);
 
         event.smelting(output, input).xp(0.35);
