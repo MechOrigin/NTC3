@@ -41,3 +41,8 @@
     Color of the year 2022:
     #6667AB
     
+- Need to fix a lot of broken chains after removing greg
+    - purified dust does nothing
+    - crushed ore turns into 10 nuggets
+    - dust to ingots
+    - 

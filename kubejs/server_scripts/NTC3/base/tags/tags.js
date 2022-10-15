@@ -63,6 +63,17 @@ onEvent('tags.items', e => {
 
     })
 
+    oresToUnify.forEach((material) => {
+
+      if (material == air) {return;}
+
+      let oreSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_ore`)).id;
+
+      secret_tagging_ores(e, material, oreSecret);
+
+
+    })
+
     function secret_tagging(e, material, ingotSecret, gearSecret, plateSecret, densePlateSecret, rodSecret, dustSecret, smallDustSecret, tinyDustSecret, crushedSecret, impureDustSecret, pureDustSecret, nuggetSecret, wireSecret) {
         if (material == air || ingotSecret == air) {
             return;
@@ -84,6 +95,15 @@ onEvent('tags.items', e => {
 
     }
 
+    function secret_tagging_ores(e, material, oreSecret) {
+      if (material == air || oreSecret == air) {
+          return;
+      }
+
+      e.add(`forge:ores/${material}`, oreSecret);
+
+  }
+
 
     //why?!
     /* Remove antimatter because NTC3 is adding it's own
@@ -94,6 +114,8 @@ onEvent('tags.items', e => {
     e.add('forge:gear/aluminum', 'antimatter_shared:gear_aluminium');
     e.add('forge:dust/aluminum', 'antimatter_shared:dust_aluminium');
     */
+
+    e.add('forge:ores/coal', 'minecraft:coal_ore');
 
     //e.remove('forge:storage_blocks/copper', 'minecraft:cut_copper')
   })

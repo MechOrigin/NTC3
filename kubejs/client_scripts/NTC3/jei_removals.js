@@ -23,19 +23,19 @@ onEvent('jei.hide.items', event => {
         let ingotMekanism = getPreferredItemInTag(Ingredient.of(`mekanism:ingot_${material}`)).id;
         let ingotBiggerReactor = getPreferredItemInTag(Ingredient.of(`biggerreactors:${material}_ingot`)).id;
 
-        let rawThermal = getPreferredItemInTag(Ingredient.of(`thermal:raw_${material}`)).id;
-        let rawImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:raw_${material}`)).id;
-        let rawMekanism = getPreferredItemInTag(Ingredient.of(`mekanism:raw_${material}`)).id;
+        // let rawThermal = getPreferredItemInTag(Ingredient.of(`thermal:raw_${material}`)).id;
+        // let rawImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:raw_${material}`)).id;
+        // let rawMekanism = getPreferredItemInTag(Ingredient.of(`mekanism:raw_${material}`)).id;
 
-        let oresThermal = getPreferredItemInTag(Ingredient.of(`thermal:${material}_ore`)).id;
-        let oresDeepslateThermal = getPreferredItemInTag(Ingredient.of(`thermal:deepslate_${material}_ore`)).id;
+        // let oresThermal = getPreferredItemInTag(Ingredient.of(`thermal:${material}_ore`)).id;
+        // let oresDeepslateThermal = getPreferredItemInTag(Ingredient.of(`thermal:deepslate_${material}_ore`)).id;
 
-        let oresMinecraft = getPreferredItemInTag(Ingredient.of(`minecraft:${material}_ore`)).id;
-        let oresDeepslateMinecraft = getPreferredItemInTag(Ingredient.of(`minecraft:deepslate_${material}_ore`)).id;
+        // let oresMinecraft = getPreferredItemInTag(Ingredient.of(`minecraft:${material}_ore`)).id;
+        // let oresDeepslateMinecraft = getPreferredItemInTag(Ingredient.of(`minecraft:deepslate_${material}_ore`)).id;
 
-        let blockThermal = getPreferredItemInTag(Ingredient.of(`thermal:${material}_block`)).id;
-        let blockImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:storage_${material}`)).id;
-        let blockMekanism = getPreferredItemInTag(Ingredient.of(`mekanism:block_${material}`)).id;
+        // let blockThermal = getPreferredItemInTag(Ingredient.of(`thermal:${material}_block`)).id;
+        // let blockImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:storage_${material}`)).id;
+        // let blockMekanism = getPreferredItemInTag(Ingredient.of(`mekanism:block_${material}`)).id;
 
         
 
@@ -61,26 +61,26 @@ onEvent('jei.hide.items', event => {
             gearThermal,
             nuggetThermal,
             ingotThermal,
-            rawThermal,
+            // rawThermal,
             blockThermal,
             blockImmersive,
-            rawMekanism,
+            // rawMekanism,
             ingotMekanism,
             blockMekanism,
 
             plateImmersive,
             nuggetImmersive,
             ingotImmersive,
-            rawImmersive,
+            // rawImmersive,
 
-            oresThermal,
-            oresDeepslateThermal,
+            // oresThermal,
+            // oresDeepslateThermal,
 
-            oresMinecraft,
-            oresDeepslateMinecraft,
+            // oresMinecraft,
+            // oresDeepslateMinecraft,
 
-            ingotBiggerReactor,
-            dustBiggerReactor
+            // ingotBiggerReactor,
+            // dustBiggerReactor
         );
     });
 
@@ -103,9 +103,9 @@ onEvent('jei.hide.items', event => {
         let ingotImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:ingot_${material}`)).id;
         let ingotMekanism = getPreferredItemInTag(Ingredient.of(`mekanism:ingot_${material}`)).id;
 
-        let blockThermal = getPreferredItemInTag(Ingredient.of(`thermal:${material}_block`)).id;
-        let blockImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:storage_${material}`)).id;
-        let blockMekanism = getPreferredItemInTag(Ingredient.of(`mekanism:block_${material}`)).id;
+        // let blockThermal = getPreferredItemInTag(Ingredient.of(`thermal:${material}_block`)).id;
+        // let blockImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:storage_${material}`)).id;
+        // let blockMekanism = getPreferredItemInTag(Ingredient.of(`mekanism:block_${material}`)).id;
 
         
 
@@ -119,14 +119,14 @@ onEvent('jei.hide.items', event => {
             gearThermal,
             nuggetThermal,
             ingotThermal,
-            blockThermal,
-            blockImmersive,
+            // blockThermal,
+            // blockImmersive,
             plateImmersive,
             nuggetImmersive,
             ingotImmersive,
             nuggetMekanism,
             ingotMekanism,
-            blockMekanism
+            // blockMekanism
         );
     });
 
@@ -138,44 +138,44 @@ onEvent('jei.hide.items', event => {
 
     event.hide([
         'ae2:facade',
-        'thermal:deepslate_niter_ore',
-        'thermal:niter_ore',
-        'thermal:niter_dust',
-        'thermal:cinnabar_ore',
-        'thermal:deepslate_cinnabar_ore',
-        'thermal:sulfur_ore',
-        'thermal:deepslate_sulfur_ore',
-        'thermal:ender_pearl_dust',
+        // 'thermal:deepslate_niter_ore',
+        // 'thermal:niter_ore',
+        // 'thermal:niter_dust',
+        // 'thermal:cinnabar_ore',
+        // 'thermal:deepslate_cinnabar_ore',
+        // 'thermal:sulfur_ore',
+        // 'thermal:deepslate_sulfur_ore',
+        // 'thermal:ender_pearl_dust',
 
-        'immersiveengineering:ore_aluminum',
-        'immersiveengineering:deepslate_ore_aluminum',
-        'immersiveengineering:ore_lead',
-        'immersiveengineering:deepslate_ore_lead',
-        'immersiveengineering:ore_silver',
-        'immersiveengineering:deepslate_ore_silver',
-        'immersiveengineering:ore_nickel',
-        'immersiveengineering:deepslate_ore_nickel',
-        'immersiveengineering:ore_uranium',
-        'immersiveengineering:deepslate_ore_uranium',
+        // 'immersiveengineering:ore_aluminum',
+        // 'immersiveengineering:deepslate_ore_aluminum',
+        // 'immersiveengineering:ore_lead',
+        // 'immersiveengineering:deepslate_ore_lead',
+        // 'immersiveengineering:ore_silver',
+        // 'immersiveengineering:deepslate_ore_silver',
+        // 'immersiveengineering:ore_nickel',
+        // 'immersiveengineering:deepslate_ore_nickel',
+        // 'immersiveengineering:ore_uranium',
+        // 'immersiveengineering:deepslate_ore_uranium',
 
-        'immersiveengineering:storage_aluminum',
-        'immersiveengineering:storage_uranium',
+        // 'immersiveengineering:storage_aluminum',
+        // 'immersiveengineering:storage_uranium',
 
-        'mekanism:dust_lapis_lazuli',
-        'mekanism:dust_charcoal',
-        'mekanism:dust_obsidian',
-        'mekanism:dust_osmium',
-        'mekanism:dust_uranium',
-        'mekanism:ingot_osmium',
-        'mekanism:ingot_uranium',
-        'mekanism:nugget_osmium',
-        'mekanism:nugget_uranium',
-        'mekanism:raw_osmium',
-        'mekanism:raw_uranium',
+        // 'mekanism:dust_lapis_lazuli',
+        // 'mekanism:dust_charcoal',
+        // 'mekanism:dust_obsidian',
+        // 'mekanism:dust_osmium',
+        // 'mekanism:dust_uranium',
+        // 'mekanism:ingot_osmium',
+        // 'mekanism:ingot_uranium',
+        // 'mekanism:nugget_osmium',
+        // 'mekanism:nugget_uranium',
+        // 'mekanism:raw_osmium',
+        // 'mekanism:raw_uranium',
 
-        'biggerreactors:uranium_dust',
-        'biggerreactors:uranium_ingot',
-        'biggerreactors:uranium_block'
+        // 'biggerreactors:uranium_dust',
+        // 'biggerreactors:uranium_ingot',
+        // 'biggerreactors:uranium_block'
     ]);
 
 })

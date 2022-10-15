@@ -1,11 +1,11 @@
 priority: 100
 
 onEvent('recipes', event => {
-	materialsToUnify.forEach((material) => {
+	elementsToUnify.forEach((material) => {
         //let ore = getPreferredItemInTag(Ingredient.of(`#forge:ores/${material}`)).id;
-		let crushed_ore = getPreferredItemInTag(Ingredient.of(`#forge:crushed_ores/${material}`)).id;
-		// let dust_impure = getPreferredItemInTag(Ingredient.of(`#forge:dust_impures/${material}`)).id;
-		// let dust_pure = getPreferredItemInTag(Ingredient.of(`#forge:dust_pures/${material}`)).id;
+		let crushed_ore = getPreferredItemInTag(Ingredient.of(`#forge:crushed/${material}`)).id;
+		let dust_impure = getPreferredItemInTag(Ingredient.of(`#forge:impure_dust/${material}`)).id;
+		let dust_pure = getPreferredItemInTag(Ingredient.of(`#forge:pure_dust/${material}`)).id;
 		// let crushed_ore_centrifuged = getPreferredItemInTag(Ingredient.of(`#forge:crushed_ore_centrifuged/${material}`)).id;
 		// let crushed_ore_purified = getPreferredItemInTag(Ingredient.of(`#forge:crushed_ore_purified/${material}`)).id;
 		let raw_ore = getPreferredItemInTag(Ingredient.of(`#forge:raw_ores/${material}`)).id;
@@ -25,8 +25,9 @@ onEvent('recipes', event => {
 
 		minecraft_crushed_ores_to_nugget_smelting(event, material, crushed_ore, nugget);
 		minecraft_crushed_ores_to_gem_smelting(event, material, crushed_ore, gem);
-		minecraft_crushed_ores_to_dust_smelting(event, material, crushed_ore, dust);
+		//minecraft_crushed_ores_to_dust_smelting(event, material, crushed_ore, dust);
 		minecraft_dusts_to_ingots_smelting(event, material, ingot, dust);
+		minecraft_pure_dusts_to_ingots_smelting(event, material, ingot, dust_pure);
 		minecraft_dust_to_ingot_smelting_other(event, material, ingot, dust);
 		minecraft_raw_ores_to_ingots_smelting(event, material, raw_ore);
 
@@ -35,11 +36,17 @@ onEvent('recipes', event => {
 		fix_ingot_from_nugget(event, material, ingot, nugget);
 
 		thermal_metal_casting(event, material, block, ingot, nugget, gear, rod, plate, wire);
-		thermal_metal_ore_pulverizing(event, material, raw_ore, dust);
+		thermal_metal_ore_pulverizing(event, material, raw_ore, crushed_ore, dust);
         thermal_metal_melting(event, material, block, ingot, nugget, gear, rod, plate, wire);
 
         tconstruct_metal_casting(event, material, block, ingot, nugget, gear, rod, plate, wire);
 
+	});
+
+	materialsToUnify.forEach((material) => {
+		let crushedSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_crushed`)).id;
+		let impureDustSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_impure_dust`)).id;
+		let pureDustSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_pure_dust`)).id;
 	});
 
 	planksToUnify.forEach((woodTypes) => {
@@ -87,7 +94,7 @@ onEvent('recipes', event => {
         }
 
         var output = Item.of(nugget, 10), 
-            input = `#forge:crushed_ores/${material}`;
+            input = `#forge:crushed/${material}`;
 
         event.smelting(output, input).xp(0.35);
         event.blasting(output, input).xp(0.7);
@@ -107,46 +114,46 @@ onEvent('recipes', event => {
         }
 
         var output = gem,
-            input = `#forge:crushed_ores/${material}`;
+            input = `#forge:crushed/${material}`;
 
         event.smelting(output, input).xp(0.35);
         event.blasting(output, input).xp(0.7);
     }
 
-	function minecraft_crushed_ores_to_dust_smelting(event, material, crushed_ore, dust) {
-        if (crushed_ore == air || dust == air) {
-            return;
-        }
+	// function minecraft_crushed_ores_to_dust_smelting(event, material, crushed_ore, dust) {
+    //     if (crushed_ore == air || dust == air) {
+    //         return;
+    //     }
 
-        var blacklistedMaterials = [
+    //     var blacklistedMaterials = [
 
-		];
+	// 	];
 
-        for (var i = 0; i < blacklistedMaterials.length; i++) {
-            if (blacklistedMaterials[i] == material) {
-                return;
-            }
-        }
+    //     for (var i = 0; i < blacklistedMaterials.length; i++) {
+    //         if (blacklistedMaterials[i] == material) {
+    //             return;
+    //         }
+    //     }
 
-        var output = dust,
-            input = `#forge:crushed_ores/${material}`;
+    //     var output = dust,
+    //         input = `#forge:crushed/${material}`;
 
 
-        event.smelting(output, input).xp(0.35);
-        event.blasting(output, input).xp(0.7);
-    }
+    //     event.smelting(output, input).xp(0.35);
+    //     event.blasting(output, input).xp(0.7);
+    // }
 
 
 	function minecraft_dusts_to_ingots_smelting(event, material, ingot, dust) {
-        // if (dust == air || ingot == air) {
-        //     return;
-        // }
+        if (dust == air || ingot == air) {
+            return;
+        }
 
         var blacklistedMaterials = [
 			'rose_gold',
 			'neptunium_ingot',
 			'refined_glowstone',
-			'refined_obsidian',
+			'refined_obsidian'
 		];
 
         for (var i = 0; i < blacklistedMaterials.length; i++) {
@@ -238,6 +245,29 @@ onEvent('recipes', event => {
 		event.remove({ id: `mekanism:processing/${material}/ingot/from_raw_smelting`});
 		event.remove({ id: `mekanism:processing/${material}/ingot/from_raw_blasting`});
 		
+
+        event.smelting(output, input).xp(0.35);
+        event.blasting(output, input).xp(0.7);
+    }
+
+	function minecraft_pure_dusts_to_ingots_smelting(event, material, ingot, dust_pure) {
+        if (ingot == air || dust_pure == air) {
+            return;
+        }
+
+        var blacklistedMaterials = [
+
+		];
+
+        for (var i = 0; i < blacklistedMaterials.length; i++) {
+            if (blacklistedMaterials[i] == material) {
+                return;
+            }
+        }
+
+        var output = ingot,
+            input = `#forge:pure_dust/${material}`;
+
 
         event.smelting(output, input).xp(0.35);
         event.blasting(output, input).xp(0.7);
@@ -346,6 +376,16 @@ onEvent('recipes', event => {
             return;
         }
 
+		var blacklistedMaterials = [
+			'sulfur'
+		];
+
+        for (var i = 0; i < blacklistedMaterials.length; i++) {
+            if (blacklistedMaterials[i] == material) {
+                return;
+            }
+        }
+
         let output = plate,
             input = Item.of(`#forge:ingots/${material}`, 2),
             hammer = '#forge:tools/hammer';
@@ -439,7 +479,7 @@ onEvent('recipes', event => {
         if (plate != air) {
             recipes.push({ cast: 'tconstruct:plate_cast', type: 'plate', amount: 90, output: plate, energy: 50 });
         }
-        if (wire != air && (`${material}` == 'copper') || (`${material}` == 'electrum') || (`${material}` == 'aluminum') || (`${material}` == 'steel') || (`${material}` == 'lead')) {
+        if (wire != air && (`${material}` == 'copper') || (`${material}` == 'electrum') || (`${material}` == 'aluminium') || (`${material}` == 'steel') || (`${material}` == 'lead')) {
             recipes.push({ cast: 'tconstruct:wire_cast', type: 'wire', amount: 45, output: wire, energy: 50 });
         }
 		const blockrecipes = [
@@ -493,18 +533,20 @@ onEvent('recipes', event => {
         });
     }
 
-    function thermal_metal_ore_pulverizing(event, material, raw_ore, dust) {
-        if (raw_ore == air) {
+    function thermal_metal_ore_pulverizing(event, material, raw_ore, crushed_ore, dust) {
+        if (raw_ore == air || crushed_ore == air) {
             return;
         }
 
 		const recipes = [
-            { primaryOutput: dust, stoneOutput: 'minecraft:gravel', secondaryOutput: dust, primaryCount: 2, input: raw_ore, experience: 0.2 }
+           // { primaryOutput: dust, stoneOutput: 'minecraft:gravel', secondaryOutput: dust, primaryCount: 2, input: raw_ore, experience: 0.2 }
+			{ primaryOutput: dust, stoneOutput: 'minecraft:gravel', secondaryOutput: dust, primaryCount: 2, input: crushed_ore, experience: 0.2 }
         ];
 
         if (raw_ore == 'antimatter_shared:raw_ore_redstone') {
-            recipes.push({ primaryOutput: 'minecraft:redstone', stoneOutput: 'minecraft:gravel', secondaryOutput: 'antimatter_shared:dust_cinnabar', primaryCount: 10, input: raw_ore, experience: 0.2 });
-        }
+            //recipes.push({ primaryOutput: 'minecraft:redstone', stoneOutput: 'minecraft:gravel', secondaryOutput: 'antimatter_shared:dust_cinnabar', primaryCount: 10, input: raw_ore, experience: 0.2 });
+			recipes.push({ primaryOutput: 'minecraft:redstone', stoneOutput: 'minecraft:gravel', secondaryOutput: 'thermal:cinnabar', primaryCount: 10, input: raw_ore, experience: 0.2 });
+		}
 
 		event.remove({ id: /thermal:machine\/pulverizer/ })
 		event.remove({ id: /thermal:machine\/biggerreactors/ })
@@ -540,7 +582,7 @@ onEvent('recipes', event => {
     }
 
     function thermal_metal_melting(event, material, block, ingot, nugget, gear, rod, plate, wire) {
-        if (ingot == air) {
+        if (ingot == air || wire == air) {
             return;
         }
 
@@ -573,7 +615,7 @@ onEvent('recipes', event => {
         if (plate != air) {
             recipes.push({ type: 'plate', amount: 90, input: plate, energy: 50 });
         }
-        if (wire != air && (`${material}` == 'copper') || (`${material}` == 'electrum') || (`${material}` == 'aluminum') || (`${material}` == 'steel') || (`${material}` == 'lead')) {
+        if (wire != air && (`${material}` == 'copper') || (`${material}` == 'electrum') || (`${material}` == 'aluminium') || (`${material}` == 'steel') || (`${material}` == 'lead')) {
             recipes.push({ type: 'wire', amount: 45, input: wire, energy: 50 });
         }
 		if (block != air) {
@@ -624,7 +666,7 @@ onEvent('recipes', event => {
         if (plate != air) {
             recipes.push({ type: 'plate', amount: 90, cooling: 57, output: plate });
         }
-        if (wire != air && (`${material}` == 'copper') || (`${material}` == 'electrum') || (`${material}` == 'aluminum') || (`${material}` == 'steel') || (`${material}` == 'lead')) {
+        if (wire != air && (`${material}` == 'copper') || (`${material}` == 'electrum') || (`${material}` == 'aluminium') || (`${material}` == 'steel') || (`${material}` == 'lead')) {
             recipes.push({ type: 'wire', amount: 45, cooling: 57, output: wire });
         }
 

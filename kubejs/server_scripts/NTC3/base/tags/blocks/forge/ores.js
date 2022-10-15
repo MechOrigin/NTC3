@@ -21,6 +21,15 @@ onEvent('tags.blocks', event => {
         let oresMekanism = getPreferredItemInTag(Ingredient.of(`mekanism:${material}_ore`)).id;
         let oresDeepslateMekanism = getPreferredItemInTag(Ingredient.of(`mekanism:deepslate_${material}_ore`)).id;
 
+        let oresImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:ore_${material}`)).id;
+        let oresDeepslateImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:deepslate_ore_${material}`)).id;
+
+        let oresBeyondEarthMoon = getPreferredItemInTag(Ingredient.of(`beyond_earth:moon_${material}_ore`)).id;
+        let oresBeyondEarthVenus = getPreferredItemInTag(Ingredient.of(`beyond_earth:venus_${material}_ore`)).id;
+        let oresBeyondEarthMars = getPreferredItemInTag(Ingredient.of(`beyond_earth:mars_${material}_ore`)).id;
+        let oresBeyondEarthGlacio = getPreferredItemInTag(Ingredient.of(`beyond_earth:glacio_${material}_ore`)).id;
+        let oresBeyondEarthMercury = getPreferredItemInTag(Ingredient.of(`beyond_earth:mercury_${material}_ore`)).id;
+
 
         if (material == air) {return;}
 
@@ -42,7 +51,14 @@ onEvent('tags.blocks', event => {
            blockImmersive,
            blockMekanism,
            oresMekanism,
-           oresDeepslateMekanism
+           oresDeepslateMekanism,
+           oresBeyondEarthMoon,
+           oresBeyondEarthVenus,
+           oresBeyondEarthMars,
+           oresBeyondEarthGlacio,
+           oresBeyondEarthMercury,
+           oresImmersive,
+           oresDeepslateImmersive
         );
     });
 

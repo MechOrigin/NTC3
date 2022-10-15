@@ -103,3 +103,13 @@
 			#Energy usage when normalizing gravity every tick in Beyond Earth dimensions
 			energyUsing = 10
 
+[recipes]
+	tagPreferences = ["minecraft", "tconstruct", "tmechworks", "create", "immersiveengineering", "mekanism", "thermal"]
+
+	[recipes.recycling]
+		#Compressed and plate items can restore into be each ingot (a.k.a recycling)
+		#1. Minecraft - Smelting
+		#2. Minecraft - Blasting
+		#3. Immersive Enginering - Recycling
+		enabled = true
+
