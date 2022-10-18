@@ -1,38 +1,35 @@
-[12:41:47] [INFO ] Loaded script server_scripts:NTC3/base/tags/blocks/forge/ores.js in 0.003 s
-[12:41:47] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/dusts.js in 0.002 s
-[12:41:47] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/gems.js in 0.001 s
-[12:41:47] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/ores.js in 0.001 s
-[12:41:47] [INFO ] Loaded script server_scripts:functions.js in 0.002 s
-[12:41:47] [INFO ] Loaded script server_scripts:NTC3/base/block_loot_tables/oredrops.js in 0.001 s
-[12:41:47] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/alltheores/alltheores.js in 0.001 s
-[12:41:47] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/antimatter_shared/antimatter.js in 0.001 s
-[12:41:47] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/lychee/lychee.js in 0.001 s
-[12:41:47] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/vanilla/minecraft.js in 0.0 s
-[12:41:47] [INFO ] Loaded script server_scripts:NTC3/base/tags/tags.js in 0.001 s
-[12:41:47] [INFO ] Loaded script server_scripts:NTC3/base/unify/global_unification.js in 0.002 s
-[12:41:47] [INFO ] Loaded script server_scripts:NTC3/base/unify/unify_materials.js in 0.006 s
-[12:41:47] [INFO ] Loaded script server_scripts:NTC3/base/unify/unify_outputs.js in 0.001 s
-[12:41:47] [INFO ] Loaded script server_scripts:NTC3/constants/general.js in 0.001 s
-[12:41:47] [INFO ] server_scripts:packmode.js:28: Current packmode is: normal
-[12:41:47] [INFO ] Loaded script server_scripts:packmode.js in 0.003 s
-[12:41:47] [INFO ] server_scripts:settings.js:8: log added recipes: false | log removed recipes: false | log skipped recipes: false | log erroring recipes: false
-[12:41:47] [INFO ] Loaded script server_scripts:settings.js in 0.001 s
-[12:41:47] [INFO ] Loaded 17/17 KubeJS server scripts in 0.071 s
-[12:41:47] [INFO ] Scripts loaded
-[12:41:47] [INFO ] Scanning recipes...
-[12:41:56] [INFO ] [blocks] Found 852 tags, added 14 objects, removed 0 objects
-[12:41:56] [INFO ] [blocks] Found 852 tags, added 14 objects, removed 0 objects
-[12:42:02] [INFO ] [items] Found 2277 tags, added 86 objects, removed 0 objects
-[12:42:02] [INFO ] [items] Found 2277 tags, added 86 objects, removed 0 objects
-[12:42:22] [INFO ] Found 15769 recipes and 0 failed recipes in 1.072 s
-[12:42:23] [INFO ] Posted recipe events in 851.1 ms
-[12:42:23] [WARN ] Error parsing recipe thermal:fire_charge/constantan_ingot_2[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"tag":"forge:ingots/copper"},[],{"item":"minecraft:fire_charge"}],"result":{"item":"thermal:constantan_ingot","count":2}}: com.google.gson.JsonSyntaxException: Item array cannot be empty, at least one item must be defined
-[12:42:23] [WARN ] Error parsing recipe arsomega:transmute_iron[arsomega:transmute]: {"type":"arsomega:transmute","input":{"tag":"forge:ingots/iron"},"output":{"item":"minecraft:gold_ingot","count":1},"reversible":true,"minAmp":0}: com.google.gson.JsonSyntaxException: Missing item, expected to find a string
-[12:42:23] [WARN ] Error parsing recipe thermal:fire_charge/invar_ingot_3[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"tag":"forge:ingots/iron"},{"tag":"forge:ingots/iron"},[],{"item":"minecraft:fire_charge"}],"result":{"item":"thermal:invar_ingot","count":3}}: com.google.gson.JsonSyntaxException: Item array cannot be empty, at least one item must be defined
-[12:42:23] [WARN ] Error parsing recipe thermal:fire_charge/electrum_ingot_2[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"tag":"forge:ingots/gold"},[],{"item":"minecraft:fire_charge"}],"result":{"item":"thermal:electrum_ingot","count":2}}: com.google.gson.JsonSyntaxException: Item array cannot be empty, at least one item must be defined
-[12:42:23] [WARN ] Error parsing recipe spirit:soul_engulfing/soul_steel[spirit:soul_engulfing]: {"type":"spirit:soul_engulfing","input":{"tag":"forge:ingots/iron"},"duration":60,"outputItem":"spirit:soul_steel_ingot"}: java.lang.RuntimeException: No key ingredient in MapLike[{"tag":"forge:ingots/iron"}]
-[12:42:23] [WARN ] Error parsing recipe thermal:fire_charge/bronze_ingot_4[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"tag":"forge:ingots/copper"},{"tag":"forge:ingots/copper"},{"tag":"forge:ingots/copper"},[],{"item":"minecraft:fire_charge"}],"result":{"item":"thermal:bronze_ingot","count":4}}: com.google.gson.JsonSyntaxException: Item array cannot be empty, at least one item must be defined
-[12:42:23] [WARN ] Error parsing recipe thermal:fire_charge/signalum_ingot_4[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"tag":"forge:ingots/copper"},{"tag":"forge:ingots/copper"},{"tag":"forge:ingots/copper"},[],{"tag":"forge:dusts/redstone"},{"tag":"forge:dusts/redstone"},{"tag":"forge:dusts/redstone"},{"tag":"forge:dusts/redstone"},{"item":"minecraft:fire_charge"}],"result":{"item":"thermal:signalum_ingot","count":4}}: com.google.gson.JsonSyntaxException: Item array cannot be empty, at least one item must be defined
-[12:42:23] [INFO ] Modified & removed recipes in 497.9 ms
-[12:42:23] [INFO ] Added recipes in 9.403 ms
-[12:42:23] [INFO ] Added 210 recipes, removed 307 recipes, modified 1063 recipes, with 7 failed recipes and 0 fall-backed recipes
+[21:00:50] [INFO ] Loaded script server_scripts:NTC3/base/tags/blocks/forge/ores.js in 0.004 s
+[21:00:50] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/dusts.js in 0.002 s
+[21:00:50] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/gems.js in 0.001 s
+[21:00:50] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/ores.js in 0.002 s
+[21:00:50] [INFO ] Loaded script server_scripts:functions.js in 0.004 s
+[21:00:50] [INFO ] Loaded script server_scripts:NTC3/base/block_loot_tables/lootjs.js in 0.002 s
+[21:00:50] [INFO ] Loaded script server_scripts:NTC3/base/block_loot_tables/oredrops.js in 0.002 s
+[21:00:50] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/alltheores/alltheores.js in 0.001 s
+[21:00:50] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/antimatter_shared/antimatter.js in 0.0 s
+[21:00:50] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/lychee/lychee.js in 0.0 s
+[21:00:50] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/vanilla/minecraft.js in 0.0 s
+[21:00:50] [INFO ] Loaded script server_scripts:NTC3/base/tags/tags.js in 0.003 s
+[21:00:50] [INFO ] Loaded script server_scripts:NTC3/base/unify/global_unification.js in 0.004 s
+[21:00:50] [INFO ] Loaded script server_scripts:NTC3/base/unify/unify_materials.js in 0.013 s
+[21:00:50] [INFO ] Loaded script server_scripts:NTC3/base/unify/unify_outputs.js in 0.001 s
+[21:00:50] [INFO ] Loaded script server_scripts:NTC3/constants/general.js in 0.002 s
+[21:00:50] [INFO ] server_scripts:packmode.js:28: Current packmode is: normal
+[21:00:50] [INFO ] Loaded script server_scripts:packmode.js in 0.002 s
+[21:00:50] [INFO ] server_scripts:settings.js:8: log added recipes: false | log removed recipes: false | log skipped recipes: false | log erroring recipes: false
+[21:00:50] [INFO ] Loaded script server_scripts:settings.js in 0.001 s
+[21:00:50] [INFO ] Loaded 18/18 KubeJS server scripts in 0.075 s
+[21:00:50] [INFO ] Scripts loaded
+[21:00:50] [INFO ] Scanning recipes...
+[21:01:02] [INFO ] [blocks] Found 903 tags, added 188 objects, removed 0 objects
+[21:01:02] [INFO ] [blocks] Found 903 tags, added 188 objects, removed 0 objects
+[21:01:07] [INFO ] [items] Found 4159 tags, added 2403 objects, removed 0 objects
+[21:01:08] [INFO ] [items] Found 4159 tags, added 2403 objects, removed 0 objects
+[21:01:34] [INFO ] Found 16328 recipes and 0 failed recipes in 705.1 ms
+[21:01:45] [INFO ] server_scripts:NTC3/base/unify/unify_materials.js:1010: Created new forge:dusts/bronze, forge:dusts/copper, forge:dusts/tin
+[21:01:47] [INFO ] Posted recipe events in 12.81 s
+[21:01:48] [WARN ] Error parsing recipe arsomega:transmute_iron[arsomega:transmute]: {"type":"arsomega:transmute","input":{"tag":"forge:ingots/iron"},"output":{"item":"secretly_complicated:gold_solid","count":1},"reversible":true,"minAmp":0}: com.google.gson.JsonSyntaxException: Missing item, expected to find a string
+[21:01:48] [WARN ] Error parsing recipe spirit:soul_engulfing/soul_steel[spirit:soul_engulfing]: {"type":"spirit:soul_engulfing","input":{"tag":"forge:ingots/iron"},"duration":60,"outputItem":"spirit:soul_steel_ingot"}: java.lang.RuntimeException: No key ingredient in MapLike[{"tag":"forge:ingots/iron"}]
+[21:01:48] [INFO ] Modified & removed recipes in 606.4 ms
+[21:01:48] [INFO ] Added recipes in 44.77 ms
+[21:01:48] [INFO ] Added 2033 recipes, removed 995 recipes, modified 2765 recipes, with 2 failed recipes and 0 fall-backed recipes

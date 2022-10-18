@@ -10,13 +10,14 @@ onEvent('tags.items', event => {
         let oresThermal = getPreferredItemInTag(Ingredient.of(`thermal:${material}_ore`)).id;
         let oresDeepslateThermal = getPreferredItemInTag(Ingredient.of(`thermal:deepslate_${material}_ore`)).id;
 
-        let oresMinecraft = getPreferredItemInTag(Ingredient.of(`minecraft:${material}_ore`)).id;
-        let oresDeepslateMinecraft = getPreferredItemInTag(Ingredient.of(`minecraft:deepslate_${material}_ore`)).id;
+        // let oresMinecraft = getPreferredItemInTag(Ingredient.of(`minecraft:${material}_ore`)).id;
+        // let oresDeepslateMinecraft = getPreferredItemInTag(Ingredient.of(`minecraft:deepslate_${material}_ore`)).id;
 
         let blockThermal = getPreferredItemInTag(Ingredient.of(`thermal:${material}_block`)).id;
         let blockImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:storage_${material}`)).id;
         let blockMekanism = getPreferredItemInTag(Ingredient.of(`mekanism:block_${material}`)).id;
         let blockBiggerReactor = getPreferredItemInTag(Ingredient.of(`biggerreactors:${material}_block`)).id;
+        let blockBeyondEarth = getPreferredItemInTag(Ingredient.of(`beyond_earth:${material}_block`)).id;
 
         let oresMekanism = getPreferredItemInTag(Ingredient.of(`mekanism:${material}_ore`)).id;
         let oresDeepslateMekanism = getPreferredItemInTag(Ingredient.of(`mekanism:deepslate_${material}_ore`)).id;
@@ -44,8 +45,8 @@ onEvent('tags.items', event => {
             // 'thermal:' + material + '_block',
             oresThermal,
             oresDeepslateThermal,
-            oresMinecraft,
-            oresDeepslateMinecraft,
+            // oresMinecraft,
+            // oresDeepslateMinecraft,
             blockThermal,
             blockImmersive,
             blockMekanism,
@@ -58,7 +59,8 @@ onEvent('tags.items', event => {
             oresBeyondEarthGlacio,
             oresBeyondEarthMercury,
             oresImmersive,
-            oresDeepslateImmersive
+            oresDeepslateImmersive,
+            blockBeyondEarth
         );
     });
 
@@ -68,6 +70,7 @@ onEvent('tags.items', event => {
         let blockThermal = getPreferredItemInTag(Ingredient.of(`thermal:${material}_block`)).id;
         let blockImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:storage_${material}`)).id;
         let blockMekanism = getPreferredItemInTag(Ingredient.of(`mekanism:block_${material}`)).id;
+        let blockBeyondEarth = getPreferredItemInTag(Ingredient.of(`beyond_earth:${material}_block`)).id;
 
 
         if (material == air) {return;}
@@ -75,7 +78,8 @@ onEvent('tags.items', event => {
         itemsToRemove.push(
             blockThermal,
             blockImmersive,
-            blockMekanism
+            blockMekanism,
+            blockBeyondEarth
         );
     });
 

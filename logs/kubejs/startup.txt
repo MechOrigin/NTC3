@@ -1,3 +1,4 @@
-[10:57:24] [INFO ] Loaded script startup_scripts:Base/block_registry.js in 0.102 s
-[10:57:24] [INFO ] Loaded script startup_scripts:Base/worldgen_remove.js in 0.007 s
-[10:57:24] [INFO ] Loaded 2/2 KubeJS startup scripts in 7.651 s
+[20:39:36] [INFO ] Loaded script startup_scripts:Base/block_registry.js in 0.202 s
+[20:39:36] [INFO ] Loaded script startup_scripts:Base/ores.js in 0.073 s
+[20:39:36] [INFO ] Loaded script startup_scripts:Base/worldgen_remove.js in 0.004 s
+[20:39:36] [INFO ] Loaded 3/3 KubeJS startup scripts in 10.012 s

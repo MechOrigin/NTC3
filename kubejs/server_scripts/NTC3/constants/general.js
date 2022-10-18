@@ -361,7 +361,8 @@ const elementsToUnify = [
     'hssg',
     'hsse',
     'hsss',
-    'annealed_copper'
+    'annealed_copper',
+    'graphite'
 ];
 
 const oresToUnify = [
@@ -414,7 +415,15 @@ const oresToUnify = [
     'rock_salt',
     'bauxite',
     'oil_shale',
-    'oilsands'
+    'oilsands',
+    'aluminium',
+    'copper',
+    'emerald',
+    'lead',
+    'silver',
+    'nickel',
+    'tin',
+    'zinc'
 ];
 
 const planksToUnify = [

@@ -42,7 +42,7 @@ onEvent('tags.items', e => {
 
       if (material == air) {return;}
 
-      let ingotSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_ingot`)).id;
+      let ingotSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_solid`)).id;
       let gearSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_gear`)).id;
       let plateSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_plate`)).id;
       let densePlateSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_dense_plate`)).id;
@@ -68,14 +68,16 @@ onEvent('tags.items', e => {
       if (material == air) {return;}
 
       let oreSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_ore`)).id;
+      let oreNetherSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_netherrack_ore`)).id;
+      let oreEndSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_end_ore`)).id;
 
-      secret_tagging_ores(e, material, oreSecret);
+      secret_tagging_ores(e, material, oreSecret, oreNetherSecret, oreEndSecret);
 
 
     })
 
     function secret_tagging(e, material, ingotSecret, gearSecret, plateSecret, densePlateSecret, rodSecret, dustSecret, smallDustSecret, tinyDustSecret, crushedSecret, impureDustSecret, pureDustSecret, nuggetSecret, wireSecret) {
-        if (material == air || ingotSecret == air) {
+        if (material == air) {
             return;
         }
 
@@ -95,14 +97,30 @@ onEvent('tags.items', e => {
 
     }
 
-    function secret_tagging_ores(e, material, oreSecret) {
+    function secret_tagging_ores(e, material, oreSecret, oreNetherSecret, oreEndSecret) {
       if (material == air || oreSecret == air) {
           return;
       }
 
       e.add(`forge:ores/${material}`, oreSecret);
+      e.add(`forge:ores`, oreSecret);
+      e.add(`minecraft:mineable/pickaxe`, oreSecret);
 
-  }
+      if (oreNetherSecret != air) {
+        e.add(`forge:netherrack_ores/${material}`, oreNetherSecret);
+        e.add(`forge:netherrack_ores`, oreNetherSecret);
+        e.add(`minecraft:mineable/pickaxe`, oreNetherSecret);
+
+      }
+
+      if (oreEndSecret != air) {
+        e.add(`forge:end_ores/${material}`, oreEndSecret);
+        e.add(`forge:end_ores`, oreEndSecret);
+        e.add(`minecraft:mineable/pickaxe`, oreEndSecret);
+
+      }
+
+    }
 
 
     //why?!
@@ -115,7 +133,10 @@ onEvent('tags.items', e => {
     e.add('forge:dust/aluminum', 'antimatter_shared:dust_aluminium');
     */
 
-    e.add('forge:ores/coal', 'minecraft:coal_ore');
+    // e.add('forge:ores/coal', 'minecraft:coal_ore');
+    // e.add('forge:ores/iron', 'minecraft:iron_ore');
+    // e.add('forge:ores/copper', 'minecraft:copper_ore');
+    // e.add('forge:ores/gold', 'minecraft:gold_ore');
 
     //e.remove('forge:storage_blocks/copper', 'minecraft:cut_copper')
   })
@@ -156,6 +177,27 @@ onEvent('tags.items', e => {
                                               'antimatter_shared:blue_schist',
                                               'antimatter_shared:kimberlite',
                                               'antimatter_shared:quartzite'*/])
+
+      oresToUnify.forEach((material) => {
+
+        if (material == air) {return;}
+  
+        let oreSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_ore`)).id;
+  
+        secret_tagging_ores(e, material, oreSecret);
+  
+      })
+
+      function secret_tagging_ores(e, material, oreSecret) {
+        if (material == air || oreSecret == air) {
+            return;
+        }
+  
+        e.add(`forge:ores/${material}`, oreSecret);
+        e.add(`forge:ores`, oreSecret);
+        e.add(`minecraft:mineable/pickaxe`, oreSecret);
+  
+      }
       
   })
 

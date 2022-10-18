@@ -53,44 +53,4 @@ onEvent('block.loot_tables', event => {
       })
     })
 
-    event.addBlock('secretly_complicated:lignite_coal_ore', table => {
-      table.addPool(pool => {
-        pool.rolls = 1
-        pool.survivesExplosion()
-        pool.addItem('morecharcoal:coal_chunk', 1, [1, 6])
-      })
-    })
-
-    event.addBlock('secretly_complicated:tetrahedrite_ore', table => {
-      table.addPool(pool => {
-        pool.rolls = 1
-        pool.survivesExplosion()
-        pool.addItem('secretly_complicated:copper_impure_dust', 1, [1, 3])
-      })
-    })
-
-    event.addBlock('secretly_complicated:stibnite_ore', table => {
-      table.addPool(pool => {
-        pool.rolls = 1
-        pool.survivesExplosion()
-        pool.addItem('secretly_complicated:antimony_impure_dust', 1, [1, 3])
-      })
-    })
-
-    event.addBlock('secretly_complicated:pyrite_ore', table => {
-      table.addPool(pool => {
-        pool.rolls = 1
-        pool.survivesExplosion()
-        pool.addItem('secretly_complicated:iron_impure_dust', 1, [1, 3])
-      })
-    })
-
-    event.addBlock('secretly_complicated:chalcopyrite_ore', table => {
-      table.addPool(pool => {
-        pool.rolls = 1
-        pool.survivesExplosion()
-        pool.addItem('secretly_complicated:copper_impure_dust', 1, [1, 3])
-      })
-    })
-
   })

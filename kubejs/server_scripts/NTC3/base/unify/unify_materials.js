@@ -43,11 +43,11 @@ onEvent('recipes', event => {
 
 	});
 
-	materialsToUnify.forEach((material) => {
-		let crushedSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_crushed`)).id;
-		let impureDustSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_impure_dust`)).id;
-		let pureDustSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_pure_dust`)).id;
-	});
+	// materialsToUnify.forEach((material) => {
+	// 	let crushedSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_crushed`)).id;
+	// 	let impureDustSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_impure_dust`)).id;
+	// 	let pureDustSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_pure_dust`)).id;
+	// });
 
 	planksToUnify.forEach((woodTypes) => {
 		let planks = getPreferredItemInTag(Ingredient.of(`#forge:planks/${woodTypes}`)).id;

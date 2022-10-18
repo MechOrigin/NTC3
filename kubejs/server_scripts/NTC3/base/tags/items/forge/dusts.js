@@ -26,6 +26,7 @@ onEvent('tags.items', event => {
         let ingotImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:ingot_${material}`)).id;
         let ingotMekanism = getPreferredItemInTag(Ingredient.of(`mekanism:ingot_${material}`)).id;
         let ingotBiggerReactor = getPreferredItemInTag(Ingredient.of(`biggerreactors:${material}_ingot`)).id;
+        let ingotBeyondEarth = getPreferredItemInTag(Ingredient.of(`beyond_earth:${material}_ingot`)).id;
 
         let rawThermal = getPreferredItemInTag(Ingredient.of(`thermal:raw_${material}`)).id;
         let rawImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:raw_${material}`)).id;
@@ -63,7 +64,8 @@ onEvent('tags.items', event => {
             rodImmersive,
             dustBiggerReactor,
             ingotBiggerReactor,
-            nuggetTconstruct
+            nuggetTconstruct,
+            ingotBeyondEarth
         );
     });
 
@@ -87,6 +89,7 @@ onEvent('tags.items', event => {
         let ingotMekanism = getPreferredItemInTag(Ingredient.of(`mekanism:ingot_${material}`)).id;
         let ingotImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:ingot_${material}`)).id;
         let ingotTconstruct = getPreferredItemInTag(Ingredient.of(`tconstruct:${material}_ingot`)).id;
+        let ingotBeyondEarth = getPreferredItemInTag(Ingredient.of(`beyond_earth:${material}_ingot`)).id;
 
         let rodImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:stick_${material}`)).id;
 
@@ -108,7 +111,8 @@ onEvent('tags.items', event => {
             ingotMekanism,
             rodImmersive,
             nuggetTconstruct,
-            ingotTconstruct
+            ingotTconstruct,
+            ingotBeyondEarth
         );
     });
 
