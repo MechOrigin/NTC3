@@ -1,6 +1,5 @@
-[20:39:36] [INFO ] Loaded script client_scripts:NTC3/constants/general.js in 0.011 s
-[20:39:36] [INFO ] Loaded script client_scripts:NTC3/functions.js in 0.018 s
-[20:39:36] [INFO ] Loaded script client_scripts:NTC3/jei_removals.js in 0.006 s
-[20:39:36] [INFO ] Loaded 3/3 KubeJS client scripts in 0.074 s
-[20:52:09] [ERR  ] Error occurred while handling event 'jei.hide.items': ReferenceError: "blockThermal" is not defined. (client_scripts:NTC3/jei_removals.js#46)
-[21:02:31] [ERR  ] Error occurred while handling event 'jei.hide.items': ReferenceError: "blockThermal" is not defined. (client_scripts:NTC3/jei_removals.js#46)
+[10:10:20] [INFO ] Loaded script client_scripts:NTC3/constants/general.js in 0.053 s
+[10:10:20] [INFO ] Loaded script client_scripts:NTC3/functions.js in 0.051 s
+[10:10:20] [INFO ] Loaded script client_scripts:NTC3/jei_removals.js in 0.018 s
+[10:10:20] [INFO ] Loaded 3/3 KubeJS client scripts in 0.141 s
+[10:19:15] [ERR  ] Error occurred while handling event 'jei.hide.items': ReferenceError: "blockThermal" is not defined. (client_scripts:NTC3/jei_removals.js#46)

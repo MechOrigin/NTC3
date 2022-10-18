@@ -90,37 +90,121 @@ onEvent("lootjs", (event) => {
     ]);
 
     event
-    .addBlockLootModifier("secretly_complicated:emerald_ore")
+    .addBlockLootModifier("secretly_complicated:emerald_end_ore")
     .addWeightedLoot([1, 3], [
         Item.of("minecraft:emerald"),
     ]);
 
     event
-    .addBlockLootModifier("secretly_complicated:lead_ore")
+    .addBlockLootModifier("secretly_complicated:beryllium_end_ore")
+    .addWeightedLoot([1, 3], [
+        Item.of("secretly_complicated:beryllium_impure_dust"),
+    ]);
+
+    event
+    .addBlockLootModifier("secretly_complicated:thorium_end_ore")
+    .addWeightedLoot([1, 3], [
+        Item.of("secretly_complicated:thorium_impure_dust"),
+    ]);
+
+    event
+    .addBlockLootModifier("secretly_complicated:lead_netherrack_ore")
     .addWeightedLoot([1, 3], [
         Item.of("secretly_complicated:lead_impure_dust"),
     ]);
 
     event
-    .addBlockLootModifier("secretly_complicated:silver_ore")
+    .addBlockLootModifier("secretly_complicated:silver_netherrack_ore")
     .addWeightedLoot([1, 3], [
         Item.of("secretly_complicated:silver_impure_dust"),
     ]);
 
     event
-    .addBlockLootModifier("secretly_complicated:nickel_ore")
+    .addBlockLootModifier("secretly_complicated:nickel_netherrack_ore")
     .addWeightedLoot([1, 3], [
         Item.of("secretly_complicated:nickel_impure_dust"),
     ]);
 
     event
-    .addBlockLootModifier("secretly_complicated:tin_ore")
+    .addBlockLootModifier("secretly_complicated:tin_netherrack_ore")
     .addWeightedLoot([1, 3], [
         Item.of("secretly_complicated:tin_impure_dust"),
     ]);
 
     event
-    .addBlockLootModifier("secretly_complicated:zinc_ore")
+    .addBlockLootModifier("secretly_complicated:zinc_netherrack_ore")
+    .addWeightedLoot([1, 3], [
+        Item.of("secretly_complicated:zinc_impure_dust"),
+    ]);
+
+    event
+    .addBlockLootModifier("secretly_complicated:cobaltite_netherrack_ore")
+    .addWeightedLoot([1, 3], [
+        Item.of("secretly_complicated:cobalt_impure_dust"),
+    ]);
+
+    event
+    .addBlockLootModifier("secretly_complicated:bauxite_netherrack_ore")
+    .addWeightedLoot([1, 3], [
+        Item.of("secretly_complicated:aluminium_impure_dust"),
+    ]);
+
+    event
+    .addBlockLootModifier("secretly_complicated:ilmenite_netherrack_ore")
+    .addWeightedLoot([1, 3], [
+        Item.of("secretly_complicated:aluminium_impure_dust"),
+    ]);
+
+    event
+    .addBlockLootModifier("secretly_complicated:garnierite_netherrack_ore")
+    .addWeightedLoot([1, 3], [
+        Item.of("secretly_complicated:nickel_impure_dust"),
+    ]);
+
+    event
+    .addBlockLootModifier("secretly_complicated:ilmenite_netherrack_ore")
+    .addWeightedLoot([1, 3], [
+        Item.of("secretly_complicated:titanium_impure_dust"),
+    ]);
+
+    event
+    .addBlockLootModifier("secretly_complicated:magnesite_netherrack_ore")
+    .addWeightedLoot([1, 3], [
+        Item.of("secretly_complicated:magnesium_impure_dust"),
+    ]);
+
+    event
+    .addBlockLootModifier("secretly_complicated:vanadium_magnetite_netherrack_ore")
+    .addWeightedLoot([1, 3], [
+        Item.of("secretly_complicated:vanadium_impure_dust"),
+    ]);
+
+    event
+    .addBlockLootModifier("secretly_complicated:galena_netherrack_ore")
+    .addWeightedLoot([1, 3], [
+        Item.of("secretly_complicated:lead_impure_dust"),
+    ]);
+
+    event
+    .addBlockLootModifier("secretly_complicated:pentlandite_netherrack_ore")
+    .addWeightedLoot([1, 3], [
+        Item.of("secretly_complicated:nickel_impure_dust"),
+    ]);
+
+    event
+    .addBlockLootModifier("secretly_complicated:cassiterite_netherrack_ore")
+    .addWeightedLoot([1, 3], [
+        Item.of("secretly_complicated:tin_impure_dust"),
+    ]);
+
+    event
+    .addBlockLootModifier("secretly_complicated:pyrite_netherrack_ore")
+    .addWeightedLoot([1, 3], [
+        Item.of("secretly_complicated:iron_impure_dust"),
+    ]);
+
+    event
+    .addBlockLootModifier("secretly_complicated:sphalerite_netherrack_ore")
     .addWeightedLoot([1, 3], [
         Item.of("secretly_complicated:zinc_impure_dust"),
     ]);

@@ -77,13 +77,13 @@ onEvent('block.modification', event => {
         block.material = "stone"
       })
 
-      event.modify('secretly_complicated:bauxite_ore', block => {
+      event.modify('secretly_complicated:bauxite_netherrack_ore', block => {
         block.destroySpeed = 2.0
         block.hasCollision = true
         block.material = "stone"
       })
 
-      event.modify('secretly_complicated:ilmenite_ore', block => {
+      event.modify('secretly_complicated:ilmenite_netherrack_ore', block => {
         block.destroySpeed = 2.0
         block.hasCollision = true
         block.material = "stone"
@@ -101,97 +101,109 @@ onEvent('block.modification', event => {
         block.material = "stone"
       })
 
-      event.modify('secretly_complicated:magnetite_ore', block => {
+      event.modify('secretly_complicated:magnetite_netherrack_ore', block => {
         block.destroySpeed = 2.0
         block.hasCollision = true
         block.material = "stone"
       })
 
-      event.modify('secretly_complicated:vanadium_magnetite_ore', block => {
+      event.modify('secretly_complicated:vanadium_magnetite_netherrack_ore', block => {
         block.destroySpeed = 2.0
         block.hasCollision = true
         block.material = "stone"
       })
 
-      event.modify('secretly_complicated:galena_ore', block => {
+      event.modify('secretly_complicated:galena_netherrack_ore', block => {
         block.destroySpeed = 2.0
         block.hasCollision = true
         block.material = "stone"
       })
 
-      event.modify('secretly_complicated:garnierite_ore', block => {
+      event.modify('secretly_complicated:garnierite_netherrack_ore', block => {
         block.destroySpeed = 2.0
         block.hasCollision = true
         block.material = "stone"
       })
 
-      event.modify('secretly_complicated:cobaltite_ore', block => {
+      event.modify('secretly_complicated:pentlandite_netherrack_ore', block => {
         block.destroySpeed = 2.0
         block.hasCollision = true
         block.material = "stone"
       })
 
-      event.modify('secretly_complicated:pentlandite_ore', block => {
+      event.modify('secretly_complicated:sulfur_netherrack_ore', block => {
         block.destroySpeed = 2.0
         block.hasCollision = true
         block.material = "stone"
       })
 
-      event.modify('secretly_complicated:sulfur_ore', block => {
+      event.modify('secretly_complicated:pyrite_netherrack_ore', block => {
         block.destroySpeed = 2.0
         block.hasCollision = true
         block.material = "stone"
       })
 
-      event.modify('secretly_complicated:pyrite_ore', block => {
+      event.modify('secretly_complicated:aluminium_netherrack_ore', block => {
         block.destroySpeed = 2.0
         block.hasCollision = true
         block.material = "stone"
       })
 
-      event.modify('secretly_complicated:aluminium_ore', block => {
+      event.modify('secretly_complicated:copper_netherrack_ore', block => {
         block.destroySpeed = 2.0
         block.hasCollision = true
         block.material = "stone"
       })
 
-      event.modify('secretly_complicated:copper_ore', block => {
+      event.modify('secretly_complicated:emerald_end_ore', block => {
         block.destroySpeed = 2.0
         block.hasCollision = true
         block.material = "stone"
       })
 
-      event.modify('secretly_complicated:emerald_ore', block => {
+      event.modify('secretly_complicated:lead_netherrack_ore', block => {
         block.destroySpeed = 2.0
         block.hasCollision = true
         block.material = "stone"
       })
 
-      event.modify('secretly_complicated:lead_ore', block => {
+      event.modify('secretly_complicated:silver_netherrack_ore', block => {
         block.destroySpeed = 2.0
         block.hasCollision = true
         block.material = "stone"
       })
 
-      event.modify('secretly_complicated:silver_ore', block => {
+      event.modify('secretly_complicated:nickel_netherrack_ore', block => {
         block.destroySpeed = 2.0
         block.hasCollision = true
         block.material = "stone"
       })
 
-      event.modify('secretly_complicated:nickel_ore', block => {
+      event.modify('secretly_complicated:tin_netherrack_ore', block => {
         block.destroySpeed = 2.0
         block.hasCollision = true
         block.material = "stone"
       })
 
-      event.modify('secretly_complicated:tin_ore', block => {
+      event.modify('secretly_complicated:zinc_netherrack_ore', block => {
         block.destroySpeed = 2.0
         block.hasCollision = true
         block.material = "stone"
       })
 
-      event.modify('secretly_complicated:zinc_ore', block => {
+      event.modify('secretly_complicated:cobaltite_netherrack_ore', block => {
+        block.destroySpeed = 2.0
+        block.hasCollision = true
+        block.material = "stone"
+      })
+
+      event.modify('secretly_complicated:sphalerite_netherrack_ore', block => {
+        block.destroySpeed = 2.0
+        block.hasCollision = true
+        block.material = "stone"
+      })
+
+      event.modify('secretly_complicated:cassiterite_netherrack_ore', block => {
         block.destroySpeed = 2.0
         block.hasCollision = true
         block.material = "stone"
