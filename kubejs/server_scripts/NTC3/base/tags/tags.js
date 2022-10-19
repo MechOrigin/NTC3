@@ -183,12 +183,14 @@ onEvent('tags.items', e => {
         if (material == air) {return;}
   
         let oreSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_ore`)).id;
-  
-        secret_tagging_ores(e, material, oreSecret);
+        let oreNetherSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_netherrack_ore`)).id;
+        let oreEndSecret = getPreferredItemInTag(Ingredient.of(`secretly_complicated:${material}_end_ore`)).id;
+
+        secret_tagging_ores(e, material, oreSecret, oreNetherSecret, oreEndSecret);
   
       })
 
-      function secret_tagging_ores(e, material, oreSecret) {
+      function secret_tagging_ores(e, material, oreSecret, oreNetherSecret, oreEndSecret) {
         if (material == air || oreSecret == air) {
             return;
         }
@@ -196,6 +198,20 @@ onEvent('tags.items', e => {
         e.add(`forge:ores/${material}`, oreSecret);
         e.add(`forge:ores`, oreSecret);
         e.add(`minecraft:mineable/pickaxe`, oreSecret);
+
+        if (oreNetherSecret != air) {
+          e.add(`forge:netherrack_ores/${material}`, oreNetherSecret);
+          e.add(`forge:netherrack_ores`, oreNetherSecret);
+          e.add(`minecraft:mineable/pickaxe`, oreNetherSecret);
+  
+        }
+  
+        if (oreEndSecret != air) {
+          e.add(`forge:end_ores/${material}`, oreEndSecret);
+          e.add(`forge:end_ores`, oreEndSecret);
+          e.add(`minecraft:mineable/pickaxe`, oreEndSecret);
+  
+        }
   
       }
       

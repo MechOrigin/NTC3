@@ -5,7 +5,7 @@ onEvent('tags.items', event => {
 
     var itemsToRemove = [];
 
-    materialsToUnify.forEach((material) => {
+    elementsToUnify.forEach((material) => {
 
         let dustThermal = getPreferredItemInTag(Ingredient.of(`thermal:${material}_dust`)).id;
         let dustImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:dust_${material}`)).id;
@@ -21,12 +21,14 @@ onEvent('tags.items', event => {
         let nuggetImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:nugget_${material}`)).id;
         let nuggetMekanism = getPreferredItemInTag(Ingredient.of(`mekanism:nugget_${material}`)).id;
         let nuggetTconstruct = getPreferredItemInTag(Ingredient.of(`tconstruct:${material}_nugget`)).id;
+        let nuggetMinecraft = getPreferredItemInTag(Ingredient.of(`minecraft:${material}_nugget`)).id;
 
         let ingotThermal = getPreferredItemInTag(Ingredient.of(`thermal:${material}_ingot`)).id;
         let ingotImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:ingot_${material}`)).id;
         let ingotMekanism = getPreferredItemInTag(Ingredient.of(`mekanism:ingot_${material}`)).id;
         let ingotBiggerReactor = getPreferredItemInTag(Ingredient.of(`biggerreactors:${material}_ingot`)).id;
         let ingotBeyondEarth = getPreferredItemInTag(Ingredient.of(`beyond_earth:${material}_ingot`)).id;
+        let ingotMinecraft = getPreferredItemInTag(Ingredient.of(`minecraft:${material}_ingot`)).id;
 
         let rawThermal = getPreferredItemInTag(Ingredient.of(`thermal:raw_${material}`)).id;
         let rawImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:raw_${material}`)).id;
@@ -65,7 +67,9 @@ onEvent('tags.items', event => {
             dustBiggerReactor,
             ingotBiggerReactor,
             nuggetTconstruct,
-            ingotBeyondEarth
+            ingotBeyondEarth,
+            ingotMinecraft,
+            nuggetMinecraft
         );
     });
 

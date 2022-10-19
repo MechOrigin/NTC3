@@ -413,12 +413,16 @@ onEvent('recipes', event => {
     }
 
 	function fix_ingot_from_nugget(event, material, ingot, nugget) {
-		if (ingot == air || nugget == air) {
+		if (material == air || ingot == air) {
             return;
         }
 		
         let output = ingot,
             input = Item.of(`#forge:nuggets/${material}`, 9);
+
+		// ingot to nugget again
+		let output2 = Item.of(`#forge:nuggets/${material}`, 9),
+		input2 = ingot;
 
 		event.remove({ id: `tconstruct:common/materials/${material}_ingot_from_nuggets` })
 		event.remove({ id: `immersiveengineering:crafting/nugget_${material}_to_${material}_ingot` })
@@ -427,6 +431,9 @@ onEvent('recipes', event => {
 		event.remove({ id: `mekanism:nuggets/${material}` })
 
 		event.shapeless(output, [input]).id(`ntc3:base/${material}_ingot_from_nuggets`);
+		event.shapeless(output2, [input2]).id(`ntc3:base/${material}_nuggets_from_ingot`);
+
+
 	}
 
 	function fix_block_from_ingot(event, material, ingot, block) {

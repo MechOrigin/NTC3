@@ -24,6 +24,14 @@ onEvent('recipes', (event) => {
       C: 'minecraft:ghast_tear'
     })
 
+    modifyShaped(event, 'minecraft:cauldron', 1, ['A A', 'A A', 'AAA'], {
+      A: '#forge:ingots/iron'
+    })
+
+    modifyShaped(event, 'minecraft:bucket', 1, ['   ', 'A A', ' A '], {
+      A: '#forge:ingots/iron'
+    })
+
     modifyShapeless(event, 'minecraft:flint_and_steel', 1, ['#forge:ingots/steel', '#forge:gems/flint'])
 
     modifyShaped(event, 'minecraft:piston', 1, ['AAA', 'BCB', 'BDB'], {
