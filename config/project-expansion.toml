@@ -1,20 +1,33 @@
+#Range: 1 ~ 200
 tickDelay = 20
 formatEMC = true
 fullNumberNames = true
 emcDisplay = true
 notifyCommandChanges = true
 limitEmcLinkVendor = true
+#Range: > 1
 transmutationInterfaceItemCount = 4096
 useOldValues = false
+#Range: 0.1 ~ 50.0
 collectorMultiplier = 1
+#Range: 0.1 ~ 50.0
 emcLinkItemLimitMultiplier = 1
+#Range: 0.1 ~ 50.0
 emcLinkEMCLimitMultiplier = 1
+#Range: 0.1 ~ 50.0
 powerflowerMultiplier = 1
+#Range: 0.1 ~ 50.0
 relayBonusMultiplier = 1
+#Range: 0.1 ~ 50.0
 relayTransferMultiplier = 1
+#Range: 0.1 ~ 50.0
 emcLinkFluidLimitMultiplier = 1
 notifyKnowledgeBookGains = true
+#Range: > 1
 infiniteFuelCost = 128
+#Range: > 1
 infiniteFuelBurnTime = 1600
+#Range: > 1
 infiniteSteakCost = 64
+enableFluidEfficiency = true
 

@@ -15,6 +15,8 @@
 	ars_damage_bonus = 0.0
 	#% Bonus to Spell Resistance per level
 	ars_defense_bonus = 0.0
+	#Switch between legacy configs or pmmo perk system. (true) Legacy multiplies the regen/maxmana by the values below. (false) Perk adds flat regen/max mana defined in the serverconfigs following pmmo guide.
+	legacy = true
 
 #Scaling Health scaling
 ["SCALING HEALTH"]

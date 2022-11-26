@@ -17,7 +17,7 @@ priority: 900
 */
 onEvent('recipes', (event) => {
 
-    materialsToUnify.forEach((material) => {
+    elementsToUnify.forEach((material) => {
         typesToUnify.forEach((type) => {
             if (!entryIsBlacklisted(material, type)) {
                 let tagString = `#forge:${type}s/${material}`;

@@ -1,6 +1,7 @@
 onEvent('tags.items', e => {
-    e.add('forge:tools/hammer', 'immersiveengineering:hammer')
-    e.add('forge:tools/wire_cutter', 'immersiveengineering:wirecutter')
+    // e.add('forge:tools/hammer', 'immersiveengineering:hammer')
+    // e.add('forge:tools/wire_cutter', 'immersiveengineering:wirecutter')
+    e.add('forge:tools/hammer', 'beyond_earth:hammer')
 
     e.add('thermal:crafting/casts', 'tconstruct:ingot_cast')
     e.add('thermal:crafting/casts', 'tconstruct:nugget_cast')
@@ -81,6 +82,25 @@ onEvent('tags.items', e => {
             return;
         }
 
+        // Iron
+        if (ingotSecret == 'secretly_complicated:iron_solid') {
+          ingotSecret = 'minecraft:iron_ingot';
+        }
+        if (nuggetSecret == 'secretly_complicated:iron_nugget') {
+          nuggetSecret = 'minecraft:iron_nugget';
+        }
+        // Gold
+        if (ingotSecret == 'secretly_complicated:gold_solid') {
+          ingotSecret = 'minecraft:gold_ingot';
+        }
+        if (nuggetSecret == 'secretly_complicated:gold_nugget') {
+          nuggetSecret = 'minecraft:gold_nugget';
+        }
+        // Copper
+        if (ingotSecret == 'secretly_complicated:copper_solid') {
+          ingotSecret = 'minecraft:copper_ingot';
+        }
+
         e.add(`forge:ingots/${material}`, ingotSecret);
         e.add(`forge:gears/${material}`, gearSecret);
         e.add(`forge:plates/${material}`, plateSecret);
@@ -94,6 +114,22 @@ onEvent('tags.items', e => {
         e.add(`forge:pure_dust/${material}`, pureDustSecret);
         e.add(`forge:nuggets/${material}`, nuggetSecret);
         e.add(`forge:wires/${material}`, wireSecret);
+
+        e.add(`forge:ingots`, ingotSecret);
+        e.add(`forge:gears`, gearSecret);
+        e.add(`forge:plates`, plateSecret);
+        e.add(`forge:dense_plates`, densePlateSecret);
+        e.add(`forge:rods`, rodSecret);
+        e.add(`forge:dusts`, dustSecret);
+        e.add(`forge:small_dusts`, smallDustSecret);
+        e.add(`forge:tiny_dusts`, tinyDustSecret);
+        e.add(`forge:crushed`, crushedSecret);
+        e.add(`forge:impure_dust`, impureDustSecret);
+        e.add(`forge:pure_dust`, pureDustSecret);
+        e.add(`forge:nuggets`, nuggetSecret);
+        e.add(`forge:wires`, wireSecret);
+
+        //console.log(ingotSecret);
 
     }
 

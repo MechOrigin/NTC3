@@ -39,6 +39,25 @@
 				type: "item"
 				item: "minecraft:crafting_table"
 			}]
+			rewards: [{
+				id: "24654291D4795546"
+				type: "item"
+				item: {
+					id: "scannable:scanner"
+					Count: 1b
+					tag: {
+						items: {
+							Size: 9
+							Items: [{
+								Slot: 0
+								id: "scannable:common_ores_module"
+								Count: 1b
+							}]
+						}
+						energy: 5000
+					}
+				}
+			}]
 		}
 		{
 			title: "{ntc3.furnace.title}"
@@ -472,12 +491,12 @@
 			tasks: [{
 				id: "14DDE15809F4583B"
 				type: "item"
-				title: "Any #forge:dust_impures"
+				title: "Any #forge:impure_dust"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						value: "forge:dust_impures"
+						value: "forge:impure_dust"
 					}
 				}
 			}]
@@ -686,8 +705,10 @@
 			}]
 		}
 		{
+			title: "{ntc3.ghasttear.title}"
 			x: 7.0d
 			y: -6.5d
+			description: ["{ntc3.ghasttear.desc0}"]
 			id: "34A9E956891E8F4A"
 			tasks: [{
 				id: "1174B7B2191FDD5B"
@@ -722,8 +743,10 @@
 			}]
 		}
 		{
+			title: "{ntc3.magmacream.title}"
 			x: 0.0d
 			y: -10.0d
+			description: ["{ntc3.magmacream.desc0}"]
 			id: "6D1DC3D0274EDBEA"
 			tasks: [{
 				id: "0FC6E69A0F887B3C"
@@ -732,8 +755,10 @@
 			}]
 		}
 		{
+			title: "{ntc3.shulkershell.title}"
 			x: 15.0d
 			y: -7.0d
+			description: ["{ntc3.shulkershell.desc0}"]
 			id: "02F3DCE182783F42"
 			tasks: [{
 				id: "1550676890B46D67"
@@ -742,8 +767,11 @@
 			}]
 		}
 		{
+			title: "{ntc3.netherbrick.title}"
 			x: -3.0d
 			y: -9.0d
+			description: ["{ntc3.netherbrick.desc0}"]
+			dependencies: ["3E6656C0639E904E"]
 			id: "2FE9444965885654"
 			tasks: [{
 				id: "369FAFBD6FB523BE"
@@ -794,6 +822,7 @@
 		{
 			x: 0.0d
 			y: -9.0d
+			dependencies: ["0D85C8AD81845270"]
 			id: "4B44C0D44291ECFB"
 			tasks: [{
 				id: "230212C67B02102D"
@@ -812,8 +841,10 @@
 			}]
 		}
 		{
+			title: "{ntc3.netherquartz.title}"
 			x: 6.0d
 			y: -5.5d
+			description: ["{ntc3.netherquartz.desc0}"]
 			id: "0CF8056507AAB376"
 			tasks: [{
 				id: "3019E4E2652ADAA0"
@@ -822,8 +853,10 @@
 			}]
 		}
 		{
+			title: "{ntc3.paper.title}"
 			x: 6.0d
 			y: -8.5d
+			description: ["{ntc3.paper.desc0}"]
 			id: "427C588CA60F7435"
 			tasks: [{
 				id: "408AAED9BBA1F366"
@@ -832,8 +865,15 @@
 			}]
 		}
 		{
+			title: "{ntc3.leather.title}"
 			x: 7.0d
 			y: -7.5d
+			subtitle: "{ntc3.leather.subtitle}"
+			description: [
+				"{ntc3.leather.desc0}"
+				""
+				"{ntc3.leather.desc1}"
+			]
 			id: "1EC705E5874DCA9D"
 			tasks: [{
 				id: "633815D2D76B0543"
@@ -852,8 +892,15 @@
 			}]
 		}
 		{
+			title: "{ntc3.growingstuff.title}"
 			x: -3.0d
 			y: -6.0d
+			subtitle: "{ntc3.growingstuff.subtitle}"
+			description: [
+				"{ntc3.growingstuff.desc0}"
+				""
+				"{ntc3.growingstuff.desc1}"
+			]
 			id: "23982A7FDF70EED5"
 			tasks: [
 				{
@@ -886,13 +933,32 @@
 					type: "item"
 					item: "minecraft:cactus"
 				}
+				{
+					id: "5561FCCFABDCB747"
+					type: "item"
+					item: {
+						id: "minecraft:red_mushroom"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "7BC7A0F72EA698D9"
+					type: "item"
+					item: {
+						id: "minecraft:brown_mushroom"
+						Count: 1b
+						tag: { }
+					}
+				}
 			]
 		}
 		{
-			title: "{ntc3.unlock.immersiveeng}"
-			x: -4.5d
-			y: -9.0d
+			title: "{ntc3.unlock.neuralnetworks}"
+			x: -3.0d
+			y: -7.5d
 			shape: "circle"
+			dependencies: ["0D85C8AD81845270"]
 			size: 1.5d
 			id: "3171BA03635A71CB"
 			tasks: [{
@@ -902,13 +968,41 @@
 			}]
 		}
 		{
+			title: "{ntc3.netherrack.title}"
 			x: -1.5d
 			y: -9.0d
+			description: ["{ntc3.netherack.desc0}"]
+			dependencies: ["4B44C0D44291ECFB"]
 			id: "3E6656C0639E904E"
 			tasks: [{
 				id: "7202805B9E9948D3"
 				type: "item"
 				item: "minecraft:netherrack"
+			}]
+		}
+		{
+			title: "{ntc3.unlock.multiblocks}"
+			x: -6.0d
+			y: -4.5d
+			shape: "circle"
+			dependencies: ["1DEA200EC08A3C8C"]
+			size: 1.5d
+			id: "288283E080C2E75E"
+			tasks: [{
+				id: "442A12417DA599DC"
+				type: "gamestage"
+				stage: ""
+			}]
+		}
+		{
+			x: -5.0d
+			y: -12.0d
+			dependencies: ["17D4B2616E251D91"]
+			id: "7E05F724102A8CFE"
+			tasks: [{
+				id: "6DFD8043C681CB0A"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
 			}]
 		}
 	]

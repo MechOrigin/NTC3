@@ -5,7 +5,7 @@ onEvent('tags.blocks', event => {
 
     var itemsToRemove = [];
 
-    materialsToUnify.forEach((material) => {
+    elementsToUnify.forEach((material) => {
 
         let oresThermal = getPreferredItemInTag(Ingredient.of(`thermal:${material}_ore`)).id;
         let oresDeepslateThermal = getPreferredItemInTag(Ingredient.of(`thermal:deepslate_${material}_ore`)).id;
@@ -14,15 +14,15 @@ onEvent('tags.blocks', event => {
         // let oresDeepslateMinecraft = getPreferredItemInTag(Ingredient.of(`minecraft:deepslate_${material}_ore`)).id;
 
         let blockThermal = getPreferredItemInTag(Ingredient.of(`thermal:${material}_block`)).id;
-        let blockImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:storage_${material}`)).id;
+        //let blockImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:storage_${material}`)).id;
 
         let blockMekanism = getPreferredItemInTag(Ingredient.of(`mekanism:block_${material}`)).id;
 
         let oresMekanism = getPreferredItemInTag(Ingredient.of(`mekanism:${material}_ore`)).id;
         let oresDeepslateMekanism = getPreferredItemInTag(Ingredient.of(`mekanism:deepslate_${material}_ore`)).id;
 
-        let oresImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:ore_${material}`)).id;
-        let oresDeepslateImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:deepslate_ore_${material}`)).id;
+        //let oresImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:ore_${material}`)).id;
+        //let oresDeepslateImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:deepslate_ore_${material}`)).id;
 
         let oresBeyondEarthMoon = getPreferredItemInTag(Ingredient.of(`beyond_earth:moon_${material}_ore`)).id;
         let oresBeyondEarthVenus = getPreferredItemInTag(Ingredient.of(`beyond_earth:venus_${material}_ore`)).id;
@@ -49,7 +49,7 @@ onEvent('tags.blocks', event => {
         //    oresMinecraft,
         //    oresDeepslateMinecraft,
            blockThermal,
-           blockImmersive,
+        //    blockImmersive,
            blockMekanism,
            oresMekanism,
            oresDeepslateMekanism,
@@ -58,8 +58,8 @@ onEvent('tags.blocks', event => {
            oresBeyondEarthMars,
            oresBeyondEarthGlacio,
            oresBeyondEarthMercury,
-           oresImmersive,
-           oresDeepslateImmersive,
+           //oresImmersive,
+           //oresDeepslateImmersive,
            blockBeyondEarth
         );
     });
@@ -67,7 +67,7 @@ onEvent('tags.blocks', event => {
     alloysToUnify.forEach((material) => {
 
         let blockThermal = getPreferredItemInTag(Ingredient.of(`thermal:${material}_block`)).id;
-        let blockImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:storage_${material}`)).id;
+        //let blockImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:storage_${material}`)).id;
         let blockMekanism = getPreferredItemInTag(Ingredient.of(`mekanism:block_${material}`)).id;
         let blockBiggerReactor = getPreferredItemInTag(Ingredient.of(`biggerreactors:${material}_block`)).id;
         let blockBeyondEarth = getPreferredItemInTag(Ingredient.of(`beyond_earth:${material}_block`)).id;
@@ -77,7 +77,7 @@ onEvent('tags.blocks', event => {
 
         itemsToRemove.push(
             blockThermal,
-            blockImmersive,
+            //blockImmersive,
             blockMekanism,
             blockBiggerReactor,
             blockBeyondEarth
@@ -102,19 +102,19 @@ onEvent('tags.blocks', event => {
     event.removeAllTagsFrom('thermal:sulfur_ore');
     event.removeAllTagsFrom('thermal:deepslate_sulfur_ore');
 
-    event.removeAllTagsFrom('immersiveengineering:ore_aluminum');
-    event.removeAllTagsFrom('immersiveengineering:deepslate_ore_aluminum');
-    event.removeAllTagsFrom('immersiveengineering:ore_lead');
-    event.removeAllTagsFrom('immersiveengineering:deepslate_ore_lead');
-    event.removeAllTagsFrom('immersiveengineering:ore_silver');
-    event.removeAllTagsFrom('immersiveengineering:deepslate_ore_silver');
-    event.removeAllTagsFrom('immersiveengineering:ore_nickel');
-    event.removeAllTagsFrom('immersiveengineering:deepslate_ore_nickel');
-    event.removeAllTagsFrom('immersiveengineering:ore_uranium');
-    event.removeAllTagsFrom('immersiveengineering:deepslate_ore_uranium');
+    // event.removeAllTagsFrom('immersiveengineering:ore_aluminum');
+    // event.removeAllTagsFrom('immersiveengineering:deepslate_ore_aluminum');
+    // event.removeAllTagsFrom('immersiveengineering:ore_lead');
+    // event.removeAllTagsFrom('immersiveengineering:deepslate_ore_lead');
+    // event.removeAllTagsFrom('immersiveengineering:ore_silver');
+    // event.removeAllTagsFrom('immersiveengineering:deepslate_ore_silver');
+    // event.removeAllTagsFrom('immersiveengineering:ore_nickel');
+    // event.removeAllTagsFrom('immersiveengineering:deepslate_ore_nickel');
+    // event.removeAllTagsFrom('immersiveengineering:ore_uranium');
+    // event.removeAllTagsFrom('immersiveengineering:deepslate_ore_uranium');
 
-    event.removeAllTagsFrom('immersiveengineering:storage_aluminum');
-    event.removeAllTagsFrom('immersiveengineering:storage_uranium');
+    // event.removeAllTagsFrom('immersiveengineering:storage_aluminum');
+    // event.removeAllTagsFrom('immersiveengineering:storage_uranium');
 
     event.removeAllTagsFrom('mekanism:block_osmium');
     event.removeAllTagsFrom('mekanism:block_uranium');

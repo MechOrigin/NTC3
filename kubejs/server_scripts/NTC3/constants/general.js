@@ -4,24 +4,18 @@ const air = 'minecraft:air';
 
 // priority of which mod output should come from, if applicable
 const modPriorities = [
-    //'antimatter_shared',
-    //'antimatter',
-    //'gregtech',
     'secretly_complicated',
-    'alltheores',
-    'excavated_variants',
     'minecraft',
     'kubejs',
     'quark',
     'tconstruct',
     'ae2',
-    'immersiveengineering',
+    //'immersiveengineering',
     'thermal',
     'mekanism',
     'mysticalagriculture',
     'biomesoplenty',
     'integrateddynamics',
-    //'rankine',
     'beyond_earth',
     'aquaculture'
 ];

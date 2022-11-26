@@ -3,17 +3,137 @@
 	group: "442FD72D1627F87A"
 	order_index: 3
 	filename: "immersive_engineering"
-	title: "{ntc3.chaper.immersiveengineering.title}"
+	title: "{ntc3.chaper.neuralnetworks.title}"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: 0.0d
-		y: 0.0d
-		id: "0D28075357CB6FB7"
-		tasks: [{
-			id: "4400DE1887EC408D"
-			type: "questsadditions:time"
-			elapsedTime: 60L
-		}]
-	}]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "0D28075357CB6FB7"
+			tasks: [{
+				id: "4400DE1887EC408D"
+				type: "questsadditions:time"
+				elapsedTime: 60L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["0D28075357CB6FB7"]
+			id: "5A683295542D5D91"
+			tasks: [{
+				id: "4A87B80FB5DC99DA"
+				type: "item"
+				item: {
+					id: "hostilenetworks:sim_chamber"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["0D28075357CB6FB7"]
+			id: "0E9C22A14C800490"
+			tasks: [{
+				id: "635FCDF3A805D5AB"
+				type: "item"
+				item: {
+					id: "hostilenetworks:empty_prediction"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["0D28075357CB6FB7"]
+			id: "3F36183A3E2C9564"
+			tasks: [{
+				id: "262C1F3CF4E29F44"
+				type: "item"
+				item: {
+					id: "hostilenetworks:blank_data_model"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			id: "780D04A60B25A1A0"
+			tasks: [{
+				id: "7460CDD9A85CD2FF"
+				type: "item"
+				item: {
+					id: "hostilenetworks:overworld_prediction"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			id: "18A7588AAFBD606C"
+			tasks: [{
+				id: "309D8E4AB677A7C9"
+				type: "item"
+				item: {
+					id: "hostilenetworks:nether_prediction"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["0D28075357CB6FB7"]
+			id: "5B918F7E2ED2BD9E"
+			tasks: [{
+				id: "51E818FFEEB6AEBB"
+				type: "item"
+				item: {
+					id: "hostilenetworks:deep_learner"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			id: "710150622F29E1C9"
+			tasks: [{
+				id: "2BFC896F154D18C1"
+				type: "item"
+				item: {
+					id: "hostilenetworks:end_prediction"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "{ntc3.unlock.blastfurnace.quest}"
+			x: 8.25d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["18A7588AAFBD606C"]
+			size: 1.5d
+			id: "34C0AE50A2B6F40C"
+			tasks: [{
+				id: "25DA8A7C3E76DCF6"
+				type: "gamestage"
+				stage: ""
+			}]
+		}
+	]
 }

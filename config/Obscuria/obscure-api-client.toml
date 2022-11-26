@@ -1,0 +1,21 @@
+
+[PickupNotifier]
+	Display = true
+	Style = true
+	#Range: 0 ~ 20
+	Lifetime = 5
+	#Range: 0 ~ 1080
+	Offset = 0
+
+[Tooltips]
+	#Display food properties in tooltips
+	"Food Icons" = true
+	#Display equipment attributes in tooltips
+	"Equipment Icons" = true
+	#Display reduced tooltips for new inventory buttons
+	"Small Tooltips" = true
+	#Range: -1000 ~ 1000
+	"Inventory Buttons Offset X" = 0
+	#Range: -1000 ~ 1000
+	"Inventory Buttons Offset Y" = 0
+

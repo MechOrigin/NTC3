@@ -8,7 +8,7 @@
     "ntc3.chapter.thebeginning.title": "&aThe Beginning&r",
     "ntc3.chapter.integrateddyn.title": "&aIntegrated Dynamics&r",
     "ntc3.chaper.tinkerslvl0.title": "&aTinkers Tier 0&r",
-    "ntc3.chaper.immersiveengineering.title": "&aImmersive Engineering&r",
+    "ntc3.chaper.neuralnetworks.title": "&aNeural Networks&r",
 
     "ntc3.thebeginning.title": "&fWelcome to NTC3&r",
     "ntc3.thebeginning.subtitle": "&oStay a while and listen&r",
@@ -29,7 +29,7 @@
     "ntc3.ironingot.desc1": "Magnetite, Banded Iron, Brown Limonite, Yellow Limonite, and Pyrite",
 
     "ntc3.copperingot.title": "&6Copper&r",
-    "ntc3.copperingot.desc0": "Just like &fIron&r, there are many other sources of &6Copper&r in this back besides just &6Raw Copper&r, like:",
+    "ntc3.copperingot.desc0": "Just like &fIron&r, there are many other sources of &6Copper&r in this pack besides just &6Raw Copper&r, like:",
     "ntc3.copperingot.desc1": "Chalcopyrite, Malachite, and Tetrahedrite",
 
     "ntc3.flint.title": "&8Flint&r",
@@ -40,7 +40,7 @@
     "ntc3.coal.desc0": "&8Coal&r veins aren't the typical &6Coal Ore&r you'd find exploring. You will know once you see it",
     
     "ntc3.charcoal.title": "&8Charcoal&r",
-    "ntc3.charcoal.desc0": "Can be acquired from the &7Furnace&r but more efficiently via &eImmersive Engineering's&r &6Coke Oven&r as it has a secondary output of &bCreosote Oil&r",
+    "ntc3.charcoal.desc0": "Can be acquired from the &7Furnace&r but more efficiently via &eNot Too Complicated's&r &6Coke Oven&r as it has a secondary output of &bCreosote Oil&r",
 
     "ntc3.diamond.title": "Lucy in the sky with &bDiamonds&r",
     "ntc3.diamond.desc0": "&bDiamonds&r are a particularly rare ore to find. They aren't your typical &bRaw Diamond Ores&r, instead you can find them in veins of:",
@@ -176,12 +176,19 @@
     "ntc3.book.desc0": "Useful for crafting the &eAkashic Tome&r among other things",
 
     "ntc3.growingstuff.title": "Dear &aWeed&r Man",
-    "ntc3.growingstuff.subtitle": "🍉🍎🌵🥕🌿",
+    "ntc3.growingstuff.subtitle": ":watermelon: :carrot: :apple: :mushroom: :cactus: :ear_of_rice:",
     "ntc3.growingstuff.desc0": "Prove that you're good at &6finding&r and &bgrowing&r stuff!",
     "ntc3.growingstuff.desc1": "Gather &d64&r of each",
 
-    "ntc3.unlock.immersiveeng": "&fUnlocked &n&aImmersive Engineering&r &fChapter&r",
+    "ntc3.unlock.neuralnetworks": "&fUnlocked &n&aNeural Networks&r &fChapter&r",
 
     "ntc3.netherrack.title": "&4Netherrack&r",
-    "ntc3.netherack.desc0": "&4Netherrack&r can be found in the &2nether&r, obviously. However it can be made as well from drying out &cMagma Blocks&r with &eIntegrated Dynamics&r"
+    "ntc3.netherack.desc0": "&4Netherrack&r can be found in the &2nether&r, obviously. However it can be made as well from drying out &cMagma Blocks&r with &eIntegrated Dynamics&r",
+
+    "ntc3.unlock.multiblocks": "&fUnlocked &n&aMultiblocks&r &fChapter&r",
+
+    "ntc3.unlock.blastfurnace.quest": "&fUnlocked &n&aBlastFurnace&r &fQuest&r",
+
+    "ntc3.unlock.metaldude": "&fUnlocked &n&aMetal Dude&r &fChapter&r"
+
 }

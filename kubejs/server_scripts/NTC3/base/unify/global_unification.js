@@ -15,18 +15,13 @@ global["UNIFY_ORE_GEN"] = true
 
 // Mod priorities
 global["unifypriorities"] = [
-//    'antimatter_shared',
-//    'antimatter',
-//    'gregtech',
     'secretly_complicated',
-//    'alltheores',
-    'excavated_variants',
     'minecraft',
     'kubejs',
     'quark',
     'tconstruct',
     'appliedenergistics2',
-    'immersiveengineering',
+    //'immersiveengineering',
     'thermal',
     'mekanism',
     'mysticalagriculture',
@@ -61,13 +56,13 @@ var tags = [
 ]*/
 // Easier way to add multiple tags (feel free to add empty extra tags, this will ignore them)
 var tagGen = [
-    "copper=blocks,ingots,nuggets,ores,raw_ores,dusts,gears,plates,rods",
+    "copper=ores,raw_ores,dusts,gears,plates,rods",
     "aluminum=blocks,ingots,nuggets,ores,raw_ores,dusts,gears,plates,rods",
     "silver=blocks,ingots,nuggets,ores,raw_ores,dusts,gears,plates,rods",
     "lead=blocks,ingots,nuggets,ores,raw_ores,dusts,gears,plates,rods",
     "nickel=blocks,ingots,nuggets,ores,raw_ores,dusts,gears,plates,rods",
-    "iron=blocks,ingots,nuggets,ores,raw_ores,dusts,gears,plates,rods,crushed,impure_dust",
-    "gold=blocks,ingots,nuggets,ores,raw_ores,dusts,gears,plates,rods",
+    "iron=ores,raw_ores,dusts,gears,plates,rods,crushed,impure_dust",
+    "gold=ores,raw_ores,dusts,gears,plates,rods",
     "tin=blocks,ingots,nuggets,ores,raw_ores,dusts,gears,plates,rods",
     "zinc=blocks,ingots,nuggets,ores,raw_ores,dusts,gears,plates,rods",
     "bronze=blocks,ingots,nuggets,ores,raw_ores,dusts,gears,plates,rods",

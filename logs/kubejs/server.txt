@@ -1,33 +1,58 @@
-[21:02:32] [INFO ] Loaded script server_scripts:NTC3/base/tags/blocks/forge/ores.js in 0.001 s
-[21:02:32] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/dusts.js in 0.001 s
-[21:02:32] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/gems.js in 0.001 s
-[21:02:32] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/ores.js in 0.0 s
-[21:02:32] [INFO ] Loaded script server_scripts:functions.js in 0.001 s
-[21:02:32] [INFO ] Loaded script server_scripts:NTC3/base/block_loot_tables/lootjs.js in 0.0 s
-[21:02:32] [INFO ] Loaded script server_scripts:NTC3/base/block_loot_tables/oredrops.js in 0.0 s
-[21:02:32] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/alltheores/alltheores.js in 0.001 s
-[21:02:32] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/antimatter_shared/antimatter.js in 0.0 s
-[21:02:32] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/lychee/lychee.js in 0.001 s
-[21:02:32] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/vanilla/minecraft.js in 0.0 s
-[21:02:32] [INFO ] Loaded script server_scripts:NTC3/base/tags/tags.js in 0.001 s
-[21:02:32] [INFO ] Loaded script server_scripts:NTC3/base/unify/global_unification.js in 0.002 s
-[21:02:32] [INFO ] Loaded script server_scripts:NTC3/base/unify/unify_materials.js in 0.005 s
-[21:02:32] [INFO ] Loaded script server_scripts:NTC3/base/unify/unify_outputs.js in 0.001 s
-[21:02:32] [INFO ] Loaded script server_scripts:NTC3/constants/general.js in 0.001 s
-[21:02:32] [INFO ] server_scripts:packmode.js:28: Current packmode is: normal
-[21:02:32] [INFO ] Loaded script server_scripts:packmode.js in 0.001 s
-[21:02:32] [INFO ] server_scripts:settings.js:8: log added recipes: false | log removed recipes: false | log skipped recipes: false | log erroring recipes: false
-[21:02:32] [INFO ] Loaded script server_scripts:settings.js in 0.001 s
-[21:02:32] [INFO ] Loaded 18/18 KubeJS server scripts in 0.026 s
-[21:02:32] [INFO ] Scripts loaded
-[21:02:32] [INFO ] Scanning recipes...
-[21:02:42] [INFO ] [blocks] Found 1021 tags, added 536 objects, removed 0 objects
-[21:02:42] [INFO ] [blocks] Found 1021 tags, added 536 objects, removed 0 objects
-[21:02:48] [INFO ] [items] Found 4160 tags, added 2404 objects, removed 0 objects
-[21:02:48] [INFO ] [items] Found 4160 tags, added 2404 objects, removed 0 objects
-[21:03:09] [INFO ] Found 16360 recipes and 0 failed recipes in 1.127 s
-[21:03:18] [INFO ] server_scripts:NTC3/base/unify/unify_materials.js:1017: Created new forge:dusts/bronze, forge:dusts/copper, forge:dusts/tin
-[21:03:19] [INFO ] Posted recipe events in 9.988 s
-[21:03:20] [INFO ] Modified & removed recipes in 358.4 ms
-[21:03:20] [INFO ] Added recipes in 30.85 ms
-[21:03:20] [INFO ] Added 2225 recipes, removed 1051 recipes, modified 1525 recipes, with 0 failed recipes and 0 fall-backed recipes
+[20:54:58] [INFO ] Loaded script server_scripts:NTC3/base/tags/blocks/forge/ores.js in 0.007 s
+[20:54:58] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/dusts.js in 0.004 s
+[20:54:58] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/gems.js in 0.0 s
+[20:54:58] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/ores.js in 0.003 s
+[20:54:58] [INFO ] Loaded script server_scripts:functions.js in 0.007 s
+[20:54:58] [INFO ] Loaded script server_scripts:NTC3/base/block_loot_tables/lootjs.js in 0.004 s
+[20:54:58] [INFO ] Loaded script server_scripts:NTC3/base/block_loot_tables/oredrops.js in 0.002 s
+[20:54:58] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/alltheores/alltheores.js in 0.001 s
+[20:54:58] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/antimatter_shared/antimatter.js in 0.001 s
+[20:54:58] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/beyond_earth/recipes.js in 0.001 s
+[20:54:58] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/integrateddynamics/mechanical_squeezer.js in 0.002 s
+[20:54:58] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/lychee/lychee.js in 0.002 s
+[20:54:58] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/vanilla/minecraft.js in 0.002 s
+[20:54:58] [INFO ] Loaded script server_scripts:NTC3/base/tags/tags.js in 0.007 s
+[20:54:58] [INFO ] Loaded script server_scripts:NTC3/base/unify/global_unification.js in 0.011 s
+[20:54:59] [INFO ] Loaded script server_scripts:NTC3/base/unify/unify_materials.js in 0.027 s
+[20:54:59] [INFO ] Loaded script server_scripts:NTC3/base/unify/unify_outputs.js in 0.001 s
+[20:54:59] [INFO ] Loaded script server_scripts:NTC3/constants/general.js in 0.004 s
+[20:54:59] [INFO ] server_scripts:packmode.js:28: Current packmode is: normal
+[20:54:59] [INFO ] Loaded script server_scripts:packmode.js in 0.005 s
+[20:54:59] [INFO ] server_scripts:settings.js:8: log added recipes: false | log removed recipes: false | log skipped recipes: false | log erroring recipes: false
+[20:54:59] [INFO ] Loaded script server_scripts:settings.js in 0.001 s
+[20:54:59] [INFO ] Loaded 20/20 KubeJS server scripts in 0.12 s
+[20:55:01] [INFO ] Loaded script server_scripts:NTC3/base/tags/blocks/forge/ores.js in 0.002 s
+[20:55:01] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/dusts.js in 0.003 s
+[20:55:01] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/gems.js in 0.001 s
+[20:55:01] [INFO ] Loaded script server_scripts:NTC3/base/tags/items/forge/ores.js in 0.002 s
+[20:55:01] [INFO ] Loaded script server_scripts:functions.js in 0.004 s
+[20:55:01] [INFO ] Loaded script server_scripts:NTC3/base/block_loot_tables/lootjs.js in 0.002 s
+[20:55:01] [INFO ] Loaded script server_scripts:NTC3/base/block_loot_tables/oredrops.js in 0.002 s
+[20:55:01] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/alltheores/alltheores.js in 0.001 s
+[20:55:01] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/antimatter_shared/antimatter.js in 0.0 s
+[20:55:01] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/beyond_earth/recipes.js in 0.0 s
+[20:55:01] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/integrateddynamics/mechanical_squeezer.js in 0.001 s
+[20:55:01] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/lychee/lychee.js in 0.001 s
+[20:55:01] [INFO ] Loaded script server_scripts:NTC3/base/modSpecific/vanilla/minecraft.js in 0.001 s
+[20:55:01] [INFO ] Loaded script server_scripts:NTC3/base/tags/tags.js in 0.004 s
+[20:55:01] [INFO ] Loaded script server_scripts:NTC3/base/unify/global_unification.js in 0.006 s
+[20:55:01] [INFO ] Loaded script server_scripts:NTC3/base/unify/unify_materials.js in 0.021 s
+[20:55:01] [INFO ] Loaded script server_scripts:NTC3/base/unify/unify_outputs.js in 0.001 s
+[20:55:01] [INFO ] Loaded script server_scripts:NTC3/constants/general.js in 0.003 s
+[20:55:01] [INFO ] server_scripts:packmode.js:28: Current packmode is: normal
+[20:55:01] [INFO ] Loaded script server_scripts:packmode.js in 0.005 s
+[20:55:01] [INFO ] server_scripts:settings.js:8: log added recipes: false | log removed recipes: false | log skipped recipes: false | log erroring recipes: false
+[20:55:01] [INFO ] Loaded script server_scripts:settings.js in 0.001 s
+[20:55:01] [INFO ] Loaded 20/20 KubeJS server scripts in 0.085 s
+[20:55:01] [INFO ] Scripts loaded
+[20:55:01] [INFO ] Scanning recipes...
+[20:55:09] [INFO ] [blocks] Found 992 tags, added 536 objects, removed 0 objects
+[20:55:09] [INFO ] [blocks] Found 992 tags, added 536 objects, removed 0 objects
+[20:55:14] [INFO ] [items] Found 4068 tags, added 4249 objects, removed 0 objects
+[20:55:14] [INFO ] [items] Found 4068 tags, added 4249 objects, removed 0 objects
+[20:55:36] [INFO ] Found 15403 recipes and 0 failed recipes in 1.080 s
+[20:55:46] [INFO ] server_scripts:NTC3/base/unify/unify_materials.js:1120: Created new forge:dusts/bronze, forge:dusts/copper, forge:dusts/tin
+[20:55:48] [INFO ] Posted recipe events in 11.73 s
+[20:55:48] [INFO ] Modified & removed recipes in 433.4 ms
+[20:55:48] [INFO ] Added recipes in 51.61 ms
+[20:55:48] [INFO ] Added 2587 recipes, removed 970 recipes, modified 530 recipes, with 0 failed recipes and 0 fall-backed recipes

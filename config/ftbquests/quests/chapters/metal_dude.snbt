@@ -1,0 +1,36 @@
+{
+	id: "35F17E4A83CF5AF1"
+	group: "5BCA4C8804B27813"
+	order_index: 0
+	filename: "metal_dude"
+	title: "Metal Dude"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["76081533F2E6D38E"]
+			id: "3F1145BE6A8C4769"
+			tasks: [{
+				id: "356C6FADCEA43D44"
+				type: "item"
+				item: {
+					id: "secretly_complicated:steel_solid"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "76081533F2E6D38E"
+			tasks: [{
+				id: "40148551A171DCFD"
+				type: "questsadditions:time"
+				elapsedTime: 1L
+			}]
+		}
+	]
+}

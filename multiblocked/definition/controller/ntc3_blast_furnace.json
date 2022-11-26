@@ -1,0 +1,132 @@
+{
+  "consumeCatalyst": false,
+  "location": "ntc3:blast_furnace",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "baseTexture": "multiblocked:blocks/casing/nether_bricks",
+    "frontTexture": "multiblocked:blocks/overlay/overlay_front",
+    "type": "gregtech"
+  },
+  "workingRenderer": {
+    "baseTexture": "multiblocked:blocks/casing/nether_bricks",
+    "frontTexture": "multiblocked:blocks/overlay/overlay_front_active",
+    "type": "gregtech"
+  },
+  "properties": {
+    "isOpaque": true,
+    "destroyTime": 5.0,
+    "explosionResistance": 6.0,
+    "harvestLevel": 1,
+    "lightEmissive": 0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "hasCollision": true,
+    "tabGroup": "multiblocked.all",
+    "stackSize": 64
+  },
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "LEFT",
+      "UP"
+    ],
+    "pattern": [
+      [
+        "AAA",
+        "AA@",
+        "AAA"
+      ],
+      [
+        "BBB",
+        "BBB",
+        "BBB"
+      ],
+      [
+        "AAA",
+        "AAA",
+        "AAA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "casing": {
+        "blocks": [
+          {
+            "id": "minecraft:nether_bricks"
+          }
+        ],
+        "type": "blocks"
+      },
+      "coil": {
+        "blocks": [
+          {
+            "id": "minecraft:red_nether_bricks"
+          }
+        ],
+        "type": "blocks"
+      },
+      "controller": {
+        "location": "ntc3:blast_furnace",
+        "type": "component"
+      },
+      "item_in": {
+        "location": "mbd:item_bus_in",
+        "type": "component",
+        "minCount": 1,
+        "maxCount": 2,
+        "previewCount": 1
+      },
+      "item_out": {
+        "location": "mbd:item_bus_out",
+        "type": "component",
+        "minCount": 1,
+        "maxCount": 2,
+        "previewCount": 1
+      },
+      "any": {
+        "type": "any"
+      },
+      "fluid_out": {
+        "location": "mbd:fluid_hatch_out",
+        "type": "component",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "casing",
+        "item_in",
+        "item_out",
+        "fluid_out"
+      ],
+      "B": [
+        "coil"
+      ]
+    }
+  },
+  "recipeMap": "blast_furnace"
+}

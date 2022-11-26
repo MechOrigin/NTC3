@@ -1,0 +1,109 @@
+
+[IceMazeStructures]
+	#Range: 0.0 ~ 100.0
+	Ship = 1.0
+	#Range: 0.0 ~ 100.0
+	Outpost = 1.0
+	#Range: 0.0 ~ 100.0
+	Shelter = 1.0
+
+[Mobs]
+
+	[Mobs.GhostOfCaptainCornelia]
+		#Range: 0.0 ~ 10.0
+		MovementSpeed = 0.2
+		#Range: 1.0 ~ 100000.0
+		MaxHealth = 160.0
+		#Range: 0.0 ~ 1000.0
+		Armor = 16.0
+		#Range: 1.0 ~ 1000.0
+		AttackDamage = 1.0
+		#Range: 0.0 ~ 10.0
+		KnockbackResistance = 0.5
+		#Range: 0.0 ~ 10.0
+		AttackKnockback = 2.0
+		#Range: 1.0 ~ 256.0
+		FollowRange = 128.0
+		#Range: 0 ~ 1000
+		RegenerationSkill = 2
+
+	[Mobs.Anglerfish]
+		#Range: 0.0 ~ 100.0
+		SwimSpeed = 3.0
+		#Range: 1.0 ~ 100000.0
+		MaxHealth = 40.0
+		#Range: 0.0 ~ 1000.0
+		Armor = 0.0
+		#Range: 0.0 ~ 10.0
+		KnockbackResistance = 0.0
+		#Range: 1.0 ~ 1000.0
+		AttackDamage = 6.0
+		#Range: 0.0 ~ 10.0
+		AttackKnockback = 1.0
+		#Range: 1.0 ~ 256.0
+		FollowRange = 48.0
+
+	[Mobs.Maw]
+		#Range: 0.0 ~ 10.0
+		MovementSpeed = 0.2
+		#Range: 0.0 ~ 100.0
+		SwimSpeed = 5.0
+		#Range: 1.0 ~ 100000.0
+		MaxHealth = 20.0
+		#Range: 0.0 ~ 1000.0
+		Armor = 0.0
+		#Range: 0.0 ~ 10.0
+		KnockbackResistance = 0.0
+		#Range: 1.0 ~ 1000.0
+		AttackDamage = 4.0
+		#Range: 0.0 ~ 10.0
+		AttackKnockback = 0.3
+		#Range: 1.0 ~ 256.0
+		FollowRange = 24.0
+
+	[Mobs.TorturedSoul]
+		#Range: 0.0 ~ 10.0
+		MovementSpeed = 0.2
+		#Range: 0.0 ~ 100.0
+		SwimSpeed = 3.0
+		#Range: 1.0 ~ 100000.0
+		MaxHealth = 30.0
+		#Range: 0.0 ~ 1000.0
+		Armor = 4.0
+		#Range: 0.0 ~ 10.0
+		KnockbackResistance = 0.0
+		#Range: 1.0 ~ 1000.0
+		AttackDamage = 7.0
+		#Range: 0.0 ~ 10.0
+		AttackKnockback = 0.7
+		#Range: 1.0 ~ 256.0
+		FollowRange = 24.0
+
+	[Mobs.MotherOfTheMaze]
+		#Range: 0.0 ~ 100.0
+		SwimSpeed = 3.0
+		#Range: 1.0 ~ 100000.0
+		MaxHealth = 100.0
+		#Range: 0.0 ~ 1000.0
+		Armor = 6.0
+		#Range: 0.0 ~ 10.0
+		KnockbackResistance = 0.2
+		#Range: 1.0 ~ 1000.0
+		AttackDamage = 5.0
+		#Range: 0.0 ~ 10.0
+		AttackKnockback = 0.5
+		#Range: 1.0 ~ 256.0
+		FollowRange = 128.0
+
+	[Mobs.Eel]
+		#Range: 1.0 ~ 100000.0
+		MaxHealth = 180.0
+		#Range: 0.0 ~ 1000.0
+		Armor = 20.0
+		#Range: 1.0 ~ 1000.0
+		AttackDamage = 8.0
+		#Range: 0.0 ~ 10.0
+		AttackKnockback = 2.0
+		#Range: 1.0 ~ 256.0
+		FollowRange = 32.0
+

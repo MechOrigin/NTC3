@@ -8,33 +8,33 @@ onEvent('tags.items', event => {
     elementsToUnify.forEach((material) => {
 
         let dustThermal = getPreferredItemInTag(Ingredient.of(`thermal:${material}_dust`)).id;
-        let dustImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:dust_${material}`)).id;
+        //let dustImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:dust_${material}`)).id;
         let dustMekanism = getPreferredItemInTag(Ingredient.of(`mekanism:dust_${material}`)).id;
         let dustBiggerReactor = getPreferredItemInTag(Ingredient.of(`biggerreactors:${material}_dust`)).id;
 
         let plateThermal = getPreferredItemInTag(Ingredient.of(`thermal:${material}_plate`)).id;
-        let plateImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:plate_${material}`)).id;
+        //let plateImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:plate_${material}`)).id;
 
         let gearThermal = getPreferredItemInTag(Ingredient.of(`thermal:${material}_gear`)).id;
 
         let nuggetThermal = getPreferredItemInTag(Ingredient.of(`thermal:${material}_nugget`)).id;
-        let nuggetImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:nugget_${material}`)).id;
+        //let nuggetImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:nugget_${material}`)).id;
         let nuggetMekanism = getPreferredItemInTag(Ingredient.of(`mekanism:nugget_${material}`)).id;
         let nuggetTconstruct = getPreferredItemInTag(Ingredient.of(`tconstruct:${material}_nugget`)).id;
         let nuggetMinecraft = getPreferredItemInTag(Ingredient.of(`minecraft:${material}_nugget`)).id;
 
         let ingotThermal = getPreferredItemInTag(Ingredient.of(`thermal:${material}_ingot`)).id;
-        let ingotImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:ingot_${material}`)).id;
+        //let ingotImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:ingot_${material}`)).id;
         let ingotMekanism = getPreferredItemInTag(Ingredient.of(`mekanism:ingot_${material}`)).id;
         let ingotBiggerReactor = getPreferredItemInTag(Ingredient.of(`biggerreactors:${material}_ingot`)).id;
         let ingotBeyondEarth = getPreferredItemInTag(Ingredient.of(`beyond_earth:${material}_ingot`)).id;
-        let ingotMinecraft = getPreferredItemInTag(Ingredient.of(`minecraft:${material}_ingot`)).id;
+        //let ingotMinecraft = getPreferredItemInTag(Ingredient.of(`minecraft:${material}_ingot`)).id;
 
         let rawThermal = getPreferredItemInTag(Ingredient.of(`thermal:raw_${material}`)).id;
-        let rawImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:raw_${material}`)).id;
+        //let rawImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:raw_${material}`)).id;
         let rawMekanism = getPreferredItemInTag(Ingredient.of(`mekanism:raw_${material}`)).id;
 
-        let rodImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:stick_${material}`)).id;
+        //let rodImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:stick_${material}`)).id;
 
         if (material == air) {return;}
 
@@ -49,71 +49,71 @@ onEvent('tags.items', event => {
             // 'mekanism:block_' + material,
             // 'thermal:' + material + '_block',
             dustThermal,
-            dustImmersive,
+            //dustImmersive,
             dustMekanism,
             plateThermal,
             gearThermal,
             nuggetThermal,
             ingotThermal,
-            rawThermal,
-            plateImmersive,
-            nuggetImmersive,
-            ingotImmersive,
-            rawImmersive,
+            // rawThermal,
+            // plateImmersive,
+            // nuggetImmersive,
+            // ingotImmersive,
+            // rawImmersive,
             nuggetMekanism,
             ingotMekanism,
             rawMekanism,
-            rodImmersive,
+            //rodImmersive,
             dustBiggerReactor,
             ingotBiggerReactor,
             nuggetTconstruct,
             ingotBeyondEarth,
-            ingotMinecraft,
             nuggetMinecraft
+            //ingotMinecraft,
         );
     });
 
     alloysToUnify.forEach((material) => {
 
         let dustThermal = getPreferredItemInTag(Ingredient.of(`thermal:${material}_dust`)).id;
-        let dustImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:dust_${material}`)).id;
+        //let dustImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:dust_${material}`)).id;
         let dustMekanism = getPreferredItemInTag(Ingredient.of(`mekanism:dust_${material}`)).id;
 
         let plateThermal = getPreferredItemInTag(Ingredient.of(`thermal:${material}_plate`)).id;
-        let plateImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:plate_${material}`)).id;
+        //let plateImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:plate_${material}`)).id;
 
         let gearThermal = getPreferredItemInTag(Ingredient.of(`thermal:${material}_gear`)).id;
 
         let nuggetThermal = getPreferredItemInTag(Ingredient.of(`thermal:${material}_nugget`)).id;
         let nuggetMekanism = getPreferredItemInTag(Ingredient.of(`mekanism:nugget_${material}`)).id;
-        let nuggetImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:nugget_${material}`)).id;
+        //let nuggetImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:nugget_${material}`)).id;
         let nuggetTconstruct = getPreferredItemInTag(Ingredient.of(`tconstruct:${material}_nugget`)).id;
 
         let ingotThermal = getPreferredItemInTag(Ingredient.of(`thermal:${material}_ingot`)).id;
         let ingotMekanism = getPreferredItemInTag(Ingredient.of(`mekanism:ingot_${material}`)).id;
-        let ingotImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:ingot_${material}`)).id;
+        //let ingotImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:ingot_${material}`)).id;
         let ingotTconstruct = getPreferredItemInTag(Ingredient.of(`tconstruct:${material}_ingot`)).id;
         let ingotBeyondEarth = getPreferredItemInTag(Ingredient.of(`beyond_earth:${material}_ingot`)).id;
 
-        let rodImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:stick_${material}`)).id;
+        //let rodImmersive = getPreferredItemInTag(Ingredient.of(`immersiveengineering:stick_${material}`)).id;
 
 
         if (material == air) {return;}
 
         itemsToRemove.push(
             dustThermal,
-            dustImmersive,
+            // dustImmersive,
             dustMekanism,
             plateThermal,
             gearThermal,
             nuggetThermal,
             ingotThermal,
-            plateImmersive,
-            nuggetImmersive,
-            ingotImmersive,
+            // plateImmersive,
+            // nuggetImmersive,
+            // ingotImmersive,
             nuggetMekanism,
             ingotMekanism,
-            rodImmersive,
+            //rodImmersive,
             nuggetTconstruct,
             ingotTconstruct,
             ingotBeyondEarth
@@ -152,22 +152,22 @@ onEvent('tags.items', event => {
     event.removeAllTagsFrom('thermal:cinnabar');
     event.removeAllTagsFrom('thermal:sulfur');
 
-    event.removeAllTagsFrom('immersiveengineering:ingot_aluminum');
-    event.removeAllTagsFrom('immersiveengineering:nugget_aluminum');
-    event.removeAllTagsFrom('immersiveengineering:raw_aluminum');
-    event.removeAllTagsFrom('immersiveengineering:plate_aluminum');
-    event.removeAllTagsFrom('immersiveengineering:dust_aluminum');
-    event.removeAllTagsFrom('immersiveengineering:stick_aluminum');
+    // event.removeAllTagsFrom('immersiveengineering:ingot_aluminum');
+    // event.removeAllTagsFrom('immersiveengineering:nugget_aluminum');
+    // event.removeAllTagsFrom('immersiveengineering:raw_aluminum');
+    // event.removeAllTagsFrom('immersiveengineering:plate_aluminum');
+    // event.removeAllTagsFrom('immersiveengineering:dust_aluminum');
+    // event.removeAllTagsFrom('immersiveengineering:stick_aluminum');
 
-    event.removeAllTagsFrom('immersiveengineering:ingot_uranium');
-    event.removeAllTagsFrom('immersiveengineering:nugget_uranium');
-    event.removeAllTagsFrom('immersiveengineering:raw_uranium');
-    event.removeAllTagsFrom('immersiveengineering:plate_uranium');
-    event.removeAllTagsFrom('immersiveengineering:dust_uranium');
-    event.removeAllTagsFrom('immersiveengineering:stick_uranium');
+    // event.removeAllTagsFrom('immersiveengineering:ingot_uranium');
+    // event.removeAllTagsFrom('immersiveengineering:nugget_uranium');
+    // event.removeAllTagsFrom('immersiveengineering:raw_uranium');
+    // event.removeAllTagsFrom('immersiveengineering:plate_uranium');
+    // event.removeAllTagsFrom('immersiveengineering:dust_uranium');
+    // event.removeAllTagsFrom('immersiveengineering:stick_uranium');
 
-    event.removeAllTagsFrom('immersiveengineering:stick_steel');
-    event.removeAllTagsFrom('immersiveengineering:stick_iron');
+    // event.removeAllTagsFrom('immersiveengineering:stick_steel');
+    // event.removeAllTagsFrom('immersiveengineering:stick_iron');
 
     event.removeAllTagsFrom('mekanism:dust_lapis_lazuli');
     event.removeAllTagsFrom('mekanism:dust_charcoal');

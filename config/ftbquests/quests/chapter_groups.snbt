@@ -1,3 +1,6 @@
 {
-	chapter_groups: [{ id: "442FD72D1627F87A", title: "{ntc3.chaptergroup.tier0}" }]
+	chapter_groups: [
+		{ id: "442FD72D1627F87A", title: "{ntc3.chaptergroup.tier0}" }
+		{ id: "5BCA4C8804B27813", title: "Neutral Quests" }
+	]
 }
